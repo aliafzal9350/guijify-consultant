@@ -1,0 +1,727 @@
+{
+ "demandEvidence": {
+  "source": "Gujjify_Keyword_Research_Global.csv - 10,325 Google-autocomplete keywords, 38 markets, 2026-10-05",
+  "ranking": [
+   {
+    "tool": "Cost calculator",
+    "keywords": 1416,
+    "markets": 37
+   },
+   {
+    "tool": "University finder / agency no.",
+    "keywords": 998,
+    "markets": 37
+   },
+   {
+    "tool": "Eligibility checker",
+    "keywords": 976,
+    "markets": 38
+   },
+   {
+    "tool": "Documents & forms",
+    "keywords": 915,
+    "markets": 37
+   },
+   {
+    "tool": "Deadline tracker",
+    "keywords": 820,
+    "markets": 38
+   },
+   {
+    "tool": "HSK tools",
+    "keywords": 796,
+    "markets": 37
+   },
+   {
+    "tool": "CGPA / grade converter",
+    "keywords": 764,
+    "markets": 37
+   },
+   {
+    "tool": "Study plan & letters",
+    "keywords": 683,
+    "markets": 37
+   },
+   {
+    "tool": "MBBS comparison",
+    "keywords": 680,
+    "markets": 37
+   },
+   {
+    "tool": "Visa guide",
+    "keywords": 374,
+    "markets": 37
+   }
+  ],
+  "selected": [
+   "Cost calculator",
+   "University finder / agency no.",
+   "Eligibility checker"
+  ]
+ },
+ "currency": {
+  "base": "CNY",
+  "liveRatesUrl": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/cny.json",
+  "liveRatesFallbackUrl": "https://latest.currency-api.pages.dev/v1/currencies/cny.json",
+  "liveRatesShape": "{ date: 'YYYY-MM-DD', cny: { pkr: 41.2, usd: 0.149, ... } } (lower-case codes)",
+  "fallbackRatesDate": "2026-10-06",
+  "fallbackRates": {
+   "PKR": 41.236905,
+   "IDR": 2671.856506,
+   "VND": 3876.916663,
+   "KZT": 67.89972,
+   "EGP": 7.819057,
+   "BDT": 18.333625,
+   "INR": 14.379668,
+   "UZS": 1754.334784,
+   "MYR": 0.609329,
+   "THB": 5.019959,
+   "XAF": 87.23118,
+   "NPR": 23.018254,
+   "LKR": 49.190781,
+   "PHP": 9.372823,
+   "SDG": 89.510191,
+   "ZAR": 2.482995,
+   "NGN": 197.168094,
+   "KES": 19.359538,
+   "ETB": 24.259193,
+   "UGX": 599.559498,
+   "MMK": 313.068277,
+   "ZMW": 2.948525,
+   "GHS": 1.753373,
+   "KGS": 13.043477,
+   "TZS": 393.48579,
+   "MNT": 536.179992,
+   "LAK": 3346.484169,
+   "KHR": 604.176563,
+   "RWF": 219.826169,
+   "ZWG": 3.992672,
+   "MWK": 258.133744,
+   "TJS": 1.372619,
+   "AFN": 9.636041,
+   "GMD": 11.037914,
+   "SOS": 84.852853,
+   "LRD": 25.450363,
+   "SLE": 3.438377,
+   "XOF": 87.23118,
+   "USD": 0.149139,
+   "GBP": 0.112865,
+   "EUR": 0.132983,
+   "CNY": 1
+  },
+  "currencies": [
+   {
+    "country": "Pakistan",
+    "countryCode": "PK",
+    "currency": "PKR",
+    "flag": "🇵🇰",
+    "keywordDemand": 1852
+   },
+   {
+    "country": "Indonesia",
+    "countryCode": "ID",
+    "currency": "IDR",
+    "flag": "🇮🇩",
+    "keywordDemand": 274
+   },
+   {
+    "country": "Vietnam",
+    "countryCode": "VN",
+    "currency": "VND",
+    "flag": "🇻🇳",
+    "keywordDemand": 264
+   },
+   {
+    "country": "Kazakhstan",
+    "countryCode": "KZ",
+    "currency": "KZT",
+    "flag": "🇰🇿",
+    "keywordDemand": 257
+   },
+   {
+    "country": "Egypt",
+    "countryCode": "EG",
+    "currency": "EGP",
+    "flag": "🇪🇬",
+    "keywordDemand": 255
+   },
+   {
+    "country": "Bangladesh",
+    "countryCode": "BD",
+    "currency": "BDT",
+    "flag": "🇧🇩",
+    "keywordDemand": 253
+   },
+   {
+    "country": "India",
+    "countryCode": "IN",
+    "currency": "INR",
+    "flag": "🇮🇳",
+    "keywordDemand": 253
+   },
+   {
+    "country": "Uzbekistan",
+    "countryCode": "UZ",
+    "currency": "UZS",
+    "flag": "🇺🇿",
+    "keywordDemand": 252
+   },
+   {
+    "country": "Malaysia",
+    "countryCode": "MY",
+    "currency": "MYR",
+    "flag": "🇲🇾",
+    "keywordDemand": 251
+   },
+   {
+    "country": "Thailand",
+    "countryCode": "TH",
+    "currency": "THB",
+    "flag": "🇹🇭",
+    "keywordDemand": 251
+   },
+   {
+    "country": "Cameroon",
+    "countryCode": "CM",
+    "currency": "XAF",
+    "flag": "🇨🇲",
+    "keywordDemand": 247
+   },
+   {
+    "country": "Nepal",
+    "countryCode": "NP",
+    "currency": "NPR",
+    "flag": "🇳🇵",
+    "keywordDemand": 245
+   },
+   {
+    "country": "Sri Lanka",
+    "countryCode": "LK",
+    "currency": "LKR",
+    "flag": "🇱🇰",
+    "keywordDemand": 244
+   },
+   {
+    "country": "Philippines",
+    "countryCode": "PH",
+    "currency": "PHP",
+    "flag": "🇵🇭",
+    "keywordDemand": 236
+   },
+   {
+    "country": "Sudan",
+    "countryCode": "SD",
+    "currency": "SDG",
+    "flag": "🇸🇩",
+    "keywordDemand": 235
+   },
+   {
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "currency": "ZAR",
+    "flag": "🇿🇦",
+    "keywordDemand": 235
+   },
+   {
+    "country": "Nigeria",
+    "countryCode": "NG",
+    "currency": "NGN",
+    "flag": "🇳🇬",
+    "keywordDemand": 235
+   },
+   {
+    "country": "Kenya",
+    "countryCode": "KE",
+    "currency": "KES",
+    "flag": "🇰🇪",
+    "keywordDemand": 232
+   },
+   {
+    "country": "Ethiopia",
+    "countryCode": "ET",
+    "currency": "ETB",
+    "flag": "🇪🇹",
+    "keywordDemand": 231
+   },
+   {
+    "country": "Uganda",
+    "countryCode": "UG",
+    "currency": "UGX",
+    "flag": "🇺🇬",
+    "keywordDemand": 231
+   },
+   {
+    "country": "Myanmar",
+    "countryCode": "MM",
+    "currency": "MMK",
+    "flag": "🇲🇲",
+    "keywordDemand": 231
+   },
+   {
+    "country": "Zambia",
+    "countryCode": "ZM",
+    "currency": "ZMW",
+    "flag": "🇿🇲",
+    "keywordDemand": 228
+   },
+   {
+    "country": "Ghana",
+    "countryCode": "GH",
+    "currency": "GHS",
+    "flag": "🇬🇭",
+    "keywordDemand": 228
+   },
+   {
+    "country": "Kyrgyzstan",
+    "countryCode": "KG",
+    "currency": "KGS",
+    "flag": "🇰🇬",
+    "keywordDemand": 226
+   },
+   {
+    "country": "Tanzania",
+    "countryCode": "TZ",
+    "currency": "TZS",
+    "flag": "🇹🇿",
+    "keywordDemand": 226
+   },
+   {
+    "country": "Mongolia",
+    "countryCode": "MN",
+    "currency": "MNT",
+    "flag": "🇲🇳",
+    "keywordDemand": 226
+   },
+   {
+    "country": "Laos",
+    "countryCode": "LA",
+    "currency": "LAK",
+    "flag": "🇱🇦",
+    "keywordDemand": 226
+   },
+   {
+    "country": "Cambodia",
+    "countryCode": "KH",
+    "currency": "KHR",
+    "flag": "🇰🇭",
+    "keywordDemand": 225
+   },
+   {
+    "country": "Rwanda",
+    "countryCode": "RW",
+    "currency": "RWF",
+    "flag": "🇷🇼",
+    "keywordDemand": 224
+   },
+   {
+    "country": "Zimbabwe",
+    "countryCode": "ZW",
+    "currency": "ZWG",
+    "flag": "🇿🇼",
+    "keywordDemand": 220
+   },
+   {
+    "country": "Malawi",
+    "countryCode": "MW",
+    "currency": "MWK",
+    "flag": "🇲🇼",
+    "keywordDemand": 219
+   },
+   {
+    "country": "Tajikistan",
+    "countryCode": "TJ",
+    "currency": "TJS",
+    "flag": "🇹🇯",
+    "keywordDemand": 218
+   },
+   {
+    "country": "Afghanistan",
+    "countryCode": "AF",
+    "currency": "AFN",
+    "flag": "🇦🇫",
+    "keywordDemand": 217
+   },
+   {
+    "country": "Gambia",
+    "countryCode": "GM",
+    "currency": "GMD",
+    "flag": "🇬🇲",
+    "keywordDemand": 217
+   },
+   {
+    "country": "Somalia",
+    "countryCode": "SO",
+    "currency": "SOS",
+    "flag": "🇸🇴",
+    "keywordDemand": 214
+   },
+   {
+    "country": "Liberia",
+    "countryCode": "LR",
+    "currency": "LRD",
+    "flag": "🇱🇷",
+    "keywordDemand": 214
+   },
+   {
+    "country": "Sierra Leone",
+    "countryCode": "SL",
+    "currency": "SLE",
+    "flag": "🇸🇱",
+    "keywordDemand": 213
+   },
+   {
+    "country": "Senegal",
+    "countryCode": "SN",
+    "currency": "XOF",
+    "flag": "🇸🇳",
+    "keywordDemand": 20
+   },
+   {
+    "country": "United States",
+    "countryCode": "US",
+    "currency": "USD",
+    "flag": "🇺🇸",
+    "keywordDemand": 0
+   },
+   {
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "currency": "GBP",
+    "flag": "🇬🇧",
+    "keywordDemand": 0
+   },
+   {
+    "country": "Euro area",
+    "countryCode": "EU",
+    "currency": "EUR",
+    "flag": "🇪🇺",
+    "keywordDemand": 0
+   },
+   {
+    "country": "China",
+    "countryCode": "CN",
+    "currency": "CNY",
+    "flag": "🇨🇳",
+    "keywordDemand": 0
+   }
+  ],
+  "defaultByTimezoneHint": {
+   "Asia/Karachi": "PKR",
+   "Asia/Dhaka": "BDT",
+   "Asia/Kolkata": "INR",
+   "Africa/Lagos": "NGN",
+   "Asia/Jakarta": "IDR",
+   "Asia/Ho_Chi_Minh": "VND",
+   "Africa/Nairobi": "KES",
+   "Africa/Cairo": "EGP",
+   "Asia/Almaty": "KZT",
+   "Asia/Tashkent": "UZS",
+   "Asia/Kathmandu": "NPR",
+   "Asia/Colombo": "LKR"
+  },
+  "defaultCurrency": "PKR"
+ },
+ "costCalculator": {
+  "note": "Fixed fees = most common values in the programme brochures. Living and accommodation = typical 2026 student budgets by city tier (estimates - editable).",
+  "fixedFeesCNY": {
+   "insurancePerYear": 800,
+   "residencePermitPerYear": 400,
+   "medicalCheckFirstYear": 400,
+   "registrationFirstYear": 450,
+   "applicationFeeOnce": 400,
+   "evidence": "insurance 800 in 38/44 programmes; residence permit 400 in 26/35 (800 in 9); medical check 400 in 25/47; registration 400-500; application fee 400-800"
+  },
+  "cityTiers": {
+   "tier1": [
+    "Beijing",
+    "Shanghai",
+    "Shenzhen",
+    "Guangzhou"
+   ],
+   "tier2": [
+    "Tianjin",
+    "Hangzhou",
+    "Nanjing",
+    "Chengdu",
+    "Wuhan",
+    "Xi'an",
+    "Zhengzhou",
+    "Changsha",
+    "Kunming",
+    "Harbin",
+    "Fuzhou",
+    "Shijiazhuang",
+    "Nanning",
+    "Wenzhou",
+    "Changzhou",
+    "Nantong",
+    "Shaoxing",
+    "Hefei",
+    "Nanchang",
+    "Shenyang",
+    "Lanzhou"
+   ],
+   "tier3": [
+    "Yangzhou",
+    "Zhenjiang",
+    "Xuzhou",
+    "Jinhua",
+    "Dazhou",
+    "Neijiang",
+    "Nanchong",
+    "Ganzhou",
+    "Zibo"
+   ]
+  },
+  "livingMonthlyCNY": {
+   "tier1": {
+    "lean": 1200,
+    "standard": 2000,
+    "comfortable": 3500
+   },
+   "tier2": {
+    "lean": 900,
+    "standard": 1500,
+    "comfortable": 2800
+   },
+   "tier3": {
+    "lean": 700,
+    "standard": 1100,
+    "comfortable": 2000
+   }
+  },
+  "accommodationMonthlyCNY": {
+   "sharedDorm": {
+    "tier1": 900,
+    "tier2": 600,
+    "tier3": 400
+   },
+   "singleDorm": {
+    "tier1": 1500,
+    "tier2": 1000,
+    "tier3": 750
+   },
+   "offCampusShared": {
+    "tier1": 2500,
+    "tier2": 1600,
+    "tier3": 1100
+   }
+  },
+  "levelDefaults": {
+   "Bachelor": {
+    "durationYears": 4,
+    "tuitionMedianCNY": 14000.0,
+    "tuitionRangeCNY": [
+     2000,
+     39900
+    ]
+   },
+   "MBBS": {
+    "durationYears": 6,
+    "tuitionMedianCNY": 33500.0,
+    "tuitionRangeCNY": [
+     26000,
+     40000
+    ]
+   },
+   "Master": {
+    "durationYears": 3,
+    "tuitionMedianCNY": 20000,
+    "tuitionRangeCNY": [
+     0,
+     30000
+    ],
+    "note": "All 17 Master offers in the list are fully funded; self-funded example B-10: 20,000/yr"
+   },
+   "PhD": {
+    "durationYears": 4,
+    "tuitionMedianCNY": 0,
+    "tuitionRangeCNY": [
+     0,
+     0
+    ],
+    "note": "All 5 PhD offers are fully funded with 3,500 CNY/month stipend"
+   },
+   "Language": {
+    "durationYears": 0.5,
+    "courseTotalCNY": 5000,
+    "note": "6-month Nanning course: 5,000 RMB total incl. hostel"
+   }
+  },
+  "scholarshipScenarios": [
+   {
+    "id": "self",
+    "label": "Self-funded",
+    "tuitionFactor": 1,
+    "accommodationFree": false
+   },
+   {
+    "id": "partial",
+    "label": "Partial scholarship (50% tuition)",
+    "tuitionFactor": 0.5,
+    "accommodationFree": false
+   },
+   {
+    "id": "tuition",
+    "label": "Tuition-free scholarship",
+    "tuitionFactor": 0,
+    "accommodationFree": false
+   },
+   {
+    "id": "full",
+    "label": "Fully funded (tuition + dorm free + stipend)",
+    "tuitionFactor": 0,
+    "accommodationFree": true,
+    "useProgrammeStipend": true
+   }
+  ],
+  "optionalOneTime": [
+   "X1/X2 visa fee (varies by country)",
+   "Flight to China",
+   "Document attestation"
+  ]
+ },
+ "eligibilityChecker": {
+  "levels": {
+   "Bachelor": "Completed (or final year of) 12 years of school - FSc, A-Level, HSC or equivalent",
+   "MBBS": "12 years of school with Biology/Chemistry (pre-medical) - FSc, A-Level, HSC or equivalent",
+   "Master": "Completed Bachelor's degree",
+   "PhD": "Completed Master's degree",
+   "Language": "No academic requirement (6-month non-degree course)"
+  },
+  "gradeInput": {
+   "modes": [
+    "percentage",
+    "cgpa"
+   ],
+   "cgpaScales": [
+    4.0,
+    5.0,
+    10.0
+   ],
+   "conversion": "approxPercent = cgpa / scale * 100 (approximation - label it as such)"
+  },
+  "scoreBands": [
+   {
+    "minPercent": 80,
+    "band": "Strong",
+    "text": "Strong scholarship profile - aim for full scholarships."
+   },
+   {
+    "minPercent": 70,
+    "band": "Good",
+    "text": "Good chances - many 70-75% students win scholarships with a strong application."
+   },
+   {
+    "minPercent": 60,
+    "band": "Possible",
+    "text": "Partial scholarships and tuition-free options are realistic."
+   },
+   {
+    "minPercent": 0,
+    "band": "Needs a plan",
+    "text": "Consider language-year routes or self-funded options - talk to us."
+   }
+  ],
+  "englishTests": [
+   {
+    "id": "ielts",
+    "label": "IELTS",
+    "max": 9,
+    "step": 0.5
+   },
+   {
+    "id": "toefl",
+    "label": "TOEFL iBT",
+    "max": 120,
+    "step": 1
+   },
+   {
+    "id": "duolingo",
+    "label": "Duolingo",
+    "max": 160,
+    "step": 5
+   },
+   {
+    "id": "pte",
+    "label": "PTE Academic",
+    "max": 90,
+    "step": 1
+   },
+   {
+    "id": "moi",
+    "label": "English medium-of-instruction letter (no test)"
+   }
+  ],
+  "hskLevels": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "bankStatementOptions": [
+   {
+    "label": "Under USD 2,500",
+    "value": 0
+   },
+   {
+    "label": "USD 2,500-4,999",
+    "value": 2500
+   },
+   {
+    "label": "USD 5,000 or more",
+    "value": 5000
+   }
+  ],
+  "rules": [
+   "level must match (Master includes programme B-10)",
+   "ageRange (if present) must contain the student's age",
+   "languagePolicy: none / internal-test -> pass; english-test -> any provided test >= threshold (near miss = within IELTS 0.5 / TOEFL 10 / Duolingo 10 / PTE 5); any-english -> any test or MOI letter; hsk -> HSK >= required; unspecified / not-stated -> pass with 'may ask for English proof' note",
+   "teaching-language preference filters English / Chinese / either",
+   "bankStatementUSD (if present) must be <= the student's bank-statement capacity",
+   "funding 'full scholarship only' keeps programmes where fullyFunded or tuitionMinCNYPerYear == 0",
+   "MA-15 needs at least 70% in the last degree"
+  ],
+  "disclaimer": "Indicative only - this is not an admission or scholarship decision. Final decisions are made by universities and scholarship bodies."
+ },
+ "finder": {
+  "filters": [
+   "level",
+   "fields",
+   "majorSearch",
+   "province",
+   "city",
+   "teachingLanguage",
+   "scholarship (fully funded / stipend / tuition-free option)",
+   "noIeltsRequired",
+   "maxTuitionCNY",
+   "rankingTopChina",
+   "interviewOrVideoRequired"
+  ],
+  "fields": [
+   "Engineering & Technology",
+   "Computer Science & AI",
+   "Business & Economics",
+   "Medicine & Health",
+   "Science & Mathematics",
+   "Agriculture, Food & Environment",
+   "Languages, Education & Humanities",
+   "Law & Social Sciences",
+   "Arts, Design, Media & Sports"
+  ],
+  "sort": [
+   "Best match",
+   "Lowest tuition",
+   "Highest stipend",
+   "Best China ranking",
+   "Most majors"
+  ],
+  "shortlistMax": 10,
+  "compareMax": 3,
+  "pdfExport": "window.print() with a print stylesheet (users search 'china university list pdf')",
+  "agencyNumberNote": "Users search for CSC 'agency numbers'; that data is not in our dataset - answer in the FAQ and route to WhatsApp."
+ }
+}
