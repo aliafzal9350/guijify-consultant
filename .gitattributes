@@ -1,0 +1,9 @@
+# Treat documents as binary so line-ending conversion never touches them
+*.pdf  binary
+*.docx binary
+*.xlsx binary
+*.pptx binary
+
+# Normalize text files
+*.txt text
+*.csv text
