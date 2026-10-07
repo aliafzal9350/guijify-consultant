@@ -1,0 +1,414 @@
+==========================================================================================
+  GUJJIFY CONSULTANT - DEEP ANALYSIS OF ALL GATHERED DATA + WEBSITE BLUEPRINT
+  Inputs: every file in this folder (brochures, forms, price list, programme extraction,
+          website extraction, keyword research)
+  Analysed: 2026-10-07
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+HOW TO READ THIS FILE
+------------------------------------------------------------------------------------------
+  [DATA] ............ number computed from the files in this folder (reproducible with
+                      data-pipeline/ scripts)
+  [ADDED] ........... outside knowledge / benchmark, not from the folder (source named)
+  [CHECK] ........... risk, inconsistency or decision needed
+  [BUILD] ........... how the finding is used in the new website / AI Studio master prompt
+  "Programme" ....... one offer block from a brochure (a university + level + intake);
+                      university names were removed on purpose and must stay removed
+
+------------------------------------------------------------------------------------------
+TABLE OF CONTENTS
+------------------------------------------------------------------------------------------
+  SECTION 1  - Data inventory & quality
+  SECTION 2  - Programme portfolio: the numbers
+  SECTION 3  - Geography: where the programmes are (basis of the 3D hero map)
+  SECTION 4  - Money: tuition, fees, stipends, living costs
+  SECTION 5  - Requirements: language, age, bank statement, documents, interviews
+  SECTION 6  - Timing: intakes & deadlines
+  SECTION 7  - Demand: keyword research (38 countries + Pakistan autocomplete)
+  SECTION 8  - Brand & online presence (summary of the website extraction)
+  SECTION 9  - Risks, gaps & data-quality issues
+  SECTION 10 - Strategy: the website blueprint (hero map, 3 global tools, pages, SEO)
+  SECTION 11 - What was built (website kit) and how to use it with AI Studio
+  SECTION 12 - Open questions for the client
+
+
+==========================================================================================
+SECTION 1 - DATA INVENTORY & QUALITY
+==========================================================================================
+
+  File                                                       Role in the analysis
+  ---------------------------------------------------------  -----------------------------------
+  Bachelor_Sep 2025( English).pdf (45 p)                     43 Bachelor blocks + MBBS table
+  PHD SEP.pdf (5 p)                                          5 fully funded PhD offers
+  Master universities 2.pdf (19 p)                           17 fully funded Master offers
+  6_Months_Chinese_Language_Program_Nanning_...pdf (5 p)     1 language course (Nanning)
+  Workvisaprocess.pdf (3 p)                                  China work-visa document chain
+  APPLICATION FORM FOR INTERNATIONAL STUDENTS.docx           ~60-field bilingual application form
+  IFFI CONSULTANTS CHARGES LIST .docx                        a THIRD-PARTY agency's fee list
+  Extracted_Features_All_Programs.txt                        structured extraction of the above
+  Gujjify_Website_Extraction.txt                             old site + socials + Companies House
+  Gujjify_Keyword_Research_Global.csv (10,325 rows)          autocomplete demand, 38 countries
+  Gujjify_Keyword_Research_Autocomplete.csv (1,843 rows)     Pakistan (+13 BD) autocomplete + intent
+
+  Quality verdict
+  - Programme data: rich and structured, but SECONDARY (partner/agency brochures) and DATED:
+    Bachelor/MBBS = September 2025 intake, Master & PhD = September 2024, language flyer = 2026.
+    Every listed deadline (2025) has passed.                                         [CHECK]
+  - Brochures carry other agencies' branding (MalishaEdu, IFFI). The IFFI price list is NOT
+    Gujjify's price list - never publish it as Gujjify's prices.                      [CHECK]
+  - University names were removed deliberately; cities/provinces kept for every programme.
+  - Keyword research: one snapshot (2026-10-05), autocomplete only (no search volumes) -
+    good for "what people ask", not for "how many people ask".                       [CHECK]
+  - Parsing to JSON: 72/72 programmes located, 72/72 with majors, 68/72 with a tuition
+    best-case, 39/72 with a listed tuition figure; the pipeline re-generates the website
+    data byte-for-byte.                                                               [DATA]
+
+
+==========================================================================================
+SECTION 2 - PROGRAMME PORTFOLIO: THE NUMBERS                                        [DATA]
+==========================================================================================
+
+  2.1  BY LEVEL (72 programmes)
+       Bachelor .... 42   (B-39 = Chinese-language semester + Bachelor)
+       Master ...... 18   (17 fully funded MA-xx + B-10 Intellectual Property Law)
+       MBBS ........  6   (English-taught, 6 years incl. internship)
+       PhD .........  5   (all fully funded, 3,500 CNY/month stipend)
+       Language ....  1   (6-month Mandarin course, Nanning, 5,000 RMB incl. hostel)
+
+  2.2  HEADLINE FACTS (all usable on the website as data-backed claims)
+       60 English-taught programmes (Bachelor 39, Master 10, MBBS 6, PhD 5)
+       12 with a Chinese-taught track (HSK 4-5 required)
+       23 fully funded offers (tuition + dorm free + stipend)
+       34 with a monthly stipend (Master 18, Bachelor 11, PhD 5); median 3,000; max 3,500 CNY
+       51 with a tuition-free scholarship option (some scholarship type makes tuition 0)
+        7 explicitly "no IELTS / Duolingo needed"
+        6 ranked top-50 in China (Chengdu #11, Shenzhen #13, Tianjin #19, Guangzhou #28,
+          Xi'an #37, Zhengzhou #45)
+       718 majors listed, 387 unique spellings -> grouped into 9 study fields
+
+  2.3  STUDY FIELDS (programmes offering at least one major in the field)
+       Business & Economics ............ 50     Science & Mathematics ............ 24
+       Engineering & Technology ........ 43     Languages, Education & Humanities  21
+       Computer Science & AI ........... 42     Agriculture, Food & Environment .. 19
+       Medicine & Health ............... 27     Arts, Design, Media & Sports ..... 14
+                                                Law & Social Sciences ............ 10
+       Most offered Bachelor majors: International Economics & Trade (29 programmes),
+       Computer Science & Technology (24), Civil Engineering (15), Electrical Engineering &
+       Automation (12), Mechanical Engineering (11), Software Engineering (11).
+       Most offered Master majors: Mechanical Engineering (9), Information & Communication
+       Engineering (8), Chemical Engineering (7), Computer Science (7), Power Engineering (7).
+       -> Matches what Instagram promotes (MBBS, Engineering/CPEC, Computer Science/AI,
+          BBA/MBA). The data supports the marketing.
+
+
+==========================================================================================
+SECTION 3 - GEOGRAPHY: WHERE THE PROGRAMMES ARE                                     [DATA]
+==========================================================================================
+
+  21 of China's 34 province-level regions, 30 cities.
+
+  Province (中文)       Programmes  Levels                                 Cities
+  -------------------   ----------  -------------------------------------  ---------------------------------
+  Jiangsu 江苏               15     Bachelor 9, MBBS 2, Master 3, PhD 1    Changzhou, Nanjing, Nantong,
+                                                                           Xuzhou, Yangzhou, Zhenjiang
+  Zhejiang 浙江               8     Bachelor 5, Master 3                   Hangzhou, Jinhua, Shaoxing, Wenzhou
+  Hubei 湖北                  6     Bachelor 2, MBBS 1, Master 3           Wuhan
+  Sichuan 四川                6     Bachelor 5, MBBS 1                     Chengdu, Dazhou, Nanchong, Neijiang
+  Tianjin 天津                4     Bachelor 3, Master 1                   Tianjin
+  Shanghai 上海               4     Bachelor 4                             Shanghai
+  Guangdong 广东              4     Bachelor 2, MBBS 1, Master 1           Guangzhou, Shenzhen
+  Shaanxi 陕西                4     Bachelor 1, Master 3                   Xi'an
+  Heilongjiang 黑龙江         3     Bachelor 1, Master 1, PhD 1            Harbin
+  Henan 河南                  3     Bachelor 1, MBBS 1, PhD 1              Zhengzhou
+  Beijing 北京                2     Bachelor 2                             Beijing
+  Jiangxi 江西                2     Bachelor 1, PhD 1                      Ganzhou
+  Hunan 湖南                  2     Bachelor 2                             Changsha
+  Guangxi 广西                2     Master 1, Language 1                   Nanning
+  Hebei 河北                  1     Bachelor 1                             Shijiazhuang
+  Liaoning 辽宁               1     Master 1                               (province only)
+  Anhui 安徽                  1     PhD 1                                  (province only)
+  Fujian 福建                 1     Bachelor 1                             Fuzhou
+  Shandong 山东               1     Bachelor 1                             Zibo
+  Yunnan 云南                 1     Bachelor 1                             Kunming
+  Gansu 甘肃                  1     Master 1                               (province only)
+
+  Patterns
+  - Strong eastern cluster: the Yangtze River Delta (Jiangsu + Zhejiang + Shanghai + Anhui)
+    holds 28 of 72 programmes (39 %); eastern/coastal + north-east provinces hold 45 (63 %).
+    [BUILD] the 3D map camera is framed on eastern China; Jiangsu is the tallest province.
+  - By city cost tier: tier-1 cities 10 programmes, tier-2 36, tier-3 11, province-only 15
+    -> most offers are in affordable tier-2 cities (a selling point vs Beijing/Shanghai).
+  - 15 programmes name only the province (no city) - mainly the Master file. On the map they
+    are shown as a ring at the province centre, not a city pin.
+  - Map data: Alibaba DataV GeoAtlas (PRC standard map), simplified from 24,950 to 6,442
+    points (114 KB) with English names + programme counts added.                    [ADDED]
+
+
+==========================================================================================
+SECTION 4 - MONEY: TUITION, FEES, STIPENDS, LIVING COSTS
+==========================================================================================
+
+  4.1  TUITION (before scholarships, CNY per year)                                  [DATA]
+       Bachelor ... median 14,000 (range 2,000-39,900; 34 programmes list a figure)
+       MBBS ....... median 33,500 (26,000-40,000); hostel 3,000-6,000 per year
+       Master ..... all 17 MA offers fully funded; one self-funded example 20,000 (B-10)
+       PhD ........ all 5 fully funded
+       Language ... 5,000 RMB in total for 6 months incl. hostel (L-01)
+
+  4.2  FIXED FEES (most common value across brochures)                             [DATA]
+       Insurance ................. 800 / year   (38 of 44 programmes; range 600-1,000)
+       Residence permit / visa ext. 400 / year  (26 of 35; 800 in 9)
+       Medical check-up .......... 400 first year (25 of 47; range 340-550, one 2,400)
+       Registration .............. 400-500 first year (range 400-800)
+       Application fee ........... 400 one-time (range 400-800; most brochures none)
+
+  4.3  LIVING COSTS (not in the folder - benchmark)                                [ADDED]
+       Typical 2026 student budgets incl. dorm (Crossline Education 2026 guide):
+       tier-1 2,500-4,000 CNY/month · tier-2 1,500-2,500 · tier-3 800-1,500.
+       [BUILD] cost calculator defaults (editable): living excl. rent tier-1 1,200/2,000/3,500
+       (lean/standard/comfortable), tier-2 900/1,500/2,800, tier-3 700/1,100/2,000;
+       shared dorm 900/600/400 per month by tier.
+
+  4.4  EXCHANGE RATES (2026-10-06, fawazahmed0 currency API)                       [ADDED]
+       1 CNY = 41.24 PKR · 18.33 BDT · 14.38 INR · 197.17 NGN · 2,671.86 IDR · 0.149 USD
+       All 38 market currencies available; API is free and allows browser (CORS) calls.
+
+  4.5  WHAT THIS MEANS
+       - "Study in China is affordable" is backed by data: a tier-2 Bachelor with a
+         tuition-free scholarship costs mainly living + ~1,200 CNY/year fixed fees.
+       - Prices are NOT published by Gujjify anywhere (only a third-party list exists).
+         [CHECK] decide whether the website shows Gujjify's own service fees.
+
+
+==========================================================================================
+SECTION 5 - REQUIREMENTS                                                            [DATA]
+==========================================================================================
+
+  5.1  LANGUAGE POLICY (72 programmes)
+       Not stated in brochure .... 30   ("ask us" - the most common case)
+       English test minimums ..... 15   (IELTS 5.5-6.0, TOEFL 60-80, Duolingo 95-115, PTE 55)
+       HSK required .............. 10   (HSK 4-5, Chinese-taught)
+       Unspecified certificate ...  7   (PhD + 2 Master)
+       None required .............  6   (incl. language course)
+       Any English certificate ...  2
+       University's own test .....  2
+       -> "Study in China without IELTS" is a real, searchable selling point
+          (7 explicit + many "not stated"); the eligibility checker uses these rules.
+
+  5.2  AGE, BANK STATEMENT, INTERVIEW
+       Age limits stated in 7 programmes (17-25 ... below 45; language course no limit).
+       Bank statement: USD 5,000 in 19 programmes, 3,000 in 2, 2,500 in 2 (others not stated)
+       -> a practical filter many students hit; included in the eligibility checker.
+       Interview stated in 8; self-introduction video in 8.
+
+  5.3  DOCUMENTS (programmes that list them, of 64 with a document list)
+       Passport 64 · transcripts/certificates 64 · medical form 64 · police/non-criminal 63 ·
+       photo 61 · application form 59 · bank statement 42 · English proof 39 · study plan 25 ·
+       recommendation letters 20 · CV 12 · video 7.
+       Instagram's checklist (Matric/FSc/A-Level, passport 2+ years, photos, medical form,
+       police certificate, English proof optional, study plan) matches the data closely.
+
+
+==========================================================================================
+SECTION 6 - TIMING                                                                  [DATA]
+==========================================================================================
+
+  - September intake dominates. 2025 deadlines by month: Feb 1, Mar 1, Apr 2, May 12,
+    Jun 11, Jul 6, Aug 5, Sep 1; two are rolling ("until seats fill").
+    -> Message: "Apply by May-June for September". The site shows "Usually closes: <month>",
+       never the expired 2025 date.
+  - Master/PhD brochures (Sept 2024) state no deadlines.                              [CHECK]
+  - Social posts urge "September intake seats filling fast" (July 2026) - consistent.
+
+
+==========================================================================================
+SECTION 7 - DEMAND: KEYWORD RESEARCH                                                [DATA]
+==========================================================================================
+
+  7.1  GLOBAL FILE - 10,325 autocomplete keywords, 38 countries
+       Pakistan 1,852 rows (18 %); 37 other markets ~213-274 each.
+       Regions: South Asia 3,064 · Southeast Asia 1,958 · East Africa 1,358 · West Africa 1,127
+       · Central Asia 953 · Southern Africa 902 · North/Central/NE Africa 737 · East Asia 226.
+
+  7.2  TOOL DEMAND (keywords mapped to a tool idea; markets where it appears)
+       1. Cost calculator ................ 1,416   37 markets   <- selected
+       2. University finder / agency no. ..  998   37 markets   <- selected
+       3. Eligibility checker ............  976   38 markets   <- selected
+       4. Documents & forms ..............  915   37
+       5. Deadline tracker ...............  820   38
+       6. HSK tools ......................  796   37   (no. 1 in Pakistan autocomplete)
+       7. CGPA / grade converter .........  764   37   (built into the eligibility checker)
+       8. Study plan & letters ...........  683   37
+       9. MBBS comparison ................  680   37   (strong in South Asia)
+      10. Visa guide .....................  374   37
+       The top 3 are demanded in practically every market -> "3 GLOBAL TOOLS".
+
+  7.3  WHAT USERS TYPE (shapes each tool)
+       Cost: "china university fees for <country> students", "cost of living in china for
+             students", "living cost in beijing / shanghai", "china student visa cost",
+             "in rupiah", "cny to pkr" -> multi-currency + per-city living costs + visa fee.
+       Finder: "csc scholarship university list 2026 / 2027 pdf", "china 985 university list",
+             "best universities in china for computer science / mbbs" -> filters + PDF export.
+             "agency number" is a big intent we cannot serve (no data) -> FAQ + WhatsApp.
+       Eligibility: "csc scholarship requirements for bachelor/master/phd", "without ielts",
+             "eligible countries", "can i study mbbs in china after 12th" -> level-aware quiz.
+
+  7.4  LOCAL-LANGUAGE DEMAND (259 rows)
+       French (Cameroon, Senegal: "bourse chine 2026 inscription"), Arabic (Egypt, Sudan:
+       "منحة الصين لدراسة الطب"), Indonesian ("beasiswa china tanpa hsk"), Russian
+       (Kazakhstan, Uzbekistan: "грант в китай после 11 класса"), Thai, Vietnamese.
+       [BUILD] English site first, i18n-ready; Roman-Urdu CTAs optional (follow-up prompt 7).
+
+  7.5  PAKISTAN AUTOCOMPLETE (1,843 rows)
+       By tool: HSK tools 345 · MBBS comparison 144 · Cost (PKR) 118 · Eligibility 112 ·
+       University & scholarship finder 84 · Documents 78 · Deadlines 65 · Attestation & visa
+       64 · CGPA converter 51 · Study-plan templates 35 · blog/page topics 747.
+       By intent: informational 1,110 · template/download 155 · checker 112 · list/finder 104
+       · fees 90 · calculator 89 · deadlines 66 · questions 57 · portal/login 52 · agency no. 8.
+
+
+==========================================================================================
+SECTION 8 - BRAND & ONLINE PRESENCE (from Gujjify_Website_Extraction.txt)
+==========================================================================================
+
+  Keep: navy #0d1f3f / gold #c8a24c palette, Fraunces + Poppins, crown-shield crest,
+        WhatsApp-first CTAs with context-specific pre-filled messages, 8 services,
+        FAQ, "Your Gateway to Study in China".
+  Fix:  Facebook share-link -> https://www.facebook.com/profile.php?id=61590861647152;
+        Instagram https://www.instagram.com/gujjifyconsultant/ (no website link in bio);
+        WhatsApp https://wa.me/923264570214 (Business name spelled "Gujify");
+        logo had no transparent/white version (now generated: gold/white/navy PNGs);
+        thin blog (46-90 words/post) with hot-linked third-party images;
+        no legal disclosure, privacy pages, OG tags, sitemap, analytics.
+  Legal entity: GUJJIFY LTD, England & Wales, company 16657100, incorporated 2025-08-18;
+        confirmation statement overdue since 2026-08-31.                           [CHECK]
+  Activity: domain registered 2026-06-22; last blog post 2026-06-29; last social post
+        2026-07-26.
+
+
+==========================================================================================
+SECTION 9 - RISKS, GAPS & DATA-QUALITY ISSUES
+==========================================================================================
+
+  1. Outdated offers - all data is 2024-2025; deadlines passed.
+     -> website shows "typical month" + freshness disclaimer; client should refresh brochures
+        for the 2027 intake.                                                        [CHECK]
+  2. Agency branding in source brochures (MalishaEdu, IFFI; IFFI contacts pre-filled in the
+     application form) - never reuse those documents or prices publicly.            [CHECK]
+  3. University names removed - the finder must work without them (it does: city, province,
+     ranking, 211/985 status, majors, funding).
+  4. MBBS recognition - brochure says "BMDC & WHO listed" (Bangladesh-oriented); Pakistani
+     students need PM&DC rules - never claim PM&DC recognition per programme.        [CHECK]
+  5. Unverifiable marketing stats on the old site (1200+, 80+, 500+, 7+ years) - hidden until
+     the client confirms; data-backed stats used instead.                            [CHECK]
+  6. City typo in source: "Zhanjiang (Jiangsu)" -> treated as Zhenjiang, Jiangsu.     [CHECK]
+  7. Language-course flyer promotes "stay legal in China" to job seekers - a student permit
+     does not allow work; avoid that framing on the website.                         [CHECK]
+  8. Living-cost and accommodation figures are benchmarks, not brochure data - labelled as
+     editable estimates in the calculator.
+  9. Keyword data has no volumes - the tool ranking is by breadth of demand (number of
+     distinct queries and markets), which is appropriate for choosing features.
+
+
+==========================================================================================
+SECTION 10 - STRATEGY: THE WEBSITE BLUEPRINT
+==========================================================================================
+
+  10.1 POSITIONING
+       "Your Gateway to Study in China" - a UK-registered consultancy with a Lahore office that
+       shows its real programme map, real costs and honest eligibility before the first chat.
+       Premium, calm, trustworthy (navy & gold), WhatsApp-first.
+
+  10.2 AUDIENCES
+       a) Pakistani students & parents (Matric/FSc, MBBS, engineering/CS, budget-sensitive,
+          Roman-Urdu speakers) - primary.
+       b) Global South students (South & Southeast Asia, Africa, Central Asia) searching in
+          English and local languages - growth.
+       c) Master/PhD candidates looking for fully funded offers (23 in data).
+
+  10.3 HERO - 3D CHINA PROGRAMME MAP
+       All 34 regions extruded; the 21 programme provinces raised in gold by programme count
+       (Jiangsu tallest), 30 glowing city beacons, auto-tour by count, hover/tap info card
+       (levels, cities, max stipend, sample majors) -> province page / finder / WhatsApp.
+       SVG 2D fallback for no-WebGL / reduced motion; list view for accessibility.
+
+  10.4 THE 3 GLOBAL TOOLS (Section 7.2 evidence)
+       1. University & Programme Finder - filters by level, 9 study fields, major, province/city,
+          teaching language, funding, no-IELTS, tuition, ranking; shortlist, compare, PDF list.
+       2. Study Cost Calculator - by programme or level+city, scholarship scenario, dorm,
+          lifestyle; brochure fees + living benchmarks; 42 currencies with live rates.
+       3. Scholarship Eligibility Checker - 7-step quiz (incl. CGPA conversion, IELTS/Duolingo/
+          HSK, bank statement) matched against every programme's rules; "unlock more" tips.
+       Tools feed each other and all end in a pre-filled WhatsApp message.
+
+  10.5 PAGES
+       Home · Finder · Programme (72) · Province (21) · Tools hub · Cost · Eligibility · Services
+       · About · Blog (9 seeds, to expand) · FAQ (8 + 5 drafts from real student questions) ·
+       Contact · Privacy · Terms · Cookies · 404.
+
+  10.6 SEO & CONTENT PLAN
+       - 115-URL sitemap (static pages + 72 programme + 21 province + 9 blog pages).
+       - Province pages target "study in <province/city>" and "living cost in <city>".
+       - Blog priorities from keyword demand: CSC requirements 2026/27, China scholarship
+         without IELTS, MBBS in China for Pakistani students (PM&DC), China student visa from
+         Pakistan (X1), cost of living by city, CGPA to percentage for CSC, HSK levels explained,
+         study plan / recommendation-letter templates, JW202 explained.
+       - 301 redirects from the old PHP URLs (in public/.htaccess).
+
+  10.7 CONVERSION
+       Every tool result -> WhatsApp with a summary; floating WhatsApp button; shortlist share;
+       "FREE scholarship eligibility assessment" offer (from the Instagram campaign).
+
+
+==========================================================================================
+SECTION 11 - WHAT WAS BUILT AND HOW TO USE IT
+==========================================================================================
+
+  gujjify-website/  (starter kit - becomes its OWN GitHub repository)
+    MASTER_PROMPT.md ......... full spec for Google AI Studio Build (rules, design system,
+                               hero map, 3 tools, pages, SEO, build order, definition of done)
+    FOLLOW_UP_PROMPTS.md ..... continue / polish / mobile / data audit / a11y / performance /
+                               Roman-Urdu / optional AI assistant / Hostinger deploy
+    DATA_DICTIONARY.md ....... every data field explained
+    README.md ................ step-by-step: new repo -> AI Studio import -> prompt -> deploy
+    src/data/ ................ programs.json (72), provinces.json (21), china-provinces.geo.json,
+                               site.json, tools.json, meta.json
+    src/types/data.ts ........ types; `npm run typecheck` validates the data
+    src/assets/brand/ ........ transparent crest in gold / white / navy
+    src/index.css ............ Tailwind v4 + navy/gold tokens
+    public/ .................. .htaccess (https, SPA, old-URL 301s), robots.txt, sitemap.xml,
+                               og-image.png (1200x630 share card), favicons
+    Verified: `npm run build` passes (TypeScript + Vite 8); placeholder page renders the data.
+
+  data-pipeline/  (stays in this research repo)
+    Scripts + inputs that regenerate src/data from the research files (verified identical).
+
+  Workflow
+    1. Copy gujjify-website/ to its own folder, push to a NEW GitHub repo (README step 1).
+       Do NOT import this research repo into AI Studio - its sync force-pushes.     [CHECK]
+    2. AI Studio Build -> + -> Import from GitHub -> select the repo -> Import.
+    3. Message: "Read MASTER_PROMPT.md in the project root and implement it completely,
+       following its build order." Then FOLLOW_UP_PROMPTS.md.
+    4. Push from AI Studio to GitHub; deploy via Cloud Run (preview) or Hostinger (dist/).
+
+
+==========================================================================================
+SECTION 12 - OPEN QUESTIONS FOR THE CLIENT
+==========================================================================================
+
+   1. Fresh brochures for the March / September 2027 intakes? (all current data is 2024-25)
+   2. What do 1200+ students / 80+ universities / 500+ scholarships / 7+ years count?
+   3. Full Lahore office address + map pin + visiting hours; is there a China office?
+   4. Publish Gujjify's own service fees? (only a third-party price list exists)
+   5. Approve the 5 draft FAQs (marks needed, MBBS & PM&DC, Chinese required, total costs,
+      hostels).
+   6. Permission to publish the Instagram success-story quote (and the student's name?).
+   7. Team names/photos for the About page (with consent)?
+   8. SVG / editable logo outside the Canva Education workspace (design DAHNTCmo-8Q).
+   9. Preferred contact-form destination (Gmail, a new @gujjify.com address, or the old
+      /ajax/contact.php on Hostinger).
+  10. Which process is official: 4, 5 or 6 steps? (the kit uses the 5-step Instagram version)
+  11. Companies House confirmation statement (overdue since 2026-08-31) and SIC code update.
+  12. Map boundaries: the kit uses the PRC standard map (DataV) - acceptable for all target
+      markets?

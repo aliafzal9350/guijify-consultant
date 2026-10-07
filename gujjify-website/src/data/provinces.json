@@ -1,0 +1,1014 @@
+[
+ {
+  "name": "Jiangsu",
+  "nameZh": "江苏",
+  "adcode": 320000,
+  "type": "Province",
+  "capital": "Nanjing",
+  "center": {
+   "lat": 32.0603,
+   "lng": 118.7969
+  },
+  "programCount": 15,
+  "programsByLevel": {
+   "Bachelor": 9,
+   "MBBS": 2,
+   "Master": 3,
+   "PhD": 1
+  },
+  "cities": [
+   {
+    "name": "Changzhou",
+    "lat": 31.8107,
+    "lng": 119.9741,
+    "programIds": [
+     "B-28",
+     "B-30"
+    ]
+   },
+   {
+    "name": "Nanjing",
+    "lat": 32.0603,
+    "lng": 118.7969,
+    "programIds": [
+     "B-06",
+     "B-08",
+     "B-32",
+     "MA-17"
+    ]
+   },
+   {
+    "name": "Nantong",
+    "lat": 31.9802,
+    "lng": 120.8943,
+    "programIds": [
+     "B-12",
+     "M-01",
+     "MA-12"
+    ]
+   },
+   {
+    "name": "Xuzhou",
+    "lat": 34.2058,
+    "lng": 117.284,
+    "programIds": [
+     "B-29"
+    ]
+   },
+   {
+    "name": "Yangzhou",
+    "lat": 32.3936,
+    "lng": 119.4127,
+    "programIds": [
+     "B-09",
+     "M-02",
+     "P-02"
+    ]
+   },
+   {
+    "name": "Zhenjiang",
+    "lat": 32.1878,
+    "lng": 119.425,
+    "programIds": [
+     "B-27"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [
+   "MA-15"
+  ],
+  "maxStipendCNYPerMonth": 3500,
+  "fullyFundedCount": 4,
+  "englishTaughtCount": 14,
+  "sampleMajors": [
+   "Mechanical Engineering",
+   "Civil Engineering",
+   "Computer Science and Technology",
+   "Software Engineering",
+   "Pharmacy",
+   "International Economics and Trade"
+  ],
+  "programIds": [
+   "B-06",
+   "B-08",
+   "B-09",
+   "B-12",
+   "B-27",
+   "B-28",
+   "B-29",
+   "B-30",
+   "B-32",
+   "M-01",
+   "M-02",
+   "MA-12",
+   "MA-15",
+   "MA-17",
+   "P-02"
+  ]
+ },
+ {
+  "name": "Zhejiang",
+  "nameZh": "浙江",
+  "adcode": 330000,
+  "type": "Province",
+  "capital": "Hangzhou",
+  "center": {
+   "lat": 30.2741,
+   "lng": 120.1551
+  },
+  "programCount": 8,
+  "programsByLevel": {
+   "Bachelor": 5,
+   "Master": 3
+  },
+  "cities": [
+   {
+    "name": "Hangzhou",
+    "lat": 30.2741,
+    "lng": 120.1551,
+    "programIds": [
+     "B-38",
+     "B-39"
+    ]
+   },
+   {
+    "name": "Jinhua",
+    "lat": 29.079,
+    "lng": 119.6474,
+    "programIds": [
+     "B-37"
+    ]
+   },
+   {
+    "name": "Shaoxing",
+    "lat": 29.9958,
+    "lng": 120.5861,
+    "programIds": [
+     "B-15"
+    ]
+   },
+   {
+    "name": "Wenzhou",
+    "lat": 27.9938,
+    "lng": 120.6994,
+    "programIds": [
+     "B-40"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [
+   "MA-04",
+   "MA-05",
+   "MA-06"
+  ],
+  "maxStipendCNYPerMonth": 3000,
+  "fullyFundedCount": 3,
+  "englishTaughtCount": 6,
+  "sampleMajors": [
+   "International Economics and Trade",
+   "Computer Science and Technology",
+   "Mechanical Engineering",
+   "Civil Engineering",
+   "Software Engineering",
+   "Chemical Engineering and Technology"
+  ],
+  "programIds": [
+   "B-15",
+   "B-37",
+   "B-38",
+   "B-39",
+   "B-40",
+   "MA-04",
+   "MA-05",
+   "MA-06"
+  ]
+ },
+ {
+  "name": "Hubei",
+  "nameZh": "湖北",
+  "adcode": 420000,
+  "type": "Province",
+  "capital": "Wuhan",
+  "center": {
+   "lat": 30.5928,
+   "lng": 114.3055
+  },
+  "programCount": 6,
+  "programsByLevel": {
+   "Bachelor": 2,
+   "MBBS": 1,
+   "Master": 3
+  },
+  "cities": [
+   {
+    "name": "Wuhan",
+    "lat": 30.5928,
+    "lng": 114.3055,
+    "programIds": [
+     "B-20",
+     "B-31",
+     "M-04",
+     "B-10"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [
+   "MA-10",
+   "MA-14"
+  ],
+  "maxStipendCNYPerMonth": 3000,
+  "fullyFundedCount": 3,
+  "englishTaughtCount": 5,
+  "sampleMajors": [
+   "Computer Science and Technology",
+   "Civil Engineering",
+   "Business Administration",
+   "Intelligent Science and Technology",
+   "E-Commerce",
+   "International Economic and Trade"
+  ],
+  "programIds": [
+   "B-20",
+   "B-31",
+   "M-04",
+   "B-10",
+   "MA-10",
+   "MA-14"
+  ]
+ },
+ {
+  "name": "Sichuan",
+  "nameZh": "四川",
+  "adcode": 510000,
+  "type": "Province",
+  "capital": "Chengdu",
+  "center": {
+   "lat": 30.5728,
+   "lng": 104.0668
+  },
+  "programCount": 6,
+  "programsByLevel": {
+   "Bachelor": 5,
+   "MBBS": 1
+  },
+  "cities": [
+   {
+    "name": "Chengdu",
+    "lat": 30.5728,
+    "lng": 104.0668,
+    "programIds": [
+     "B-01",
+     "B-07",
+     "B-26"
+    ]
+   },
+   {
+    "name": "Dazhou",
+    "lat": 31.2096,
+    "lng": 107.468,
+    "programIds": [
+     "B-25"
+    ]
+   },
+   {
+    "name": "Nanchong",
+    "lat": 30.8378,
+    "lng": 106.1107,
+    "programIds": [
+     "M-03"
+    ]
+   },
+   {
+    "name": "Neijiang",
+    "lat": 29.5803,
+    "lng": 105.0584,
+    "programIds": [
+     "B-24"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [],
+  "maxStipendCNYPerMonth": null,
+  "fullyFundedCount": 0,
+  "englishTaughtCount": 4,
+  "sampleMajors": [
+   "Computer Science and Technology",
+   "Civil Engineering",
+   "Software Engineering",
+   "International Business",
+   "Tourism Management",
+   "Petroleum Engineering"
+  ],
+  "programIds": [
+   "B-01",
+   "B-07",
+   "B-24",
+   "B-25",
+   "B-26",
+   "M-03"
+  ]
+ },
+ {
+  "name": "Tianjin",
+  "nameZh": "天津",
+  "adcode": 120000,
+  "type": "Municipality",
+  "capital": "Tianjin",
+  "center": {
+   "lat": 39.0842,
+   "lng": 117.2009
+  },
+  "programCount": 4,
+  "programsByLevel": {
+   "Bachelor": 3,
+   "Master": 1
+  },
+  "cities": [
+   {
+    "name": "Tianjin",
+    "lat": 39.0842,
+    "lng": 117.2009,
+    "programIds": [
+     "B-05",
+     "B-11",
+     "B-34",
+     "MA-11"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [],
+  "maxStipendCNYPerMonth": 3000,
+  "fullyFundedCount": 1,
+  "englishTaughtCount": 4,
+  "sampleMajors": [
+   "Chemical Engineering",
+   "Business Administration",
+   "Communication Engineering",
+   "Bachelor in Business Administration (BBA)",
+   "Pharmaceutical Technology",
+   "Environmental Science and Engineering"
+  ],
+  "programIds": [
+   "B-05",
+   "B-11",
+   "B-34",
+   "MA-11"
+  ]
+ },
+ {
+  "name": "Shanghai",
+  "nameZh": "上海",
+  "adcode": 310000,
+  "type": "Municipality",
+  "capital": "Shanghai",
+  "center": {
+   "lat": 31.2304,
+   "lng": 121.4737
+  },
+  "programCount": 4,
+  "programsByLevel": {
+   "Bachelor": 4
+  },
+  "cities": [
+   {
+    "name": "Shanghai",
+    "lat": 31.2304,
+    "lng": 121.4737,
+    "programIds": [
+     "B-18",
+     "B-19",
+     "B-21",
+     "B-23"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [],
+  "maxStipendCNYPerMonth": 1000,
+  "fullyFundedCount": 0,
+  "englishTaughtCount": 4,
+  "sampleMajors": [
+   "International Economics and Trade",
+   "Textile Engineering",
+   "Artificial Intelligence (AI)",
+   "Medicinal Chemistry",
+   "Information Management and Information System",
+   "International Business"
+  ],
+  "programIds": [
+   "B-18",
+   "B-19",
+   "B-21",
+   "B-23"
+  ]
+ },
+ {
+  "name": "Guangdong",
+  "nameZh": "广东",
+  "adcode": 440000,
+  "type": "Province",
+  "capital": "Guangzhou",
+  "center": {
+   "lat": 23.1291,
+   "lng": 113.2644
+  },
+  "programCount": 4,
+  "programsByLevel": {
+   "Bachelor": 2,
+   "MBBS": 1,
+   "Master": 1
+  },
+  "cities": [
+   {
+    "name": "Guangzhou",
+    "lat": 23.1291,
+    "lng": 113.2644,
+    "programIds": [
+     "B-02",
+     "M-05"
+    ]
+   },
+   {
+    "name": "Shenzhen",
+    "lat": 22.5431,
+    "lng": 114.0579,
+    "programIds": [
+     "B-04",
+     "MA-16"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [],
+  "maxStipendCNYPerMonth": 3000,
+  "fullyFundedCount": 1,
+  "englishTaughtCount": 4,
+  "sampleMajors": [
+   "Computer Science and Technology",
+   "Business Administration",
+   "International Trade and Economics",
+   "Communication Engineering",
+   "Opto-Electronic Information Science and Engineering",
+   "Electronic Packaging Technology"
+  ],
+  "programIds": [
+   "B-02",
+   "B-04",
+   "M-05",
+   "MA-16"
+  ]
+ },
+ {
+  "name": "Shaanxi",
+  "nameZh": "陕西",
+  "adcode": 610000,
+  "type": "Province",
+  "capital": "Xi'an",
+  "center": {
+   "lat": 34.3416,
+   "lng": 108.9398
+  },
+  "programCount": 4,
+  "programsByLevel": {
+   "Bachelor": 1,
+   "Master": 3
+  },
+  "cities": [
+   {
+    "name": "Xi'an",
+    "lat": 34.3416,
+    "lng": 108.9398,
+    "programIds": [
+     "B-17"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [
+   "MA-07",
+   "MA-08",
+   "MA-13"
+  ],
+  "maxStipendCNYPerMonth": 3000,
+  "fullyFundedCount": 3,
+  "englishTaughtCount": 2,
+  "sampleMajors": [
+   "Materials Science and Engineering",
+   "Mechanical Engineering",
+   "Civil Engineering",
+   "Business Administration",
+   "Law",
+   "Chemical Engineering and Technology"
+  ],
+  "programIds": [
+   "B-17",
+   "MA-07",
+   "MA-08",
+   "MA-13"
+  ]
+ },
+ {
+  "name": "Heilongjiang",
+  "nameZh": "黑龙江",
+  "adcode": 230000,
+  "type": "Province",
+  "capital": "Harbin",
+  "center": {
+   "lat": 45.8038,
+   "lng": 126.5349
+  },
+  "programCount": 3,
+  "programsByLevel": {
+   "Bachelor": 1,
+   "Master": 1,
+   "PhD": 1
+  },
+  "cities": [
+   {
+    "name": "Harbin",
+    "lat": 45.8038,
+    "lng": 126.5349,
+    "programIds": [
+     "B-22",
+     "P-03"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [
+   "MA-02"
+  ],
+  "maxStipendCNYPerMonth": 3500,
+  "fullyFundedCount": 2,
+  "englishTaughtCount": 3,
+  "sampleMajors": [
+   "International Economics and Trade",
+   "Instrument Science and Technology",
+   "Information and Communication Engineering",
+   "Business Administration",
+   "Computer Science and Technology",
+   "Civil Engineering"
+  ],
+  "programIds": [
+   "B-22",
+   "MA-02",
+   "P-03"
+  ]
+ },
+ {
+  "name": "Henan",
+  "nameZh": "河南",
+  "adcode": 410000,
+  "type": "Province",
+  "capital": "Zhengzhou",
+  "center": {
+   "lat": 34.7466,
+   "lng": 113.6253
+  },
+  "programCount": 3,
+  "programsByLevel": {
+   "Bachelor": 1,
+   "MBBS": 1,
+   "PhD": 1
+  },
+  "cities": [
+   {
+    "name": "Zhengzhou",
+    "lat": 34.7466,
+    "lng": 113.6253,
+    "programIds": [
+     "B-14",
+     "M-06",
+     "P-04"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [],
+  "maxStipendCNYPerMonth": 3500,
+  "fullyFundedCount": 1,
+  "englishTaughtCount": 3,
+  "sampleMajors": [
+   "International Trade and Economics",
+   "Civil Engineering",
+   "Pharmacy",
+   "Software Engineering",
+   "MBBS (Clinical Medicine)",
+   "Anatomy"
+  ],
+  "programIds": [
+   "B-14",
+   "M-06",
+   "P-04"
+  ]
+ },
+ {
+  "name": "Beijing",
+  "nameZh": "北京",
+  "adcode": 110000,
+  "type": "Municipality",
+  "capital": "Beijing",
+  "center": {
+   "lat": 39.9042,
+   "lng": 116.4074
+  },
+  "programCount": 2,
+  "programsByLevel": {
+   "Bachelor": 2
+  },
+  "cities": [
+   {
+    "name": "Beijing",
+    "lat": 39.9042,
+    "lng": 116.4074,
+    "programIds": [
+     "B-03",
+     "B-16"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [],
+  "maxStipendCNYPerMonth": 1800,
+  "fullyFundedCount": 0,
+  "englishTaughtCount": 2,
+  "sampleMajors": [
+   "Computer Science & Technology",
+   "International Trade & Economics",
+   "Chemical Engineering And Technics",
+   "Petroleum Engineering",
+   "Business Administration",
+   "Finance"
+  ],
+  "programIds": [
+   "B-03",
+   "B-16"
+  ]
+ },
+ {
+  "name": "Jiangxi",
+  "nameZh": "江西",
+  "adcode": 360000,
+  "type": "Province",
+  "capital": "Nanchang",
+  "center": {
+   "lat": 28.682,
+   "lng": 115.8579
+  },
+  "programCount": 2,
+  "programsByLevel": {
+   "Bachelor": 1,
+   "PhD": 1
+  },
+  "cities": [
+   {
+    "name": "Ganzhou",
+    "lat": 25.831,
+    "lng": 114.9333,
+    "programIds": [
+     "B-43"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [
+   "P-05"
+  ],
+  "maxStipendCNYPerMonth": 3500,
+  "fullyFundedCount": 1,
+  "englishTaughtCount": 2,
+  "sampleMajors": [
+   "Computer Science and Technology (CST)",
+   "International Economics and Trade",
+   "Public Economics and Management",
+   "Accounting",
+   "International Trade",
+   "Economics"
+  ],
+  "programIds": [
+   "B-43",
+   "P-05"
+  ]
+ },
+ {
+  "name": "Hunan",
+  "nameZh": "湖南",
+  "adcode": 430000,
+  "type": "Province",
+  "capital": "Changsha",
+  "center": {
+   "lat": 28.2282,
+   "lng": 112.9388
+  },
+  "programCount": 2,
+  "programsByLevel": {
+   "Bachelor": 2
+  },
+  "cities": [
+   {
+    "name": "Changsha",
+    "lat": 28.2282,
+    "lng": 112.9388,
+    "programIds": [
+     "B-35",
+     "B-36"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [],
+  "maxStipendCNYPerMonth": null,
+  "fullyFundedCount": 0,
+  "englishTaughtCount": 2,
+  "sampleMajors": [
+   "Computer Science and Technology",
+   "International Trade and Economics"
+  ],
+  "programIds": [
+   "B-35",
+   "B-36"
+  ]
+ },
+ {
+  "name": "Guangxi",
+  "nameZh": "广西",
+  "adcode": 450000,
+  "type": "Autonomous Region",
+  "capital": "Nanning",
+  "center": {
+   "lat": 22.817,
+   "lng": 108.3669
+  },
+  "programCount": 2,
+  "programsByLevel": {
+   "Master": 1,
+   "Language": 1
+  },
+  "cities": [
+   {
+    "name": "Nanning",
+    "lat": 22.817,
+    "lng": 108.3669,
+    "programIds": [
+     "L-01"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [
+   "MA-03"
+  ],
+  "maxStipendCNYPerMonth": 3000,
+  "fullyFundedCount": 1,
+  "englishTaughtCount": 0,
+  "sampleMajors": [
+   "Teaching Chinese to Speakers of Other Languages",
+   "Chinese Language (Mandarin) - 6-month non-degree course"
+  ],
+  "programIds": [
+   "MA-03",
+   "L-01"
+  ]
+ },
+ {
+  "name": "Hebei",
+  "nameZh": "河北",
+  "adcode": 130000,
+  "type": "Province",
+  "capital": "Shijiazhuang",
+  "center": {
+   "lat": 38.0428,
+   "lng": 114.5149
+  },
+  "programCount": 1,
+  "programsByLevel": {
+   "Bachelor": 1
+  },
+  "cities": [
+   {
+    "name": "Shijiazhuang",
+    "lat": 38.0428,
+    "lng": 114.5149,
+    "programIds": [
+     "B-42"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [],
+  "maxStipendCNYPerMonth": null,
+  "fullyFundedCount": 0,
+  "englishTaughtCount": 1,
+  "sampleMajors": [
+   "Computer Science and Technology",
+   "Civil Engineering",
+   "Mechanical Engineering",
+   "International Trade and Economics",
+   "Electrical Engineering and Automation",
+   "Environmental Engineering"
+  ],
+  "programIds": [
+   "B-42"
+  ]
+ },
+ {
+  "name": "Liaoning",
+  "nameZh": "辽宁",
+  "adcode": 210000,
+  "type": "Province",
+  "capital": "Shenyang",
+  "center": {
+   "lat": 41.8057,
+   "lng": 123.4315
+  },
+  "programCount": 1,
+  "programsByLevel": {
+   "Master": 1
+  },
+  "cities": [],
+  "provinceWideProgramIds": [
+   "MA-09"
+  ],
+  "maxStipendCNYPerMonth": 3000,
+  "fullyFundedCount": 1,
+  "englishTaughtCount": 0,
+  "sampleMajors": [
+   "Mechanics",
+   "International Trade",
+   "Accounting",
+   "Enterprise Management",
+   "Technical Economics and Management",
+   "Mechanical Manufacture and Automation"
+  ],
+  "programIds": [
+   "MA-09"
+  ]
+ },
+ {
+  "name": "Anhui",
+  "nameZh": "安徽",
+  "adcode": 340000,
+  "type": "Province",
+  "capital": "Hefei",
+  "center": {
+   "lat": 31.8206,
+   "lng": 117.2272
+  },
+  "programCount": 1,
+  "programsByLevel": {
+   "PhD": 1
+  },
+  "cities": [],
+  "provinceWideProgramIds": [
+   "P-01"
+  ],
+  "maxStipendCNYPerMonth": 3500,
+  "fullyFundedCount": 1,
+  "englishTaughtCount": 1,
+  "sampleMajors": [
+   "Mechanical Design and Theory",
+   "Mechatronic Engineering",
+   "Mechanical Manufacture and Automation",
+   "Materials Science and Engineering",
+   "Electrical Engineering",
+   "Computer Science and Technology"
+  ],
+  "programIds": [
+   "P-01"
+  ]
+ },
+ {
+  "name": "Fujian",
+  "nameZh": "福建",
+  "adcode": 350000,
+  "type": "Province",
+  "capital": "Fuzhou",
+  "center": {
+   "lat": 26.0745,
+   "lng": 119.2965
+  },
+  "programCount": 1,
+  "programsByLevel": {
+   "Bachelor": 1
+  },
+  "cities": [
+   {
+    "name": "Fuzhou",
+    "lat": 26.0745,
+    "lng": 119.2965,
+    "programIds": [
+     "B-41"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [],
+  "maxStipendCNYPerMonth": 800,
+  "fullyFundedCount": 0,
+  "englishTaughtCount": 1,
+  "sampleMajors": [
+   "International Economics and Trade"
+  ],
+  "programIds": [
+   "B-41"
+  ]
+ },
+ {
+  "name": "Shandong",
+  "nameZh": "山东",
+  "adcode": 370000,
+  "type": "Province",
+  "capital": "Jinan",
+  "center": {
+   "lat": 36.6512,
+   "lng": 117.1201
+  },
+  "programCount": 1,
+  "programsByLevel": {
+   "Bachelor": 1
+  },
+  "cities": [
+   {
+    "name": "Zibo",
+    "lat": 36.8131,
+    "lng": 118.0548,
+    "programIds": [
+     "B-33"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [],
+  "maxStipendCNYPerMonth": null,
+  "fullyFundedCount": 0,
+  "englishTaughtCount": 1,
+  "sampleMajors": [
+   "Computer Science and Technology",
+   "Civil Engineering",
+   "Mechanical Engineering",
+   "Electrical Engineering and Automation",
+   "International Trade and Economics (Logistics Management)"
+  ],
+  "programIds": [
+   "B-33"
+  ]
+ },
+ {
+  "name": "Yunnan",
+  "nameZh": "云南",
+  "adcode": 530000,
+  "type": "Province",
+  "capital": "Kunming",
+  "center": {
+   "lat": 25.0389,
+   "lng": 102.7183
+  },
+  "programCount": 1,
+  "programsByLevel": {
+   "Bachelor": 1
+  },
+  "cities": [
+   {
+    "name": "Kunming",
+    "lat": 25.0389,
+    "lng": 102.7183,
+    "programIds": [
+     "B-13"
+    ]
+   }
+  ],
+  "provinceWideProgramIds": [],
+  "maxStipendCNYPerMonth": null,
+  "fullyFundedCount": 0,
+  "englishTaughtCount": 1,
+  "sampleMajors": [
+   "Software Engineering",
+   "Artificial Intelligence",
+   "Computer Science and Technology"
+  ],
+  "programIds": [
+   "B-13"
+  ]
+ },
+ {
+  "name": "Gansu",
+  "nameZh": "甘肃",
+  "adcode": 620000,
+  "type": "Province",
+  "capital": "Lanzhou",
+  "center": {
+   "lat": 36.0611,
+   "lng": 103.8343
+  },
+  "programCount": 1,
+  "programsByLevel": {
+   "Master": 1
+  },
+  "cities": [],
+  "provinceWideProgramIds": [
+   "MA-01"
+  ],
+  "maxStipendCNYPerMonth": 3000,
+  "fullyFundedCount": 1,
+  "englishTaughtCount": 0,
+  "sampleMajors": [
+   "Signal and information processing",
+   "Communication and information system",
+   "Bridge and tunnel works",
+   "Disaster prevention and mitigation engineering",
+   "Structural engineering",
+   "Geotechnical Engineering"
+  ],
+  "programIds": [
+   "MA-01"
+  ]
+ }
+]
