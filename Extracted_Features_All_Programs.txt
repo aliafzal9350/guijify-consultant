@@ -1,0 +1,4557 @@
+==========================================================================================
+  EXTRACTED FEATURES - CHINA STUDY & WORK PROGRAMS
+  University names intentionally removed. City / province retained for every program.
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+HOW TO READ THIS FILE
+------------------------------------------------------------------------------------------
+  Program IDs ....... B-xx  = program from the Bachelor brochure (B-10 is a Master program)
+                      M-xx  = MBBS (medicine) program
+                      P-xx  = PhD program
+                      MA-xx = Master program (from the Master file)
+                      L-01  = 6-month Chinese language program
+  "City #n of N" .... n-th program located in that city within the same section (names
+                      removed, so the number tells programs in the same city apart)
+  Values ............ copied VERBATIM from the source (spelling, currency style, typos)
+  [CHECK] ........... suspicious / inconsistent value in the source - verify before use
+                      (full list in SECTION 13)
+  [IMG] ............. text that exists ONLY inside an image in the PDF (not selectable text)
+  [AGENCY] .......... service/feature provided by a third-party agency, not the university
+                      (agency names & contacts are in SECTION 12)
+  [ADDED] ........... information NOT in the source files, added for completeness
+  [DERIVED] ......... calculated from numbers in the source, not stated directly
+  [University] ...... placeholder where the source text used the university's own name
+  CNY = RMB = yuan (Chinese currency).  $ = USD.  Taka = Bangladeshi currency.
+
+------------------------------------------------------------------------------------------
+TABLE OF CONTENTS
+------------------------------------------------------------------------------------------
+  SECTION 1  - Source files analysed (7 files)
+  SECTION 2  - City index (quick lookup)
+  SECTION 3  - Bachelor / Master programs, September 2025 intake (43 programs)
+  SECTION 4  - MBBS programs (6 programs)
+  SECTION 5  - PhD fully funded programs (5 programs)
+  SECTION 6  - Master fully funded programs, September 2024 intake (17 programs)
+  SECTION 7  - 6-month Chinese language program, Nanning (1 program)
+  SECTION 8  - China Work Visa process (documents + attestation chain)
+  SECTION 9  - Application Form for Foreign Students (all fields)
+  SECTION 10 - Consultancy service charges (price list)
+  SECTION 11 - Cross-program summaries (stipends, language tests, deadlines, majors indexes)
+  SECTION 12 - Third-party agency branding found in the files
+  SECTION 13 - [CHECK] list: errors & inconsistencies in the source
+
+
+==========================================================================================
+SECTION 1 - SOURCE FILES ANALYSED
+==========================================================================================
+
+  1. Bachelor_Sep 2025( English).pdf
+     - 45 pages; created 2025-02-04 (Microsoft Word export)
+     - 43 university program pages + 1 MBBS page (p44) + 1 blank page (p23)
+     - 130 embedded images: university logos, WordArt headings, decorative shapes
+     - Target intake: September 2025
+
+  2. PHD SEP.pdf
+     - 5 pages; Google Docs export
+     - 5 fully funded PhD offers; target intake: September 2024
+
+  3. Workvisaprocess.pdf
+     - 3 pages; created 2021-08-10; document title "Work visa documents list and samples"
+     - Document checklist + attestation rules + 3 sample images (attested degree,
+       attested passport, scan-format example)
+
+  4. APPLICATION FORM FOR INTERNATIONAL STUDENTS.docx
+     - Bilingual (Chinese / English) application form, 2 tables, ~60 fields
+
+  5. Master universities 2.pdf
+     - 19 pages; created 2024-02-17 (WPS document exported on iOS)
+     - 17 fully funded Master program blocks; text only (no images, no links)
+     - Target intake: September 2024
+     - Text layer has quirks (missing spaces, Cyrillic letters) - pages were also rendered
+       and checked visually
+
+  6. 6_Months_Chinese_Language_Program_Nanning_Partner_Version.pdf
+     - 5 pages; generated 2026-01-19 (ReportLab); page 2 is blank
+     - 1 language program + 5 photos (2 dorm rooms, 3 Nanning city / scenery)
+
+  7. IFFI CONSULTANTS CHARGES LIST .docx
+     - A consultancy's price list for students: 4 program levels, 10 price options and
+       the document list for each level; text only (no tables, images or links)
+
+
+==========================================================================================
+SECTION 2 - CITY INDEX
+==========================================================================================
+
+  City (Province)                            Program IDs
+  ----------------------------------------   -------------------------------------------
+  Anhui Province (no city given)             P-01
+  Beijing                                    B-03, B-16
+  Changsha (Hunan)                           B-35, B-36
+  Changzhou (Jiangsu)                        B-28, B-30
+  Chengdu (Sichuan)                          B-01, B-07, B-26
+  Dazhou (Sichuan)                           B-25
+  Fuzhou (Fujian)                            B-41
+  Gansu Province (no city given)             MA-01
+  Ganzhou (Jiangxi)                          B-43
+  Guangxi Province (no city given)           MA-03
+  Guangzhou (Guangdong)                      B-02, M-05
+  Hangzhou (Zhejiang)                        B-38, B-39
+  Harbin (Heilongjiang)                      B-22, P-03
+  Heilongjiang Province (no city given)      MA-02
+  Hubei Province (no city given)             MA-10, MA-14
+  Jiangsu Province (no city given)           MA-15 (possibly Yangzhou - unconfirmed)
+  Jiangxi Province (no city given)           P-05
+  Jinhua (Zhejiang)                          B-37
+  Kunming (Yunnan)                           B-13
+  Liaoning Province (no city given)          MA-09
+  Nanchong (Sichuan) [ADDED]                 M-03
+  Nanjing (Jiangsu)                          B-06, B-08, B-32, MA-17 [ADDED]
+  Nanning (Guangxi)                          L-01
+  Nantong (Jiangsu)                          B-12, M-01, MA-12
+  Neijiang (Sichuan)                         B-24
+  Shaanxi Province (no city given)           MA-07, MA-08, MA-13
+  Shanghai                                   B-18, B-19, B-21, B-23
+  Shaoxing (Zhejiang)                        B-15
+  Shenzhen (Guangdong)                       B-04, MA-16
+  Shijiazhuang (Hebei)                       B-42
+  Tianjin (near Beijing)                     B-05, B-11, B-34, MA-11
+  Wenzhou (Zhejiang)                         B-40
+  Wuhan (Hubei)                              B-10, B-20, B-31, M-04
+  Xi'an (Shaanxi)                            B-17
+  Xuzhou (Jiangsu)                           B-29
+  Yangzhou (Jiangsu)                         B-09, M-02, P-02
+  Zhanjiang [CHECK: Zhenjiang] (Jiangsu)     B-27
+  Zhejiang Province (no city given)          MA-04, MA-05, MA-06
+  Zhengzhou (Henan)                          B-14, M-06, P-04
+  Zibo (Shandong)                            B-33
+
+  Province-level regions covered (21): Anhui, Beijing, Fujian, Gansu, Guangdong, Guangxi,
+  Hebei, Heilongjiang, Henan, Hubei, Hunan, Jiangsu, Jiangxi, Liaoning, Shaanxi, Shandong,
+  Shanghai, Sichuan, Tianjin, Yunnan, Zhejiang
+
+
+==========================================================================================
+SECTION 3 - BACHELOR / MASTER PROGRAMS (Source: Bachelor_Sep 2025( English).pdf)
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+[B-01]  CHENGDU #1 of 3  |  Chengdu City, Sichuan Province
+------------------------------------------------------------------------------------------
+  Source page ....... 1
+  Level ............. Bachelor
+  Intake ............ September 2025
+  Ranking ........... Country Rank 11 | World Rank 240
+
+  MAJORS - TAUGHT IN ENGLISH (4)
+    - Software Engineering
+    - International Business
+    - Civil Engineering
+    - Tourism Management
+
+  SCHOLARSHIP
+    - "The belt and Initiative Scholarship": 20,000 CNY   [CHECK: = Belt and Road Scholarship]
+
+  OTHER FEES PAYABLE TO UNIVERSITY
+    - Insurance Fees: 1000 CNY/Year
+    - Registration Fees: 600 CNY (1st Year only)
+    - Medical Health Check Up: Around 550 CNY (1st Year only)
+
+  DEPOSIT / PAYMENT FLOW
+    - After arriving at university the student pays Tuition Fees 7500 CNY
+    - Plus one year Dormitory fees: 1500 CNY (International Business) / 4500 CNY (other majors)
+    - Refund system: after the end of each semester the Belt and Road Scholarship amount is
+      paid into the student's bank account
+    - Student may live in an outside-campus dormitory; then NO dormitory fee to university
+
+  LANGUAGE ........... English Proficiency: No need IELTS or Duolingo
+  INTERVIEW .......... University interview, 4-5 minutes
+  DOCUMENTS .......... (not listed in source)
+  DEADLINE ........... 30th May 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-02]  GUANGZHOU #1 of 1  |  Guangzhou City, Guangdong Province, P.R. China
+------------------------------------------------------------------------------------------
+  Source page ....... 2
+  Level ............. Bachelor
+  Intake ............ September 2025 Intake
+  Ranking ........... Country Ranking 28 | World Ranking 213
+  Status ............ 211 and 985 Project University
+  Tagline [IMG] ..... "BUSINESS CITY GUANGZHOU"
+
+  MAJORS - TAUGHT IN ENGLISH (2)
+    - Computer Science and Technology
+    - International Trade and Economics
+
+  ORIGINAL FEES
+    - Tuition Fees: 26000NY/Year   [CHECK: "NY" = CNY]
+    - Accommodation: 27 CNY/Day (two persons per room); 12 CNY/Day (four persons per room)
+    - Insurance Fees: 800 CNY/Year
+    - Visa Extension Fees: 400 CNY/Year
+    - Medical Check Up: 400NY (only 1st year)   [CHECK: "NY" = CNY]
+    - Registration Fees: 450 CNY (1st year only)
+
+  SCHOLARSHIPS
+    - Type A: Full tuition fees free for 4 years
+    - Type B: Half tuition fees for 4 years
+    - Type C: Half tuition fees for 2 years
+    - Type D: Guangdong Provincial Government Scholarship 10,000 RMB/Year
+
+  DOCUMENTS (7)
+    1. Passport
+    2. Picture
+    3. Last Academic Transcript and Certificate
+    4. English Proficiency Certificate (IELTS 5.5 or "TOFFEL" 68)   [CHECK: TOEFL]
+    5. Health Check Up Certificate
+    6. Police Clearance - original copy, notarized by the local Chinese Embassy
+    7. Application Form
+
+  LANGUAGE ........... IELTS 5.5 or TOEFL 68
+  DEADLINE ........... (not stated)   [CHECK]
+
+------------------------------------------------------------------------------------------
+[B-03]  BEIJING #1 of 2  |  Beijing
+------------------------------------------------------------------------------------------
+  Source page ....... 3
+  Level ............. Bachelor
+  Intake ............ September 2025
+  Ranking ........... Country Ranking 63 | World Ranking 568
+
+  MAJORS - TAUGHT IN ENGLISH (4)
+    - Computer Science & Technology
+    - International Trade & Economics
+    - Chemical Engineering And Technics
+    - Petroleum Engineering
+
+  SCHOLARSHIPS
+    - Type A: Tuition free + Accommodation free (double-bed room) + Medical Insurance free
+              + Monthly stipend 1800 CNY/Month
+    - Type B: Tuition free + Accommodation free (double-bed room) + Insurance free
+    - Type C: Accommodation free (double-bed room) + Medical Insurance free
+
+  STANDARD FEES (without scholarship) - heading "Standard Fees of [University]"
+    - Tuition Fees: 25000 CNY/Year
+    - Accommodation Fees: 1200-1500 CNY/Month
+    - Medical Insurance Fees: 800 CNY/Year
+    - Residence Permit Fees: 400 CNY/Year
+    - Health Checkup Fees: 400 CNY
+    - Registration Fees (only 1st year): 400 CNY
+
+  LANGUAGE ........... IELTS 6.0, TOEFL 75 or above, or proof of language proficiency at
+                       the corresponding level
+  INTERVIEW .......... University interview, 4-5 minutes
+  SUPPORT [AGENCY] ... Interview preparation organized with Chinese teachers
+  DOCUMENTS .......... (not listed in source)
+  DEADLINE ........... 30th May 2025; major classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-04]  SHENZHEN #1 of 1  |  Shenzhen City (Guangdong)
+------------------------------------------------------------------------------------------
+  Source page ....... 4
+  Level ............. Bachelor
+  Intake ............ September 2025
+  Ranking ........... National Ranking 13 | World Ranking 196
+  Status ............ 211, 985 and C9 Project University
+
+  MAJORS - TAUGHT IN ENGLISH (12)
+    - Computer Science and Technology
+    - Communication Engineering
+    - Opto-Electronic Information Science and Engineering
+    - Electronic Packaging Technology
+    - Robot Engineering
+    - Mechanical Design Manufacturing and Automation
+    - Electrical Engineering and Automation
+    - Automation
+    - Economics
+    - Business Administration
+    - Architecture
+    - Urban Planning
+
+  SCHOLARSHIPS
+    - Type A: Full tuition fees free + Monthly Stipend 1000 CNY/Month
+    - Type B: Full tuition fees free
+    - Type C: 50% of tuition fees free (student pays 15000 CNY/Year)
+    - Type D: 20% of tuition fees free (student pays 24000 CNY/Year)
+    - Implied full tuition: ~30,000 CNY/Year   [DERIVED from Type C / Type D]
+
+  OTHER COSTS (pay after arriving)
+    - Accommodation: 500 CNY/Month (2 people per room) or 1000 CNY/Month (1 person per room)
+    - Registration fees: 400 CNY
+    - Visa Extension fees: 400 CNY/Year
+    - Health Check Up: 500 CNY
+    - Insurance fees: 800 CNY/Year
+
+  DOCUMENTS (9)
+    1. Passport
+    2. Picture
+    3. Higher Secondary School / Grade 12th / A Level / High School Certificate and Transcript
+    4. Health Check Up
+    5. English Proficiency Certificate
+    6. Non Criminal Record / Police Clearance
+       (must be notarized Police Clearance from the Chinese embassy of student's country)
+    7. Bank Statement
+    8. Video of self-introduction
+    9. Application Form
+
+  INTERVIEW .......... University interview, 4-5 minutes
+  DEADLINE ........... 10th June 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-05]  TIANJIN #1 of 3  |  Tianjin City (Near to Beijing)
+------------------------------------------------------------------------------------------
+  Source page ....... 5
+  Level ............. Bachelor
+  Intake [IMG] ...... SEPTEMBER 2025 INTAKE (shown as a mirrored/reflection image)
+
+  MAJORS - BACHELOR SCHOLARSHIP, TAUGHT IN ENGLISH (2)
+    - Communication Engineering
+    - Bachelor in Business Administration (BBA)
+
+  1ST YEAR SCHOLARSHIP
+    - Type A: Tuition free + Accommodation free + Monthly Stipend 1400 CNY
+    - Type B: Tuition free + Accommodation free
+
+  NEED TO PAY TO THE UNIVERSITY
+    - Insurance fees: 800 CNY/Year
+    - Medical: 400 CNY (only one year)
+    - Visa Fees: 400 CNY/Year
+
+  CONDITION FROM 2ND YEAR TO 4TH YEAR (performance-based split)
+    - 20% of students -> Type A: Tuition free + Accommodation free + Stipend 1400 CNY/Month
+    - 30% of students -> Type B: Tuition free + Accommodation free
+    - 50% of students -> Type C: Tuition free; student pays accommodation 6000 CNY/Year
+                         (double room)
+
+  LANGUAGE ........... No need IELTS or Duolingo
+  DOCUMENTS .......... (not listed in source)
+  DEADLINE ........... 30th May 2025; major classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-06]  NANJING #1 of 3  |  Nanjing City, Jiangsu Province
+------------------------------------------------------------------------------------------
+  Source page ....... 6
+  Level ............. Bachelor
+  Intake ............ September 2025
+  Ranking ........... National Ranking 54 | World Ranking 201-300 (Shanghai Ranking)
+
+  MAJORS - TAUGHT IN ENGLISH (8)
+    - International Economy and Trade
+    - Computer Science and Technology
+    - Civil Engineering
+    - Mechanical Engineering
+    - Pharmacy
+    - Automation
+    - Chemical Engineering and Technics
+    - Traffic Engineering
+
+  MAJORS - TAUGHT IN CHINESE (6)  - requires HSK-4 (180 or above)
+    - Teaching Chinese to Speakers of Other Languages
+    - Traffic Engineering
+    - New Energy Materials and Devices
+    - Energy and Power Engineering
+    - Energy Environment and Systems Engineering
+    - Energy Storage Science and Engineering
+
+  ORIGINAL FEES
+    - Tuition Fees: 16000 CNY/Year
+    - Accommodation: 2000 CNY/Year (four-bed room); 4000 CNY/Year (double-bed room)
+    - Insurance Fees: 800 CNY/Year
+    - Resident Permit (Visa Extension): 400 CNY/Year
+    - Medical Check Up: 400 CNY (1st year only)
+    - Registration Fees: 500 CNY
+    - Application Fees: 500 CNY (non-refundable), paid when submitting application materials
+
+  SCHOLARSHIP ........ 20000 CNY/Year/Student
+  HOW THE SCHOLARSHIP IS PAID
+    - Normal rule: student pays Tuition + Accommodation to the university, then the
+      university pays the student 2000 CNY/Month (10 months each year)
+    - Financial-hardship option: student writes a commitment letter allowing the university
+      to deduct tuition (16000 CNY/Year) from the 20000 CNY scholarship; student then
+      receives 400 CNY/Month stipend
+  PRE-ADMISSION PAYMENT
+    - Pay 2000 CNY after the pre-admission / conditional letter as accommodation fee
+      (four-bed room); then the university issues the Admission Letter and JW202
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Picture
+    3. Higher Secondary School / Grade 12th / A Level / High School Certificate and Transcript
+    4. Health Check Up
+    5. English Proficiency Certificate (IELTS 6.0 or TOEFL 80 or any other certificate)
+       - "shall have priority" (preferred, not mandatory)
+    6. Non Criminal Record / Police Clearance
+    7. Bank Statement
+    8. Application Form
+    9. Award Certificate
+   10. Study Plan
+
+  DEADLINE ........... 10th June 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-07]  CHENGDU #2 of 3  |  Chengdu City, Sichuan Province
+------------------------------------------------------------------------------------------
+  Source page ....... 7
+  Level ............. Bachelor
+  Intake ............ September 2025
+  Ranking ........... Country Ranking 185 | World Ranking 1384
+
+  MAJORS - TAUGHT IN ENGLISH (9)
+    - Petroleum Engineering   (source spelling "Petroluem")
+    - Resource Exploration Engineering
+    - Chemical Engineering and Technology
+    - Mechanical Engineering
+    - Computer Science and Technology
+    - Civil Engineering
+    - Electrical Engineering and Automation
+    - International Economics and Trade
+    - New Energy Science and Engineering
+
+  FEES STRUCTURE
+    - Tuition Fees: FREE
+    - Accommodation: 1600 CNY/Year (Male; 3 persons per room)
+                     3000 CNY/Year (Female; 2-3 persons per room)
+    - Insurance Fees: 800 CNY/Year
+    - Visa Extension Fees: 400 CNY/Year
+    - Registration Fees: 600 CNY (1st year only)
+    - Medical Health Check Up: Around 550 CNY (1st year only)
+
+  SCHOLARSHIP POLICY
+    - Per the [University] scholarship evaluation method, students can get a scholarship
+      every year after arriving
+    - Amounts: Type A 20000 CNY/Person/Year | Type B 8000 CNY/Person/Year
+               Type C 5000 CNY/Person/Year  | Type D 2000 CNY/Person/Year
+
+  DOCUMENTS .......... (not listed in source)
+  DEADLINE ........... June 15, 2025; major study starts September 2025
+
+------------------------------------------------------------------------------------------
+[B-08]  NANJING #2 of 3  |  Nanjing City (Jiangsu)
+------------------------------------------------------------------------------------------
+  Source page ....... 8
+  Level ............. Bachelor (4 years)
+  Intake ............ September 2025
+  Ranking ........... 610th in World Rankings
+
+  MAJORS - TAUGHT IN ENGLISH (1)
+    - International Economics and Trade
+
+  ORIGINAL FEES
+    - Tuition fees: 2,8500 yuan/year   [CHECK: probably 28,500]
+    - Accommodation fees: 4,500 yuan/year
+    - Insurance fees: 800 yuan/year
+    - Medical: 500 yuan/year
+    - Visa fees: 400 yuan/year
+
+  SCHOLARSHIPS
+    - Type A: Tuition + accommodation free + 1,000 yuan/month stipend
+    - Type B: Tuition fees free
+    - Type A or Type B decided based on the interview
+
+  DOCUMENTS (9)
+    1. Passport
+    2. Photo
+    3. Grade 12th / A Level / GED / High School Certificate and Transcript
+    4. Medical Checkup report
+    5. English Proficiency Certificate (IELTS / TOEFL / Duolingo / any other valid
+       certificate from last institute)
+    6. Non-Criminal Record
+    7. Bank Statement
+    8. Application Form
+    9. Extra Curriculum Activities (if applicable)
+
+  INTERVIEW .......... Yes (decides scholarship type)
+  DEADLINE ........... May 1st, 2025
+
+------------------------------------------------------------------------------------------
+[B-09]  YANGZHOU #1 of 1  |  Yangzhou City, Jiangsu Province
+------------------------------------------------------------------------------------------
+  Source page ....... 9
+  Level ............. Bachelor
+  Intake ............ September 2025
+  Ranking ........... Country Ranking 84 | World Ranking 844
+
+  MAJORS - TAUGHT IN ENGLISH (7)
+    - Software Engineering
+    - Civil Engineering
+    - Machine Design & Manufacturing and Automation
+    - Microelectronics Science and Engineering
+    - International Business
+    - Tourism Management
+    - Biotechnology
+
+  ORIGINAL FEES
+    - Tuition Fees: 14000-30000 CNY/Year
+    - Accommodation: 4000 CNY/Year (3-bed room)
+    - Insurance Fees: 1000 CNY/Year
+    - Resident Permit (Visa Extension): 400 CNY/Year
+    - Medical Check Up: 400 CNY (1st year only)
+    - Registration Fees: 600 CNY
+
+  FEES AFTER SCHOLARSHIP
+    - Tuition + Accommodation combined: 10000 CNY/Year (3-bed room)
+    - Insurance Fees: 1000 CNY/Year
+    - Resident Permit (Visa Extension): 400 CNY/Year
+    - Medical Check Up: 400 CNY (1st year only)
+    - Registration Fees: 600 CNY
+
+  DOCUMENTS (10)
+    1. Application Form
+    2. Passport
+    3. Photo
+    4. Highest Degree Certificate & Transcript
+    5. Medical Report
+    6. IELTS, TOEFL or other equivalent English Proficiency Certificate
+    7. Police Clearance
+    8. Bank Statement
+    9. Parent's job certificate and income certificate
+   10. Parent's Passport or NID
+
+  ADMISSION CONDITIONS
+    - Students must first take an ONLINE EXAM arranged by the school; only those who pass
+      are admitted
+    - Before starting the major, the university gives an English Proficiency Test; students
+      who fail must study 1 year Chinese + 4 years major in the Chinese-taught program
+    - During the Chinese language year: Tuition + Accommodation = 10600 CNY/Year
+
+  DEADLINE ........... 15th May 2025 (depends on seats); classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-10]  WUHAN #1 of 3  |  Wuhan City, Hubei Province           ** MASTER PROGRAM **
+------------------------------------------------------------------------------------------
+  Source page ....... 10
+  Level ............. MASTER (2 years)   [CHECK: Master program inside Bachelor brochure]
+  Intake ............ September 2025
+
+  MAJORS - TAUGHT IN ENGLISH (1)
+    - Intellectual Property Law
+
+  ORIGINAL FEES (Master)
+    - Tuition fees: 20000 CNY/Year
+    - Accommodation: 750 CNY/Month (2-bed room); 1350 CNY/Month (single room)
+    - Insurance Fees: 800 CNY/Year
+    - Medical Fees: 400 CNY
+    - Visa Extension Fees: 800 CNY/Year
+    - Application Fees: 500 CNY
+
+  CHINESE GOVERNMENT SCHOLARSHIP
+    - Full Tuition Fees free
+    - Full Accommodation Fees free (first year)
+    - Insurance Fees free
+    - Monthly stipend: 3000 CNY/Month
+
+  PROGRAM STRUCTURE
+    - Year 1: coursework on campus in China
+    - Remaining time: practical training, thesis writing and ONLINE defense in the
+      student's home country
+    - Completing all training + passing HSK Level 3 -> Master's Degree in Law + Diploma
+
+  ELIGIBILITY
+    - Applicant must hold nationality of a "Belt and Road" country accredited by the
+      Ministry of Education of the People's Republic of China
+    - Age Limit: 18-35
+    - University reviews all documents and arranges interview for those who qualify
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Photo
+    3. Highest diploma Certificate and Transcript
+    4. English Proficiency Certificate (IELTS 6.0 or TOEFL 80 or above)
+    5. Health Check Up
+    6. Non Criminal Record
+    7. Bank Statement
+    8. Application Form
+    9. Self-introduction video (less than 3 minutes)
+   10. Two Recommendation letters signed by professors
+
+  DEADLINE ........... 15th May 2025 (depends on seats); major classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-11]  TIANJIN #2 of 3  |  Tianjin City (Near Beijing)
+------------------------------------------------------------------------------------------
+  Source page ....... 11
+  Level ............. Bachelor
+  Intake ............ September 2025
+  Ranking ........... Country Ranking 19 | World Ranking 231
+
+  MAJORS - TAUGHT IN ENGLISH (3)
+    - Chemical Engineering
+    - Pharmaceutical Technology
+    - Environmental Science and Engineering
+
+  SCHOLARSHIPS
+    - Type A: Tuition free + Living Allowance 1400 RMB/month (10 months in total)
+    - Type B: Tuition free
+    - Type C: Tuition 50% free
+    - Type D: Tuition subsidy 6000 RMB
+
+  OTHER COSTS PAYABLE TO UNIVERSITY
+    - Accommodation: 900 CNY/Month inside campus (around 750 CNY/Month outside campus)
+    - Insurance Fees: 800 CNY/Year
+    - Resident Permit: 400 CNY/Year
+    - Medical Check Up: 500 CNY (1st year only)
+
+  LANGUAGE ........... IELTS 6.0 or Duolingo 100 (required)
+  INTERVIEW .......... University interview, 4-5 minutes
+  DOCUMENTS .......... (not listed in source)
+  DEADLINE ........... June 30, 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-12]  NANTONG #1 of 1  |  Nantong City, Jiangsu Province
+------------------------------------------------------------------------------------------
+  Source page ....... 12
+  Level ............. Bachelor
+  Intake ............ September 2025
+  Ranking ........... World Rank 1017 | National Rank 137
+
+  MAJORS - TAUGHT IN ENGLISH (15)
+    - Computer Science and Technology
+    - Civil Engineering
+    - Mechanical Engineering
+    - International Economics and Trade
+    - Pharmacy
+    - Electrical Engineering and Automation
+    - Accounting
+    - Engineering Management
+    - Transportation Equipment and Control Engineering
+    - Physical Education
+    - Mathematics and Applied Mathematics
+    - Global Health
+    - Community Sports Guidance and Management
+    - Chemistry
+    - Applied Statistics
+
+  SCHOLARSHIPS
+    - Type A: Tuition free + Hostel free (four-person room)
+    - Type B: Tuition free; Accommodation 2000 CNY/Year (four-person room)
+
+  OTHER FEES PAYABLE TO UNIVERSITY
+    - Insurance Fees: 800 CNY/Year
+    - Resident Permit: 400 CNY/Year
+    - Medical Fees: 500 CNY (1st year only)
+    - Registration Fees: 500 CNY/Year
+
+  DOCUMENTS (6)
+    1. Passport
+    2. Photo
+    3. Highest Academic Certificate and Transcript
+    4. Health Check Up
+    5. Non-Criminal Record
+    6. Application Form
+
+  LANGUAGE ........... No need IELTS or Duolingo
+  DEPOSIT ............ 2000 CNY to university account after conditional offer;
+                       refunded after arrival at the university
+  DEADLINE ........... June 30, 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-13]  KUNMING #1 of 1  |  Kunming City, Yunnan Province
+------------------------------------------------------------------------------------------
+  Source page ....... 13
+  Level ............. Bachelor (4 years)
+  Intake ............ September 2025
+  Ranking ........... Country Ranking 138 | World Ranking 948
+
+  MAJORS - TAUGHT IN ENGLISH (3)
+    - Software Engineering
+    - Artificial Intelligence
+    - Computer Science and Technology
+
+  SCHOLARSHIP CATEGORIES
+    - Type A: Tuition free + Accommodation free (four-person room)
+    - Type B: Tuition after scholarship 5000 CNY/Year + Accommodation free (four-person room)
+
+  NEED TO PAY TO THE UNIVERSITY
+    - Insurance Fees: 800 CNY/Year
+    - Visa Extension Fees: 400 CNY/Year
+    - Medical Check Up Fees: approx. 400 CNY
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Photo
+    3. High School Certificate and Transcript
+    4. Medical Check Up Report
+    5. English Proficiency Certificate
+    6. Non Criminal Record
+    7. Bank Statement (5000$)
+    8. Application Form
+    9. Extra Curriculum Activities (if applicable)
+   10. Study Plan
+
+  DEADLINE ........... 30th April 2025; major classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-14]  ZHENGZHOU #1 of 1  |  Zhengzhou City, Henan Province
+------------------------------------------------------------------------------------------
+  Source page ....... 14
+  Level ............. Bachelor
+  Intake ............ September 2025 Intake
+  Ranking ........... World Rank 422 | Country Rank 45
+
+  MAJORS - TAUGHT IN ENGLISH, WITH SCHOLARSHIP TYPE PER MAJOR (4)
+    Major                                  Scholarship   Tuition to pay after scholarship
+    - International Trade and Economics    Type A        Free
+    - Civil Engineering                    Type A        Free
+    - Pharmacy                             Type B        5000 CNY
+    - Software Engineering                 Type B        5000 CNY
+
+  NEED TO PAY AFTER ARRIVING
+    - Accommodation fee: 5400 CNY/Year
+    - Insurance Fees: 600 CNY/Year
+    - Residence Permit: 400 CNY/Year
+    - Medical: 400-500 CNY (first year only)
+
+  DOCUMENTS (7)
+    1. Passport
+    2. Photo
+    3. Highest Educational Transcript and Certificate
+    4. Medical Check up
+    5. Non-Criminal Record
+    6. Application Form
+    7. Study Plan
+
+  LANGUAGE ........... No need IELTS or Duolingo
+  INTERVIEW .......... University interview, 4-5 minutes
+  SUPPORT [AGENCY] ... Interview preparation organized with Chinese teachers
+  DEADLINE ........... 20th May 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-15]  SHAOXING #1 of 1  |  Shaoxing City, Zhejiang Province
+------------------------------------------------------------------------------------------
+  Source page ....... 15
+  Level ............. Bachelor (4 years)
+  Intake ............ September 2025
+
+  MAJORS - TAUGHT IN ENGLISH (7)
+    - English
+    - International Economics and Trade
+    - Civil Engineering
+    - Computer Science and Technology
+    - Biological Science
+    - Textile Engineering
+    - Nursing
+
+  SCHOLARSHIP POLICY
+    - Type A: Free tuition + free accommodation + Monthly Stipend 500 RMB (10 months)
+    - Type B: Free tuition
+    - Type C: "Accommodation Fees"   [CHECK: unclear - probably free accommodation]
+    - 2nd to 4th year: different scholarship types; to keep a scholarship the student must
+      perform well in semester results and other activities
+
+  OTHER FEES
+    - Accommodation: 15 CNY/day (two-bed room); 30 CNY/day (single bed)
+    - Application fees: 400 CNY
+    - Insurance: 800 CNY/Year
+
+  NORMAL TUITION (undergraduate, without scholarship)
+    - Liberal arts programs: 16,000 CNY/Year
+    - Science and engineering programs: 19,200 CNY/Year
+    - Medical and art programs: 24,000 CNY/Year
+
+  DOCUMENTS (8)
+    1. Passport
+    2. Age below 45   (eligibility condition listed among documents)
+    3. Photo
+    4. Highest Degree Certificate & Transcript
+    5. Medical Report
+    6. IELTS 6 or above, TOEFL 69 or other equivalent English certificate
+       OR a 3-minute self-introduction video
+    7. Police Clearance
+    8. Bank Statement
+
+  LANGUAGE ........... IELTS 6 / TOEFL 69 / equivalent, or 3-min self-intro video
+  INTERVIEW .......... Online interview by university
+  COUNTRY RULE ....... NO COUNTRY RESTRICTIONS
+  AGE ................ Below 45
+  DEADLINE ........... May 31th 2025
+
+------------------------------------------------------------------------------------------
+[B-16]  BEIJING #2 of 2  |  Beijing City
+------------------------------------------------------------------------------------------
+  Source page ....... 16
+  Level ............. Bachelor (4 years)
+  Intake ............ September 2025
+
+  MAJORS - TAUGHT IN ENGLISH (4)
+    - Business Administration
+    - Finance
+    - International Business
+    - International Economics and Trade
+
+  ORIGINAL FEES
+    - Tuition fees: 39900 CNY/Year
+    - Accommodation fees: 1200-3600/Month
+    - Insurance fees: 800 CNY/Year
+    - Medical: 500 CNY (only one year)
+    - Visa Fees: 400 CNY/Year
+    - Registration Fees: 800 CNY (first year only)
+
+  SCHOLARSHIPS
+    - Type A: One academic year tuition fees free
+    - Type B: One semester tuition fees free
+
+  DOCUMENTS (9)
+    1. Passport
+    2. Photo
+    3. Grade 12th / A Level / GED / High School Certificate and Transcript
+    4. Medical Checkup report
+    5. English Proficiency Certificate (IELTS / TOEFL / Duolingo / any other valid
+       certificate from last institute)
+    6. Non-Criminal Record
+    7. Bank Statement (5000$)
+    8. Application Form
+    9. Extra Curriculum Activities (if applicable)
+
+  DEADLINE ........... 10th July 2025; major classes start September 2025
+  NOTE ............... 2 hyperlinks on this page point to a local dictionary-app file on the
+                       author's PC (broken links)   [CHECK]
+
+------------------------------------------------------------------------------------------
+[B-17]  XI'AN #1 of 1  |  Xi'an City, Shaanxi Province
+------------------------------------------------------------------------------------------
+  Source page ....... 17
+  Level ............. Bachelor
+  Intake ............ September 2025
+  Ranking ........... Country Ranking 37 | World Ranking 425
+
+  MAJORS - TAUGHT IN ENGLISH (11)
+    - Aeronautical Engineering
+    - Astronautics Engineering
+    - Ocean Engineering
+    - Materials Science and Engineering
+    - Mechanical Engineering
+    - Civil Engineering
+    - Electronics & Information Engineering
+    - Electrical Engineering and Automation
+    - Computer Science & Technology
+    - Business Administration
+    - Biotechnology
+
+  SCHOLARSHIPS - "[University] President Scholarship" (Bachelor)
+    - Type A: Full tuition free + full accommodation free + stipend 1500 CNY/Month (12 months)
+    - Type B: Full tuition free + stipend 1500 CNY/Month (12 months)
+    - Type C: 50% of tuition fees free
+    - All other fees are paid by the student
+
+  STANDARD FEES STRUCTURE                         CNY                    USD
+    - Tuition fees (Bachelor Degree)              22000/Year             3150/Year
+    - Accommodation Fees                          7200-10800/Year        1050-1550/Year
+    - Medical Insurance Fees                      800/Year               115/Year
+    - Residence Permit fees                       400/Year               60/Year
+    - Health Checkup fees (only 1st year)         400-500                60-70
+    - Application Fees (only 1st year)            600                    85
+    - Living Costs                                600-1000/Month         85-140
+    (source table numbering skips rows 2 and 3)   [CHECK]
+
+  REQUIREMENTS
+    - Age Limit: up to 30
+    - High School / A Level minimum score: 70 out of 100; 14 out of 20; 7 out of 10;
+      3.50 out of 5.0; 2.80 out of 4.0
+    - English (for scholarship): IELTS 6.0+ / TOEFL 80+ / SAT 1150+ / PTE Academic 55 /
+      Duolingo 115+ / Cambridge Advanced Level English B or above
+    - University interview, 4-5 minutes
+    - University deposit: after passing the interview pay 2000 CNY deposit; refunded after
+      arrival at the university
+
+  SUPPORT [AGENCY] ... Interview preparation organized with Chinese teachers
+  DOCUMENTS .......... (not listed separately in source)
+  DEADLINE ........... May 15, 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-18]  SHANGHAI #1 of 4  |  Shanghai
+------------------------------------------------------------------------------------------
+  Source page ....... 18
+  Level ............. Bachelor
+  Intake ............ September 2025 Intake
+  Ranking ........... Country rank 137 | World rank 1419
+  Ranking source .... 4icu.org (link to its China ranking page + the university's own
+                      profile page; profile URL omitted because it identifies the university)
+
+  MAJORS - TAUGHT IN ENGLISH (4)
+    - Textile Engineering
+    - Artificial Intelligence (AI)
+    - International Economics and Trade
+    - Medicinal Chemistry
+
+  SCHOLARSHIP AND FEES STRUCTURE
+    - Tuition Fees: FREE
+    - Insurance Fees: FREE
+    - Accommodation Fees: 1200 CNY/Year
+    - Resident Permit: 400 CNY/Year
+    - Medical Checkup: 400-450 CNY (only 1st year)
+
+  LANGUAGE ........... No need IELTS or Duolingo
+  INTERVIEW .......... University interview 4-5 minutes + English Proficiency Test
+  DOCUMENTS .......... (not listed in source)
+  DEADLINE ........... 15th June 2025 (depends on seats); classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-19]  SHANGHAI #2 of 4  |  Shanghai
+------------------------------------------------------------------------------------------
+  Source page ....... 19
+  Level ............. Bachelor
+  Intake ............ September 2025 Intake
+
+  MAJORS - TAUGHT IN ENGLISH (4)
+    - Information Management and Information System
+    - International Business
+    - Hotel Management
+    - Public Relation
+
+  SCHOLARSHIP AND FEES STRUCTURE
+    - Tuition Fees: FULL FREE
+    - Insurance Fees: FULL FREE
+    - Accommodation Fees: 40 CNY/Day
+    - Resident Permit: 400 CNY/Year
+    - Medical Checkup: 400-450 CNY (only 1st year)
+
+  LANGUAGE ........... Duolingo 95+
+  EXTRA REQUIREMENTS . One study plan + self-introduction video of 3-4 minutes
+  DOCUMENTS .......... (no full list in source)
+  DEADLINE ........... Depends on seats; September 2025 intake
+
+------------------------------------------------------------------------------------------
+[B-20]  WUHAN #2 of 3  |  Wuhan City, Hubei Province
+------------------------------------------------------------------------------------------
+  Source page ....... 20
+  Level ............. Bachelor
+  Intake ............ September 2025 Intake
+
+  MAJORS - TAUGHT IN ENGLISH (6)
+    - Computer Science and Technology
+    - Intelligent Science and Technology
+    - E-Commerce
+    - Business Administration
+    - International Economic and Trade
+    - Civil Engineering
+
+  MAJORS - TAUGHT IN CHINESE (1)
+    - Chinese Language and Literature (Business Chinese)
+
+  SCHOLARSHIP POLICY
+    - Type A: Full Tuition Fees free
+    - Type B: 50% Tuition Fees free (student pays tuition 6000 CNY/Year)
+    - Implied full tuition: ~12,000 CNY/Year   [DERIVED from Type B]
+
+  SCHOLARSHIP ELIGIBILITY
+    - Type A: Age 18-22 years + average score 70% or above in High School / Grade 12 / A Level
+    - Type B: Age 18-25 + passed all exams in High School / Grade 12 / A Level
+
+  AFTER SCHOLARSHIP NEED TO PAY
+    - Accommodation: 3000 CNY/Year (2 persons/room); 1500 CNY/Year (4-person room)
+    - Insurance Fees: 800 CNY/Year
+    - Visa Extension Fees: 800 CNY/Year
+    - Medical Check up: 340 CNY
+
+  DOCUMENTS (8)
+    1. Passport
+    2. Photo
+    3. Higher Secondary Certificate
+    4. Health Checkup
+    5. Non-Criminal Record
+    6. English Proficiency Certificate
+    7. Bank Statement (3000$ at least)
+    8. Application Form
+
+  AGE ................ 18-22 (Type A) / 18-25 (Type B)
+  DEADLINE ........... July 30, 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-21]  SHANGHAI #3 of 4  |  Shanghai City
+------------------------------------------------------------------------------------------
+  Source page ....... 21
+  Level ............. Bachelor
+  Intake ............ September 2025 Intake
+
+  MAJORS - TAUGHT IN ENGLISH (1)
+    - International Economics and Trade
+
+  SCHOLARSHIP - FIRST YEAR
+    - Free Tuition Fees
+    - Free Insurance
+
+  SCHOLARSHIP - 2ND TO 4TH YEAR
+    - Type A: Free tuition + free accommodation + free insurance + Stipend 12000 CNY/Year
+    - Type B: Free tuition + free insurance
+
+  OTHER FEES
+    - Accommodation Fees: 3500 CNY/Year
+    - Resident Permit: 800 CNY/Year
+    - Medical Check Up: 450 CNY
+    - Registration fees: 600 CNY
+
+  DOCUMENTS (6)   (source numbering skips 3 and 4)   [CHECK]
+    1. Passport
+    2. High School Certificate and Transcript
+    3. Non-Criminal Record
+    4. Medical Health Check Up
+    5. Resume
+    6. Self-Introduction Video (minimum 3-4 minutes)
+
+  LANGUAGE ........... No need IELTS or Duolingo
+  DEADLINE ........... As seats finish; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-22]  HARBIN #1 of 1  |  Harbin City, Heilongjiang Province
+------------------------------------------------------------------------------------------
+  Source page ....... 22
+  Level ............. Bachelor (4 years)
+  Intake ............ September 2025
+
+  MAJORS - TAUGHT IN ENGLISH (1)
+    - International Economics and Trade
+
+  ORIGINAL FEES   (source heading says "for master's degree")   [CHECK]
+    - Tuition fees: 21500 CNY/Year
+    - Accommodation: 500 CNY/Month (2-bed room); 1000 CNY/Month (single room)
+    - Insurance Fees: 800 CNY/Year
+    - Medical Fees: 380 CNY
+    - Visa Extension Fees: 800 CNY/Year
+    - Application Fees: 400 CNY
+
+  FIRST CLASS SCHOLARSHIP (first year only)
+    Covers: Tuition free + Accommodation free (2-bed room)
+    Student pays: Application 400 CNY (first year only) | Insurance 800 CNY/Year |
+                  Visa Extension 800 CNY/Year | Medical 380 CNY (1st year only)
+
+  SECOND CLASS SCHOLARSHIP (first year only)
+    Covers: Tuition free
+    Student pays: Accommodation 500 CNY/Month (2-bed room); 100 CNY/Month (single room)
+                  [CHECK: 1000 elsewhere] | Application 400 CNY (first year only) |
+                  Insurance 800 CNY/Year | Visa Extension 800 CNY/Year |
+                  Medical 380 CNY (1st year only)
+
+  THIRD CLASS SCHOLARSHIP (first year only)
+    Covers: Half of tuition waived
+    Student pays: Tuition 10750 CNY/Year | Accommodation 500 CNY/Month (2-bed room),
+                  1000 CNY/Month (single room) | Application 400 CNY (first year only) |
+                  Insurance 800 CNY/Year | Visa Extension 800 CNY/Year |
+                  Medical 380 CNY (1st year only)
+
+  SELECTION .......... School arranges an interview; scholarship class depends on
+                       comprehensive performance
+
+  DOCUMENTS (8)
+    1. Passport
+    2. Photo
+    3. Highest diploma Certificate and Transcript
+    4. English Proficiency Certificate
+    5. Health Check Up
+    6. Non-Criminal Record
+    7. Bank Statement
+    8. Application Form
+
+  AGE ................ 18-27
+  DEADLINE ........... 30th April 2025; major classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-23]  SHANGHAI #4 of 4  |  Shanghai City
+------------------------------------------------------------------------------------------
+  Source page ....... 24   (page 23 of the PDF is blank)
+  Level ............. Bachelor
+  Intake ............ (see deadline)
+
+  MAJORS - TAUGHT IN ENGLISH [IMG heading "Major (Taught in English):"] (2)
+    - Electrical Engineering & Automation
+    - Software Engineering
+
+  SCHOLARSHIP [IMG heading]
+    - Type A: Free Tuition Fee
+    - Type B: Tuition Fee is 3750/Semester  (= 7500/Year [DERIVED])
+
+  OTHER FEE [IMG heading]   (no currency written; presumably CNY)   [CHECK]
+    - Accommodation Fee: 4800/Year (double room)
+    - Insurance Fee: 800/Year
+    - Registration Fee: 500 (only for the first year)
+
+  DOCUMENTS - must be COLOR SCAN COPY [IMG heading "Documents : Color" + text "Scan Copy"] (9)
+    1. Passport
+    2. Photo
+    3. Highest Academic Certificate and Transcript
+    4. Health Check Up
+    5. Non-Criminal Record
+    6. Bank Statement
+    7. Language Proficiency Certificate
+    8. Application Form
+    9. Self-Introduction Video (3-4 minutes)
+
+  DEADLINE ........... August 20, 2022; class starts September 2022
+                       [CHECK: outdated year in a 2025 brochure]
+
+------------------------------------------------------------------------------------------
+[B-24]  NEIJIANG #1 of 1  |  Neijiang City, Sichuan Province
+------------------------------------------------------------------------------------------
+  Source page ....... 25
+  Level ............. Bachelor (1+3) course
+  Intake ............ September 2025 Intake
+  Teaching .......... Bilingual taught
+  Format note ....... "1+3" is not explained in the source; usually means 1 year Chinese
+                      language + 3 years major   [ADDED]
+
+  MAJORS - BILINGUAL (1)
+    - Chinese Language and Literature
+
+  AFTER SCHOLARSHIP NEED TO PAY
+    - Tuition Fees: 2000 CNY/Year
+    - Accommodation Fees: 1200 CNY/Year (two-person room)
+
+  NEED TO PAY TO THE UNIVERSITY
+    - Insurance Fees: 800 CNY/Year
+    - Resident Permit: 400 CNY/Year
+    - Medical Fees: 500 CNY (1st year only)
+    - Registration Fees: 500 CNY (1st year only)
+
+  DOCUMENTS (8)
+    1. Passport
+    2. Photo
+    3. Highest Academic Certificate and Transcript
+    4. Health Check Up
+    5. Non-Criminal Record
+    6. Bank Statement
+    7. Language Proficiency Certificate
+    8. Application Form
+
+  DEADLINE ........... 30th May 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-25]  DAZHOU #1 of 1  |  Dazhou City, Sichuan Province
+------------------------------------------------------------------------------------------
+  Source page ....... 26
+  Level ............. Bachelor Degree (1+3)
+  Intake ............ September 2025
+
+  MAJORS (2)   (teaching language not stated)
+    - International Chinese Education
+    - Computer Science and Technology
+
+  SCHOLARSHIPS FOR THE FIRST YEAR
+    - Type A: Free tuition + free accommodation
+    - Type B: Free tuition + 1200 RMB for accommodation (4-person room)
+    - Original tuition: 5000 RMB/Year
+
+  OTHER FEES AFTER SCHOLARSHIP
+    - Insurance Fees: 800 CNY (120 USD)/Year
+    - Resident Permit: 400 CNY (75 USD)/Year
+    - Medical Fees: 600 CNY (85 USD)/Year
+    - Textbook Fees: 500 CNY (80 USD)/Year
+    - Bedding Fees: 400 CNY (74 USD) (first year)
+
+  EXTRA SCHOLARSHIPS FROM 2ND ACADEMIC YEAR (for brilliant / well-performing students;
+  number depends on local government and the university)
+    - Sichuan Provincial Government Scholarship: 20,000 CNY (3000 USD)/Year (undergraduate)
+    - 10000 CNY (15000 USD)/Year (Chinese language student)   [CHECK: USD figure wrong]
+    - [University] Scholarship Type A: 7000 CNY/Year
+    - [University] Scholarship Type B: 6000 CNY/Year
+    - [University] Scholarship Type C: 5000 CNY/Year
+
+  HSK CONDITIONS
+    - Can apply for the university scholarship only after passing HSK Level-4 during the
+      first year of study
+    - Must pass HSK Level-5 to apply for the last year's university scholarship
+    - Students who fail to obtain the university scholarship from the 2nd year must pay all
+      fees themselves
+
+  DOCUMENTS (7)
+    1. Passport
+    2. Picture
+    3. Higher Secondary School / Grade 12th / A Level / High School Certificate and Transcript
+    4. Health Check Up
+    5. Non Criminal Record / Police Clearance
+    6. Bank Statement (3000$)
+    7. Application Form
+
+  DEADLINE ........... July 30th, 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-26]  CHENGDU #3 of 3  |  Chengdu City, Sichuan Province
+------------------------------------------------------------------------------------------
+  Source page ....... 27
+  Level ............. Bachelor
+  Intake ............ September 2025
+
+  MAJORS - TAUGHT IN ENGLISH (2)
+    - Computer Science and Technology
+    - Trade and Economics
+
+  AFTER SCHOLARSHIP NEED TO PAY
+    - Tuition Fees: 5000 CNY/Year
+    - Accommodation: 1500 CNY/Year (four persons per room)
+                     3000 CNY/Year (two persons per room)
+                     6000 CNY/Year (one person per room)
+    - Insurance Fees: about 550 CNY/Year
+    - Registration Fees: 500 CNY
+    - Visa Extension Fees: 400 CNY/Year
+    - Medical Check Up: 400-500 CNY
+
+  DOCUMENTS - must be COLOR SCAN COPY (10)
+    1. Passport
+    2. Picture
+    3. High School Certificate and Transcript
+    4. Health Check Up
+    5. English Proficiency Certificate
+    6. Non-Criminal Record
+    7. Bank Statement (5000$)
+    8. Application Form
+    9. Supporting documents if the student has a study gap
+   10. Passport or National ID of Parents   (source: "Passport of National ID")
+
+  DEADLINE ........... August 15, 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-27]  ZHANJIANG #1 of 1  |  "Zhanjiang City, Jiangsu Province"
+------------------------------------------------------------------------------------------
+  [CHECK: Zhanjiang is in Guangdong; the Jiangsu city with this spelling pattern is
+   ZHENJIANG - city name is likely a typo in the source]
+  Source page ....... 28
+  Level ............. Bachelor
+  Intake ............ September 2025
+
+  MAJORS - TAUGHT IN ENGLISH (11)
+    - Computer Science & Technology
+    - Electrical Engineering & Automation
+    - Civil Engineering
+    - Mechanical Engineering
+    - Business Administration (BBA)
+    - Marine Engineering
+    - Mechatronic Engineering
+    - Energy & Power Engineering
+    - Biotechnology
+    - Applied Chemistry
+    - English Linguistic & Literature
+
+  AFTER SCHOLARSHIP NEED TO PAY
+    - Tuition Fees: 4250 RMB/Year
+    - Accommodation: 3000 RMB/Year
+    - Application Fees: 400 RMB
+    - Deposit: 1200 RMB (refundable)
+    - Registration Fees: 400 RMB
+    - Medical Fees: 425 RMB
+    - Insurance: 800 RMB
+
+  PAYMENT AFTER ADMISSION NOTICE
+    - Pay 5850 CNY to the university = Application 400 + Tuition 4250 + Deposit 1200
+    - University refunds the 1200 CNY deposit after arrival
+
+  EXTRA UNIVERSITY SCHOLARSHIP, 2ND TO 4TH YEAR
+    - Grand prize ("Ground prize" in source): 8000 CNY/Student
+    - 1st Prize: 6000 CNY/Student
+    - 2nd Prize: 4000 CNY/Student
+    - 3rd Prize: 2000 CNY/Student
+
+  DOCUMENTS - must be COLOR SCAN COPY (9)
+    1. Passport
+    2. Picture
+    3. High School Certificate and Transcript
+    4. Health Check Up
+    5. English Proficiency Certificate
+    6. Non-Criminal Record
+    7. Bank Statement (5000$)
+    8. Application Form
+    9. Supporting documents if the student has a study gap
+
+  DEADLINE ........... 25th March 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-28]  CHANGZHOU #1 of 2  |  Changzhou City, Jiangsu Province
+------------------------------------------------------------------------------------------
+  Source page ....... 29
+  Level ............. Bachelor
+  Intake ............ September 2025
+
+  MAJORS - TAUGHT IN ENGLISH (2)
+    - Digital Media Technology (Computer major)
+    - International Economics and Trade (IET)
+
+  AFTER SCHOLARSHIP NEED TO PAY
+    - Tuition Fees: 6000 CNY/Year (Digital Media Technology); 5000 CNY/Year (IET)
+    - Accommodation Fees: 3000 CNY/Year
+    - Insurance Fees: 800 CNY/Year
+    - Visa Extension Fees: 400 CNY/Year
+    - Medical Check up: 400 CNY
+    - Registration Fees: 500 CNY
+
+  DOCUMENTS (9)
+    1. Passport
+    2. Picture
+    3. High School Certificate and Transcript
+    4. Health Check Up
+    5. English Proficiency Certificate
+    6. Non-Criminal Record
+    7. Bank Statement (5000$)
+    8. Application Form
+    9. Supporting documents if the student has a study gap
+
+  DEADLINE ........... September 15, 2025
+  ONLINE CLASSES ..... University arranges online classes from September 2025 "till Chinese
+                       border being opened"   [CHECK: COVID-era text]
+
+------------------------------------------------------------------------------------------
+[B-29]  XUZHOU #1 of 1  |  Xuzhou City, Jiangsu Province
+------------------------------------------------------------------------------------------
+  Source page ....... 30
+  Level ............. Bachelor
+  Intake ............ September 2025
+
+  MAJORS - TAUGHT IN ENGLISH (4)
+    - Software Engineering
+    - Mechanical Engineering
+    - Electrical Engineering and Automation
+    - International Economics and Trade
+
+  SCHOLARSHIPS
+    - Type A: Full Tuition Fees free
+    - Type B: 50% Tuition Fees free (student pays 7000 CNY/Year)
+    - Implied full tuition: ~14,000 CNY/Year   [DERIVED from Type B]
+
+  NEED TO PAY AFTER ARRIVING - TYPE A
+    - Accommodation: 1500 CNY/Year (4 persons/room); 2000 CNY/Year (3 persons/room);
+                     3000 CNY/Year (2 persons/room)
+    - Insurance Fees: 800 CNY/Year
+    - Residence Permit: 400 CNY/Year
+    - Medical: 400-500 CNY (first year only)
+
+  NEED TO PAY AFTER ARRIVING - TYPE B
+    - Tuition Fees: 7000 CNY/Year
+    - Accommodation: same as Type A (1500 / 2000 / 3000 CNY/Year)
+    - Insurance Fees: 800 CNY/Year
+    - Residence Permit: 400 CNY/Year
+    - Medical: 400-500 CNY (first year only)
+
+  DOCUMENTS (9)
+    1. Passport
+    2. Picture
+    3. High School Certificate and Transcript
+    4. Health Check Up
+    5. English Proficiency Certificate
+    6. Non-Criminal Record
+    7. Bank Statement (5000$)
+    8. Application Form
+    9. Supporting documents if the student has a study gap
+
+  DEADLINE ........... 10th July 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-30]  CHANGZHOU #2 of 2  |  Changzhou City, Jiangsu Province
+------------------------------------------------------------------------------------------
+  Source page ....... 31
+  Level ............. Bachelor
+  Intake ............ September 2025
+  Ranking ........... World Rank 1184 | Country Rank 154
+
+  MAJORS - TAUGHT IN ENGLISH (4)
+    - Computer Science and Technology
+    - Petroleum Engineering
+    - International Economic and Trade
+    - Chemical Engineering & Technology
+
+  AFTER SCHOLARSHIP NEED TO PAY
+    - Tuition Fees: 5000 CNY/Year (original tuition 14000 CNY/Year)
+    - Accommodation: 1800-3000 CNY/Year (3-4 persons per room)
+    - Visa Extension: 800 CNY/Year
+    - Insurance: 800 CNY/Year
+    - Health Check Up: 343 CNY
+
+  DOCUMENTS (8)
+    1. Passport
+    2. Picture
+    3. Higher Secondary School / Grade 12th / A Level / High School Certificate and Transcript
+    4. Health Check Up
+    5. English Proficiency Certificate
+    6. Non-Criminal Record
+    7. Bank Statement (5000$)
+    8. Application Form
+
+  DEADLINE ........... 10th June 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-31]  WUHAN #3 of 3  |  Wuhan City, Hubei Province
+------------------------------------------------------------------------------------------
+  Source page ....... 32
+  Level ............. Bachelor
+  Intake ............ September 2025 Intake
+
+  MAJORS - TAUGHT IN ENGLISH (7)
+    - Computer Science and Technology
+    - Software Engineering
+    - Civil Engineering
+    - Mechanical Engineering and Automation
+    - Electrical Engineering and Automation
+    - International Trade and Economics
+    - Pharmaceutical Engineering
+
+  NEED TO PAY AFTER SCHOLARSHIP (CNY with USD equivalent)
+    - Tuition Fees: 7000 CNY (1005$)/Year
+    - Accommodation: 3000 CNY/Year (440$) triple room
+                     6000 CNY/Year (880$) double room
+                     10000 CNY/Year (1470$) single room
+    - Registration Fees: 400 CNY (60$)/Year
+    - Insurance Fees: 600-800 CNY (86$-115$)/Year
+    - Visa Extension Fees: 400 CNY (60$)/Semester or Year
+    - Medical Fees: 400 CNY (60$) (only 1st year)
+
+  MERIT SCHOLARSHIPS
+    - Students with excellent results and a perfect educational background may get a
+      different scholarship: 15000 / 10000 / 5000 / 3000 CNY/Year/student
+    - Decision made by the [University] scholarship authority
+    - Result requirement - Bangladeshi students: HSC 4.50 or above out of 5.00 and
+      Diploma 3.50 or above out of 4.0
+    - Result requirement - other countries: 85% in high school
+
+  DOCUMENTS - must be COLOR SCAN COPY (9)
+    1. Clear Passport
+    2. Photo (white background)
+    3. Higher Secondary School / Grade 12th / A Level / High School Certificate and Transcript
+    4. Health Check Up
+    5. Non-Criminal Record
+    6. Bank Statement (5000$)
+    7. English Proficiency
+    8. Application Form
+    9. Supporting documents if the student has a study gap
+
+  FRAUD RULE ......... If any fake document is provided, the university cancels admission
+  DEADLINE ........... 10th August 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-32]  NANJING #3 of 3  |  Nanjing City, Jiangsu Province
+------------------------------------------------------------------------------------------
+  Source page ....... 33
+  Level ............. Bachelor (4 years)
+  Intake ............ September 2025
+
+  MAJORS - TAUGHT IN CHINESE (3)
+    - Digital Media Art
+    - Electronic Commerce
+    - Economics
+
+  ORIGINAL FEES
+    - Tuition: 15000 CNY/Year (Science & Engineering majors);
+               14000 CNY/Year (Humanities & Social Sciences majors)
+    - Accommodation: 4000 CNY/Year (double room)
+    - Insurance Fees: 800 CNY/Year
+    - Medical Fees: 530 CNY (first year only)
+    - Visa Extension Fees: 400 CNY/Year
+    - Application Fees: 800 CNY (first year only, non-refundable)
+
+  [University] INTERNATIONAL STUDENTS SCHOLARSHIP
+    - First Class: Free tuition
+    - Second Class: 12000 CNY/Year waiver
+    - Third Class: 7500 CNY/Year waiver
+    - Admitted freshmen get the FIRST CLASS scholarship
+    - From the 2nd academic year: annual review - 50% of students First Class,
+      30% Second Class, 20% Third Class
+
+  NANJING CITY SCHOLARSHIP (for excellent students)
+    - 10000 CNY/Year (from the first year)
+    - First year: student must take an exam to get this stipend
+    - From 2nd year: awarded by academic performance
+
+  ADVANCE PAYMENT
+    - Pre-admitted applicants must pay accommodation 4000 yuan + application fee 800 yuan in
+      advance, within the time set by the university
+      (source says "undergraduate courses taught in English" although the listed majors are
+      Chinese-taught)   [CHECK]
+
+  DOCUMENTS (8)
+    1. Passport
+    2. PP-size photo (white background)
+    3. Higher Secondary School Certificate & Transcript
+    4. HSK-4 (180+ at least)
+    5. Health Check Up
+    6. Non Criminal Record
+    7. Bank Statement ($2500 at least)
+    8. Application Form
+
+  LANGUAGE ........... HSK-4 (180+)
+  AGE ................ 17-25
+  DEADLINE ........... 2025.05.30; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-33]  ZIBO #1 of 1  |  Zibo City, Shandong Province
+------------------------------------------------------------------------------------------
+  Source page ....... 34
+  Level ............. Bachelor
+  Intake ............ September 2025
+
+  MAJORS - TAUGHT IN ENGLISH (5)
+    - Computer Science and Technology
+    - Civil Engineering
+    - Mechanical Engineering
+    - Electrical Engineering and Automation
+    - International Trade and Economics (Logistics Management)
+
+  NEED TO PAY AFTER ARRIVING
+    - Tuition + Accommodation combined: 6000 CNY/Year
+    - Insurance Fees: 800 CNY/Year
+    - Visa Extension Fees: 400 CNY/Year
+    - Medical Check Up: 470 CNY (only 1st year)
+    - Registration Fees: 400 CNY
+    - Dorm Deposit: 500 CNY (refundable)
+
+  DOCUMENTS (9)
+    1. Passport
+    2. Picture
+    3. Higher Secondary School / Grade 12th / A Level / High School Certificate and Transcript
+    4. Health Check Up
+    5. English Proficiency Certificate
+    6. Non-Criminal Record / Police Clearance
+    7. Bank Statement
+    8. Video of self-introduction
+    9. Application Form
+
+  DEADLINE ........... 30th June 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-34]  TIANJIN #3 of 3  |  Tianjin City
+------------------------------------------------------------------------------------------
+  Source page ....... 35
+  Level ............. Bachelor
+  Intake ............ September 2025 Intake
+
+  MAJORS - TAUGHT IN ENGLISH (13)
+    - Textile Engineering
+    - Mechatronics Engineering
+    - Computer Science and Technology
+    - Software Engineering
+    - Telecommunication Engineering
+    - Electrical Engineering and Automation
+    - Business Administration
+    - Apparel Design and Engineering
+    - Japanese Language and Literature
+    - English Language and Literature
+    - Broadcasting and Television Playwright-director
+    - International Trade and Economy
+    - Chemical Engineering and Technology
+
+  SCHOLARSHIP
+    - 1st year: Full tuition fees free
+    - 2nd to 4th year: student pays 5500 CNY/Year tuition
+
+  OTHER COSTS
+    - Accommodation: OUTSIDE campus, depends on apartment (around 500-600 CNY/Month)
+    - Insurance Fees: 800 CNY/Year
+    - Resident Permit: 400 CNY/Year
+    - Medical Checkup: 400-450 CNY (only 1st year)
+
+  DOCUMENTS (9)   (source numbering skips 3)   [CHECK]
+    1. Passport
+    2. High School Certificate and Transcript
+    3. Health Check Up
+    4. English Proficiency Certificate
+    5. Non-Criminal Record
+    6. Bank Statement (5000$)
+    7. Application Form
+    8. Birth Certificate
+    9. Personal Statement
+
+  DEADLINE ........... 30th May 2025 (depends on seats); September 2025 intake
+
+------------------------------------------------------------------------------------------
+[B-35]  CHANGSHA #1 of 2  |  Changsha City, Hunan Province
+------------------------------------------------------------------------------------------
+  Source page ....... 36
+  Level ............. Bachelor (4 years)
+  Intake ............ September 2025
+  Ranking ........... Country Ranking 173 | World Ranking 1452
+
+  MAJORS - TAUGHT IN ENGLISH (1)
+    - Computer Science and Technology
+
+  SCHOLARSHIP
+    - Full tuition fees free - FIRST YEAR ONLY
+    - From 2nd year: scholarship according to the university's policy
+
+  NORMAL FEES (heading "Normal Fees of [University]")
+    - Tuition Fees: 17000-19000 CNY/Year
+    - Accommodation: 300-600 CNY/Month (2 or 4 persons per room)
+    - Visa Extension: 800 CNY/Year
+    - Insurance: 800 CNY/Year
+    - Health Check Up: 400 CNY
+    - Registration Fees: 500 CNY (first year only)
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Picture
+    3. Higher Secondary School / Grade 12th / A Level / High School Certificate and Transcript
+    4. Health Check Up
+    5. English Proficiency Certificate
+    6. Non-Criminal Record
+    7. Bank Statement (5000$)
+    8. Application Form
+    9. Birth Certificate
+   10. Personal Statement
+
+  DEADLINE ........... 15th June 2025; major classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-36]  CHANGSHA #2 of 2  |  Changsha City, Hunan Province
+------------------------------------------------------------------------------------------
+  Source page ....... 37
+  Level ............. Bachelor
+  Intake ............ September 2025
+
+  MAJORS - TAUGHT IN ENGLISH (1)
+    - International Trade and Economics
+
+  NORMAL COST (heading "Normal Cost of [University]")
+    - Tuition Fees: 7500 CNY/Year
+    - Accommodation Fees: 1300 CNY/Year
+    - Insurance Fees: 800 CNY/Year
+    - Residence Permit: 400 CNY/Year
+    - Text Books: 700 CNY/Year
+    - Medical Check Up: 500 CNY (only 1st time)
+    (no scholarship stated on this page)   [CHECK]
+
+  HUAWEI ICT CERTIFICATION (included on this page)
+    - What is ICT: Huawei, using new ICT infrastructure featuring cloud-pipe-device synergy,
+      offers what it calls the only industry certification system covering all ICT technical
+      fields:
+        * ICT Infrastructure Certification
+        * Platform and Service Certification
+        * ICT Vertical Certification
+    - Three certification levels:
+        * HCIA - Huawei Certified ICT Associate (proves capability as an associate engineer
+                 in a given technical field)
+        * HCIP - Huawei Certified ICT Professional
+        * HCIE - Huawei Certified ICT Expert
+    - Benefits: HCIA is a first step toward the knowledge and skills needed for a career in
+      the growing ICT industry; builds foundational knowledge for more advanced job roles
+
+  DOCUMENTS (8)
+    1. Passport
+    2. Picture
+    3. Higher Secondary School / Grade 12th / A Level / High School Certificate and Transcript
+    4. Health Check Up
+    5. English Proficiency Certificate
+    6. Non Criminal Record / Police Clearance
+    7. Bank Statement (5000$)
+    8. Application Form
+
+  DEADLINE ........... 30th June 2025; major classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-37]  JINHUA #1 of 1  |  Jinhua City, Zhejiang Province
+------------------------------------------------------------------------------------------
+  Source page ....... 38
+  Level ............. Bachelor
+  Intake ............ September 2025
+  Ranking ........... Country Ranking 65 | World Ranking 696
+
+  MAJORS - TAUGHT IN ENGLISH [IMG heading "BACHELOR ENGLISH TAUGHT"] (12)
+    - Financial Management
+    - Business Administration
+    - International Trade and Economics
+    - Material Science and Engineering
+    - Electronic Information and Engineering
+    - Environmental Science and Engineering
+    - Computer Science and Technology
+    - Software Engineering
+    - Mechanical Design, Manufacturing and Automation
+    - Transportation
+    - Biotechnology
+    - Applied Chemistry
+
+  ORIGINAL COSTS [IMG heading]
+    - Tuition Fees: 18000 CNY/Year
+    - Accommodation Fees: 5400 CNY/Year
+    - Insurance Fees: 800 CNY/Year
+    - Resident Permit: 800 CNY/Year
+    - Medical Check Up: 400 CNY/Year
+    - Text Book: 800 CNY/Year
+
+  SCHOLARSHIPS [IMG heading]
+    - 1st year: awarded according to the student's High School result
+    - 2nd to last year: according to performance at the university
+    - Type A: Zhejiang Provincial Government Scholarship - 20,000 CNY/Student/Year
+    - Type B: [University] Scholarship - 8000 CNY/Student/Year
+
+  DOCUMENTS [IMG heading] (9)
+    1. Passport
+    2. Picture
+    3. Higher Secondary School Certificate and Transcript
+    4. Health Check Up
+    5. English Proficiency Certificate
+    6. Non-Criminal Record / Police Clearance
+    7. Bank Statement (5000$)
+    8. Application Form
+    9. A statement of no drug addiction history
+
+  DEADLINE ........... July 15, 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-38]  HANGZHOU #1 of 2  |  Hangzhou City, Zhejiang Province
+------------------------------------------------------------------------------------------
+  Source page ....... 39
+  Level ............. Bachelor
+  Intake ............ September 2025 Intake
+  Ranking ........... Country Ranking 81 | World Ranking 677
+
+  MAJORS - TAUGHT IN ENGLISH (12 listed, 11 unique)
+    - International Economics and Trade
+    - Civil Engineering
+    - Computer Science and Technology
+    - Software Engineering
+    - International Economics and Trade   [CHECK: listed twice in source]
+    - Mechanical Engineering
+    - Chemical Engineering and Technology
+    - Finance
+    - Electrical Engineering and Automation
+    - Environmental Engineering
+    - Law (International Law Oriented)
+    - Pharmaceutical Engineering
+
+  SCHOLARSHIPS
+    - Type A: Full tuition free for 4 years
+    - Type B: Full tuition free for 1st year
+    - Type C: 50% tuition free for 1st year
+    - Type D: 3500 CNY waiver of 1st-year tuition
+    - Type B, C, D students: university provides scholarships in years 2-4 according to its
+      rules and the student's performance
+
+  NORMAL COST (heading "Normal Cost of [University]")
+    - Tuition Fees: 17800 CNY/Year
+    - Accommodation Fees: 3500-5300 CNY/Year
+    - Insurance Fees: 1000 CNY/Year
+    - Residence Permit: 400 CNY/Year
+    - Text Books: 400 CNY/Year
+    - Accommodation Deposit: 800 CNY (refundable)
+    - Medical Check Up: 500 CNY (only 1st time)
+
+  DOCUMENTS (8)
+    1. Passport
+    2. Picture
+    3. Higher Secondary School Certificate and Transcript
+    4. Health Check Up
+    5. English Proficiency Certificate
+    6. Non-Criminal Record
+    7. Bank Statement (5000$)
+    8. Application Form
+
+  DEADLINE ........... 30th June 2025; major classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-39]  HANGZHOU #2 of 2  |  Hangzhou City, Zhejiang Province
+------------------------------------------------------------------------------------------
+  Source page ....... 40
+  Level ............. Chinese Language semester (pre-bachelor) + Bachelor (4 years)
+  Intake ............ Language class April 2025; major classes September 2025
+  Ranking ........... World Ranking 500-601 (Shanghai Ranking)
+
+  PROGRAM 1: CHINESE LANGUAGE - ONE SEMESTER (April-July)
+    Fees:
+    - Tuition Fees: 4000 CNY/Semester
+    - Accommodation: 1620 CNY/Semester
+    - Insurance Fees: 800 CNY/Year
+    - Medical Fees: 460 CNY
+    - Visa Extension Fees: 800 CNY/Year
+    - Registration Fees: 600 CNY
+    Rules:
+    - Must pass all exams during the Chinese language period
+    - Attendance must be higher than 95%
+    - Only students who meet the requirements and follow the school rules are admitted to
+      the undergraduate program for the September 2025 intake
+    - Bachelor scholarship class is decided by the school based on comprehensive performance
+
+  PROGRAM 2: BACHELOR DEGREE
+    MAJORS - TAUGHT IN ENGLISH (10)
+    - Mechanical Design and Manufacturing and Automation
+    - Intelligent Manufacturing Engineering
+    - Telecommunication Engineering
+    - Computer Science and Technology
+    - Software Engineering
+    - Artificial Intelligence
+    - Electronic and Information Engineering
+    - International Economics and Trade
+    - Business Management
+    - English
+
+    MAJORS - TAUGHT IN CHINESE (3)
+    - International Economics and Trade
+    - Business Management
+    - Chinese International Education
+
+  BACHELOR SCHOLARSHIP
+    - Type A: Tuition + accommodation free
+    - Type B: Tuition free; accommodation 5400 CNY/Year (double room)
+
+  BACHELOR ORIGINAL FEES
+    - Tuition fees: 18000-20000 CNY/Year
+    - Accommodation fees: 5400 CNY/Year (double room)
+    - Registration Fees: 600 CNY
+    - Residence Permit (Visa): 400 CNY
+    - Insurance Fees: 800 CNY
+    - Medical Fees: 460 CNY
+
+  DOCUMENTS (7)
+    1. Passport
+    2. Photo
+    3. Highest diploma Certificate and Transcript
+    4. Health Check Up ("Click here for Health Check Up form" - not an actual link in the
+       PDF)   [CHECK]
+    5. Non Criminal Record
+    6. Bank Statement (around 5000$)
+    7. Application Form
+
+  DEADLINE ........... Feb 28th, 2025
+
+------------------------------------------------------------------------------------------
+[B-40]  WENZHOU #1 of 1  |  Wenzhou, Zhejiang
+------------------------------------------------------------------------------------------
+  Source page ....... 41
+  Level ............. Bachelor
+  Intake ............ September 2025
+
+  MAJORS - TAUGHT IN ENGLISH (10)
+    - Computer Science and Technology
+    - International Economics and Trade
+    - Marketing
+    - Mechanical Engineering
+    - Civil Engineering
+    - Biotechnology
+    - Chemical Engineering and Technology
+    - Law
+    - Chemistry
+    - Mathematics and Applied Mathematics
+
+  SCHOLARSHIPS
+    - Type A: Full tuition free for first year
+    - Type B: 8000 CNY (1150$) waiver on tuition
+    - From 2nd year: university scholarship according to performance
+
+  NORMAL FEES (CNY with USD equivalent)
+    - Full Tuition Fees: 20000-22000 CNY (2875$-3160$)/Year
+    - Accommodation Fees: 2900-4000 CNY (420$-575$)/Year
+    - Insurance Fees: 800 CNY (115$)/Year
+    - Residence Permit: 800 CNY (115$)/Year
+    - Medical Check Up: 450 CNY (65$) (only 1st time)
+
+  DOCUMENTS (8)
+    1. Passport
+    2. Picture
+    3. Higher Secondary School / Grade 12th / A Level / High School Certificate and Transcript
+    4. Health Check Up
+    5. English Proficiency Certificate
+    6. Non Criminal Record / Police Clearance
+    7. Bank Statement (5000$)
+    8. Application Form
+
+  DEADLINE ........... 20th August 2025; major classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-41]  FUZHOU #1 of 1  |  Fuzhou City, Fujian Province
+------------------------------------------------------------------------------------------
+  Source page ....... 42
+  Level ............. Bachelor
+  Intake ............ September 2025
+
+  MAJORS - TAUGHT IN ENGLISH (1)
+    - International Economics and Trade
+
+  SCHOLARSHIPS
+    - Type A: Free tuition + free accommodation + stipend 800 CNY/Month
+    - Type B: Free tuition + free accommodation
+    - Type C: Free tuition
+    - Type D: Tuition 6000 CNY/Year to be paid (after scholarship)
+
+  OTHER COSTS
+    - Accommodation: 3200 CNY/Year (double room) - not payable by Type A or B students
+    - Insurance Fees: 800 CNY/Year
+    - Visa Extension Fees: 400 CNY/Year
+    - Medical Check up: 400-500 CNY (only 1st year)
+    - Registration Fees: 500 CNY (only 1st year)
+
+  SEAT-BOOKING DEPOSIT
+    - 2000 CNY to the university's official account after the pre-admission notice
+    - Refunded after arrival at the university
+
+  DOCUMENTS (8)
+    1. Passport
+    2. Photo
+    3. Higher Secondary School Certificate & Transcript
+    4. English Proficiency Certificate
+    5. Health Check Up
+    6. Non-Criminal Record
+    7. Bank Statement
+    8. Application Form
+
+  DEADLINE ........... 2025.08.15; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-42]  SHIJIAZHUANG #1 of 1  |  Shijiazhuang City, Hebei Province
+------------------------------------------------------------------------------------------
+  Source page ....... 43
+  Level ............. Bachelor
+  Intake ............ September 2025
+
+  MAJORS - TAUGHT IN ENGLISH (7)
+    - Computer Science and Technology
+    - Civil Engineering
+    - Mechanical Engineering
+    - International Trade and Economics
+    - Electrical Engineering and Automation
+    - Environmental Engineering
+    - Water Supply and Drainage
+
+  NEED TO PAY AFTER SCHOLARSHIP
+    - Tuition fees: 4900 CNY/Year
+    - Accommodation: 1600 CNY/Year (two persons per room)
+    - Registration Fees: 400 CNY/Year
+    - Insurance Fees: 600-800 CNY/Year
+    - Visa Extension: 400 CNY/Year
+    - Medical Fees: 400 CNY (only 1st year)
+
+  DOCUMENTS - must be COLOR SCAN COPY (8)
+    1. Clear Passport
+    2. Photo (white background)
+    3. Higher Secondary School / Grade 12th / A Level / High School Certificate and Transcript
+    4. Health Check Up
+    5. Police Clearance / Non-Criminal Record
+    6. Bank Statement (5000$)
+    7. English Proficiency
+    8. Application Form
+
+  DEADLINE ........... 30th July 2025; classes start September 2025
+
+------------------------------------------------------------------------------------------
+[B-43]  GANZHOU #1 of 1  |  Ganzhou City, Jiangxi Province
+------------------------------------------------------------------------------------------
+  Source page ....... 45
+  Level ............. Bachelor
+  Intake ............ September / October 2025
+
+  MAJORS - TAUGHT IN ENGLISH (2)
+    - Computer Science and Technology (CST)
+    - International Economics and Trade
+
+  SCHOLARSHIP - FIRST ACADEMIC YEAR
+    - Full tuition fees free
+
+  SCHOLARSHIP - 2ND TO 4TH ACADEMIC YEAR (ranked by performance)
+    - Type A (top 10%): Free tuition + free accommodation + stipend 5000 CNY/Year
+    - Type B (11-70%): Free tuition; student pays accommodation 3000 CNY/Year
+    - Type C (71-90%): Student pays tuition 6000 CNY/Year (after scholarship) +
+                       accommodation 3000 CNY/Year
+    - Type D (91-100%): Student pays tuition 12000 CNY/Year + accommodation 3000 CNY/Year
+    - Accommodation: double room for all
+
+  OTHER FEES (pay after arriving)
+    - Registration Fees: 500 CNY
+    - Insurance Fees: 800 CNY/Year
+    - Visa Extension Fees: 400 CNY/Year
+    - Medical Check up: 400-500 CNY/Year
+
+  DOCUMENTS (8)
+    1. Passport
+    2. Photo (3.5mm*4mm)   [CHECK: unit should be cm]
+    3. High (Secondary) School Certificate & Transcript
+    4. English Proficiency Certificate
+    5. Foreigner Physical Examination Form
+    6. Non-Criminal Record
+    7. Bank Statement
+    8. Application Form
+
+  DEADLINE ........... 2025.08; classes start September/October 2025
+
+
+==========================================================================================
+SECTION 4 - MBBS PROGRAMS (Source: Bachelor_Sep 2025( English).pdf, page 44)
+==========================================================================================
+
+  COMMON FEATURES (all 6 programs)
+    - Degree: MBBS (Bachelor of Medicine & Bachelor of Surgery)
+    - Teaching Language: English
+    - Duration: 6 Years (including internship)
+    - Recognition: BMDC & WHO Listed
+      (BMDC = Bangladesh Medical & Dental Council   [ADDED explanation])
+
+  PROGRAM TABLE  (university names replaced by city)
+  ID     City (Province)                                 Tuition / Year    Hostel / Year
+  -----  ----------------------------------------------  ----------------  ----------------
+  M-01   Nantong City, Jiangsu  (city from page 12)      26,000 CNY        3000-4,000 CNY
+  M-02   Yangzhou City, Jiangsu (city from page 9)       30,000 CNY        4,000-6,000 CNY
+  M-03   Nanchong City, Sichuan        [ADDED]           32,000 CNY        6,000 CNY
+  M-04   Wuhan City, Hubei             [ADDED]           40,000 CNY        6,000 CNY
+  M-05   Guangzhou City, Guangdong     [ADDED]           40,000 CNY        6,000 CNY
+  M-06   Zhengzhou City, Henan  (city from page 14)      35,000 CNY        5500 CNY
+
+  [ADDED] = city is not written anywhere in the source files; filled in from general
+            knowledge of where that institution is located.
+
+  OTHER FEES (all MBBS programs)
+    - Insurance Fees: 800 CNY/Year (10,000 Taka/Year)
+    - Registration Fees: 400-500 CNY/Year (5200-6500 Taka/Year)
+    - Medical Check Up: 400-450 CNY (only 1st year)
+
+  DOCUMENTS (8)
+    1. Passport
+    2. Photo
+    3. Higher Secondary School / Grade 12th / A Level / GED / High School Certificate and
+       Transcript
+    4. Medical Checkup report
+    5. Non-Criminal Record
+    6. Bank Statement
+    7. Application Form
+    8. Extra Curriculum Activities (if applicable)
+
+  AUDIENCE NOTE ...... Fees quoted in Bangladeshi Taka and BMDC listing indicate this page
+                       targets Bangladeshi students
+  DEADLINE ........... (not stated)
+  BRANDING ........... Page carries a third-party agency logo   [AGENCY - see SECTION 12]
+
+
+==========================================================================================
+SECTION 5 - PhD FULLY FUNDED PROGRAMS (Source: PHD SEP.pdf)
+==========================================================================================
+
+  COMMON FEATURES (all 5 programs)
+    - Fully funded scholarship
+    - Intake: September 2024   [CHECK: older than the Sept 2025 bachelor brochure]
+    - Taught in: English
+    - Tuition fee: FREE
+    - Dorm / Hostel fee: FREE
+    - Monthly stipend: 3500 CNY
+    - Document header carries third-party agency branding   [AGENCY - see SECTION 12]
+
+------------------------------------------------------------------------------------------
+[P-01]  ANHUI PROVINCE  (no city given in source)
+------------------------------------------------------------------------------------------
+  Headline .......... "Good news fully funded with 3500CNY/Monthly stipend for PHD program"
+  Duration .......... 4 Years
+
+  MAJORS (20)
+     1. Mechanical Design and Theory
+     2. Mechatronic Engineering
+     3. Mechanical Manufacture and Automation
+     4. Materials Science and Engineering
+     5. Electrical Engineering
+     6. Computer Science and Technology
+     7. Information and Communication Engineering
+     8. Software Engineering
+     9. Civil Engineering
+    10. Mechanics
+    11. Biomass Chemistry and Engineering
+    12. Chemical Engineering and Technology
+    13. Management Science and Engineering
+    14. Business Administration
+    15. Instruments Science and Technology
+    16. Environmental Science and Engineering
+    17. Geology
+    18. Food Science and Engineering
+    19. Mathematics
+    20. Vehicle Engineering
+
+  REQUIRED DOCUMENTS (10)
+     1. Passport front page
+     2. Transcripts / Degrees
+     3. Two recommendation letters
+     4. Curriculum vitae
+     5. Study plan / Research work / Publication
+     6. Police character certificate
+     7. Medical checkup form
+     8. Passport size picture
+     9. English proficiency
+    10. Application form
+
+------------------------------------------------------------------------------------------
+[P-02]  YANGZHOU
+------------------------------------------------------------------------------------------
+  Headline .......... "Good news fully funded with stipend scholarship available for PHD
+                       program in Yangzhou"
+  Duration .......... 3 years
+  Category label .... "Medicine" (printed next to the majors heading)   [CHECK: list is
+                       mostly agriculture / veterinary / science]
+
+  MAJORS (16)
+     1. Foreign Language & Literature
+     2. Physics
+     3. Agricultural Engineering
+     4. Energy Storage Science & Engineering
+     5. Plant Protection
+     6. Horticulture
+     7. Animal Science
+     8. Agrostology
+     9. Basic Veterinary Medicine
+    10. Preventive Veterinary Medicine
+    11. Clinic Veterinary Medicine
+    12. Veterinary Bioinformatics
+    13. Veterinary Sanitary Science
+    14. Experimental Zoology and Comparative
+    15. Biology
+    16. Food Science and Engineering
+
+  REQUIRED DOCUMENTS (9)
+     1. Passport
+     2. Passport size pic
+     3. Last degree and Transcript
+     4. Medical checkup form
+     5. Police clearance
+     6. Two recommendation letters
+     7. Study plan
+     8. English proficiency
+     9. Work experience (if any) / Publication
+
+------------------------------------------------------------------------------------------
+[P-03]  HARBIN
+------------------------------------------------------------------------------------------
+  Headline .......... "Good news fully funded with stipend scholarship available for PHD
+                       program in Harbin"
+  Duration .......... 4 Years
+
+  MAJORS (5)
+     1. Business Administration
+     2. Computer Science and Technology
+     3. Civil Engineering
+     4. Mechanical Engineering
+     5. Power Engineering and Engineering Thermophysics
+
+  REQUIRED DOCUMENTS (10) - same list as P-01
+     1. Passport front page
+     2. Transcripts / Degrees
+     3. Two recommendation letters
+     4. Curriculum vitae
+     5. Study plan / Research work / Publication
+     6. Police character certificate
+     7. Medical checkup form
+     8. Passport size picture
+     9. English proficiency
+    10. Application form
+
+------------------------------------------------------------------------------------------
+[P-04]  ZHENGZHOU  (source spelling "Zhenghzhou")   [CHECK]
+------------------------------------------------------------------------------------------
+  Headline .......... "Good news all medical majors available in fully funded with
+                       3500CNY/Monthly stipend for PHD program"
+  Duration .......... 4 Years
+  Focus ............. ALL MEDICAL MAJORS
+
+  MAJORS (25)
+     1. Anatomy
+     2. Traditional Medicine of Oncology
+     3. Dermatology and Venereology   (source: "venerology")
+     4. Gynaecology and Obstetrics
+     5. Forensic Medicine
+     6. Human Anatomy, Histology & Embryology
+     7. Imaging and Nuclear Medicine
+     8. Integrated Traditional Chinese and Western Medicine   (source: "Integraded")
+     9. Internal Medicine
+    10. Immunology
+    11. Molecular Pharmacology
+    12. Molecular Physiology
+    13. Medical Neurobiology
+    14. Neurology
+    15. Nursing
+    16. Oncology
+    17. Ophthalmology
+    18. Otorhinolaryngology
+    19. Paediatrics
+    20. Pathogenic Biology
+    21. Pathology and Pathophysiology
+    22. Radiation Medicine
+    23. Reproductive Medicine
+    24. Surgery
+    25. Stomatology
+
+  REQUIRED DOCUMENTS (10) - same list as P-01
+     1. Passport front page
+     2. Transcripts / Degrees
+     3. Two recommendation letters
+     4. Curriculum vitae
+     5. Study plan / Research work / Publication
+     6. Police character certificate
+     7. Medical checkup form
+     8. Passport size picture
+     9. English proficiency
+    10. Application form
+
+------------------------------------------------------------------------------------------
+[P-05]  JIANGXI PROVINCE  (no city given in source)
+------------------------------------------------------------------------------------------
+  Headline .......... "Good news fully funded with stipend scholarship available for PHD
+                       program in Jiangxi"
+  Duration .......... 4 Years
+
+  MAJORS (6)
+     1. Public Economics and Management
+     2. Accounting
+     3. International Trade
+     4. Economics
+     5. Finance
+     6. Statistics
+
+  REQUIRED DOCUMENTS (10) - same list as P-01
+     1. Passport front page
+     2. Transcripts / Degrees
+     3. Two recommendation letters
+     4. Curriculum vitae
+     5. Study plan / Research work / Publication
+     6. Police character certificate
+     7. Medical checkup form
+     8. Passport size picture
+     9. English proficiency
+    10. Application form
+
+  PhD TOTALS ........ 5 programs | 72 major listings | 3-4 year durations | 3500 CNY/month
+
+
+==========================================================================================
+SECTION 6 - MASTER PROGRAMS, FULLY FUNDED (Source: Master universities 2.pdf)
+==========================================================================================
+
+  ABOUT THIS SOURCE
+    - 19 pages; created 2024-02-17 (WPS document exported on an iPhone / iOS device)
+    - 17 program blocks; text only (no images, no links)
+    - Program level is not written inside the document: "Master" comes from the file
+      name (the 2-4 year durations fit Master programs)
+    - The PDF's text layer is unreliable (missing spaces, Cyrillic look-alike letters),
+      so the pages were also rendered and checked visually
+    - Formatting used below: TOEFL normalized from the file's "TOFEL"; first letter of
+      each major capitalized; everything else verbatim
+
+  COMMON FEATURES (all 17 programs)
+    - Intake: September 2024   [CHECK: outdated]
+    - Tuition fee: FREE
+    - Dorm fee: FREE
+    - Monthly stipend: 500-3000 CNY (3000 CNY in 13 of the 17 programs)
+    - Not stated anywhere in the file: deadlines, interviews, age limits, application fees
+
+  STANDARD DOCUMENT SET (MA-01, MA-04 to MA-10, MA-12 to MA-14, MA-16; MA-17 adds a CV)
+    Passport | Photo | Last academic transcript and certificate | Language certificate |
+    Health check up certificate | Police clearance | Two recommendation letters (from
+    professors / associate professors) | Study plan / research proposal | Work
+    experience / publication (if applicable) | Application form
+    (each block below still lists its documents in full)
+
+------------------------------------------------------------------------------------------
+[MA-01]  GANSU PROVINCE #1 of 1  |  Gansu Province (no city given in source)
+------------------------------------------------------------------------------------------
+  Source pages ...... 1-2
+  Level ............. Master (see note at the top of this section)
+  Intake ............ September 2024   [CHECK: outdated]
+  Taught in ......... Chinese
+  Duration .......... 3 years
+  Tuition fee ....... Free
+  Dorm fee .......... Free
+  Monthly stipend ... 3000 CNY
+  Focus [DERIVED] ... engineering-heavy (civil, hydraulic, mechanical, electrical,
+                      materials, power) plus physics and mathematics
+
+  MAJORS - TAUGHT IN CHINESE (59)
+    - Signal and information processing
+    - Communication and information system
+    - Bridge and tunnel works
+    - Disaster prevention and mitigation engineering
+    - Structural engineering
+    - Geotechnical Engineering
+    - Building material
+    - Water conservancy and hydropower projects
+    - Hydraulics and River Dynamics
+    - Hydrology and water resources
+    - Solid Mechanics (Engineering)
+    - Engineering Mechanics (Engineering)
+    - Pattern recognition and intelligent system
+    - Systems engineering
+    - Detection technology and automation device
+    - Control Theory and Control Engineering
+    - Computer system structure
+    - Computer Application Technology
+    - Mechanical Design and Theory
+    - Mechatronic Engineering
+    - Mechanical Manufacturing and Automation
+    - Environmental Engineering (Engineering)
+    - Chemical Engineering and Technology
+    - Chemical process machinery
+    - Refrigeration and low-temperature engineering
+    - Fluid machinery and engineering
+    - Power machinery and engineering
+    - Thermal engineering
+    - Engineering Thermophysics
+    - Circuits and Systems
+    - Electrical Theory and New Technology
+    - Power Electronics and Power Transmission
+    - Power System and Automation
+    - Electrical engineering
+    - Material processing engineering
+    - Materials Science
+    - Material Physics and Chemistry
+    - Textile Engineering
+    - Industrial engineering
+    - Control engineering
+    - Biology and medicine
+    - Architecture
+    - Bioengineering
+    - Management Science and Engineering
+    - Business management
+    - Accounting
+    - Radio Physics
+    - Optics
+    - Condensed matter physics
+    - Atomic and Molecular Physics
+    - Theoretical physics
+    - Operational Research and Cybernetics
+    - Applied mathematics
+    - Computational mathematics
+    - Basic Mathematics
+    - Physical Electronics (Science)
+    - Chinese International Education (Literature)
+    - Pharmacy
+    - Design
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Photo
+    3. Last Academic Transcript and Certificate
+    4. Chinese Proficiency Certificate (HSK-5)
+    5. Health Check Up Certificate
+    6. Police Clearance
+    7. Two recommendation letter (from professors / associate professors)
+    8. Study plan / research proposal
+    9. Work experience / publication (if applicable)
+   10. Application form
+
+  LANGUAGE ........... HSK-5
+  BANK STATEMENT ..... not in document list
+  DEADLINE ........... (not stated)
+
+------------------------------------------------------------------------------------------
+[MA-02]  HEILONGJIANG PROVINCE #1 of 1  |  Heilongjiang Province (no city given in source)
+------------------------------------------------------------------------------------------
+  Source pages ...... 2-3
+  Level ............. Master (see note at the top of this section)
+  Intake ............ September 2024   [CHECK: outdated]
+  Taught in ......... English
+  Duration .......... 3 years
+  Tuition fee ....... Free
+  Dorm fee .......... Free
+  Monthly stipend ... 3000 CNY
+
+  MAJORS - TAUGHT IN ENGLISH (2)
+    - Instrument Science and Technology
+    - Information and Communication Engineering
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Photo
+    3. Bachelor degree certificate and transcript
+    4. Medical checkup report
+    5. English proficiency certificate (TOEFL80.IELTS6.0)
+    6. Police clearance
+    7. Bank statement (5000$)
+    8. Study plan
+    9. Applicable form   [CHECK: = Application form]
+   10. Extra curriculum activities (if applicable)
+
+  LANGUAGE ........... TOEFL 80 / IELTS 6.0
+  BANK STATEMENT ..... 5000$
+  DEADLINE ........... (not stated)
+
+------------------------------------------------------------------------------------------
+[MA-03]  GUANGXI PROVINCE #1 of 1  |  Guangxi Province (no city given in source)
+------------------------------------------------------------------------------------------
+  Source pages ...... 3
+  Level ............. Master (see note at the top of this section)
+  Intake ............ September 2024   [CHECK: outdated]
+  Taught in ......... Chinese
+  Duration .......... 2 years
+  Tuition fee ....... Free
+  Dorm fee .......... Free
+  Monthly stipend ... 3000 CNY
+
+  MAJORS - TAUGHT IN CHINESE (1)
+    - Teaching Chinese to Speakers of Other Languages
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Photo
+    3. Higher Secondary School /Grade 12th /A Level/GED/ High School Certificate and
+       Transcript   [CHECK: high-school papers listed for a Master program]
+    4. Medical check up report
+    5. Chinese proficiency (HSK Level 5and HSKK-intermediate-60)
+    6. Police clearance
+    7. Bank statement (5000$)
+    8. Study plan
+    9. Application form
+   10. Extra curriculum activities (if applicable)
+
+  LANGUAGE ........... HSK Level 5 + HSKK intermediate (60)
+  BANK STATEMENT ..... 5000$
+  DEADLINE ........... (not stated)
+
+------------------------------------------------------------------------------------------
+[MA-04]  ZHEJIANG PROVINCE #1 of 3  |  Zhejiang Province (no city given in source)
+------------------------------------------------------------------------------------------
+  Source pages ...... 3-4
+  Level ............. Master (see note at the top of this section)
+  Intake ............ September 2024   [CHECK: outdated]
+  Taught in ......... Chinese
+  Duration .......... 2 years
+  Tuition fee ....... Free
+  Dorm fee .......... Free
+  Monthly stipend ... 3000 CNY
+
+  MAJORS - TAUGHT IN CHINESE (17 listed, 16 unique)
+    - Civil and Hydraulic Engineering
+    - Chinese International Education
+    - Journalism and Communication
+    - Chinese Language and Literature
+    - Journalism and Communication   [CHECK: duplicate of item 3]
+    - Mechanical Engineering
+    - Mechanics
+    - Power Engineering and Engineering Thermophysics
+    - Energy and Power Engineering
+    - Industrial Engineering and Management
+    - Information and Communication Engineering
+    - Education
+    - Education Technology
+    - Microbiology
+    - Biochemistry and Molecular Biology
+    - Bioengineering
+    - Pharmacy
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Photo
+    3. Last Academic Transcript and Certificate
+    4. Chinese Proficiency Certificate (HSK-5)
+    5. Health Check Up Certificate
+    6. Police Clearance
+    7. Two recommendation Letter (From Professors /Associates Professor)
+    8. Study plan/research proposal
+    9. Work experience/publication (if applicable)
+   10. Application form
+
+  LANGUAGE ........... HSK-5
+  BANK STATEMENT ..... not in document list
+  DEADLINE ........... (not stated)
+
+------------------------------------------------------------------------------------------
+[MA-05]  ZHEJIANG PROVINCE #2 of 3  |  Zhejiang Province (no city given in source)
+------------------------------------------------------------------------------------------
+  Source pages ...... 4-5
+  Level ............. Master (see note at the top of this section)
+  Intake ............ September 2024   [CHECK: outdated]
+  Taught in ......... English
+  Duration .......... 3 years
+  Tuition fee ....... Free
+  Dorm fee .......... Free
+  Monthly stipend ... 3000 CNY
+
+  MAJORS - TAUGHT IN ENGLISH (8)
+    - Chemical Engineering and Technology
+    - Civil and Hydraulic Engineering
+    - Environmental Science and Technology
+    - Mechanical Engineering
+    - Power Engineering and Engineering Thermophysics
+    - Business Administration
+    - Pharmacy
+    - Applied Economics
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Photo
+    3. Last Academic Transcript and Certificate
+    4. English Proficiency Certificate (IELTS 6.0/TOEFL 60)
+       [CHECK: unusually low; other programs ask 80]
+    5. Health check up Certificate
+    6. Police Clearance
+    7. Two recommendation Letter (From Professors /Associates Professor)
+    8. Study Plan /Research Proposal
+    9. Work Experience /Publication (If Applicable)
+   10. Application form
+
+  LANGUAGE ........... IELTS 6.0 / TOEFL 60   [CHECK: TOEFL 60 is unusually low]
+  BANK STATEMENT ..... not in document list
+  DEADLINE ........... (not stated)
+
+------------------------------------------------------------------------------------------
+[MA-06]  ZHEJIANG PROVINCE #3 of 3  |  Zhejiang Province (no city given in source)
+------------------------------------------------------------------------------------------
+  Source pages ...... 5-6
+  Level ............. Master (see note at the top of this section)
+  Intake ............ September 2024   [CHECK: outdated]
+  Taught in ......... Chinese
+  Duration .......... 2 years
+  Tuition fee ....... Free
+  Dorm fee .......... Free
+  Monthly stipend ... 3000 CNY
+  Focus [DERIVED] ... Traditional Chinese Medicine (TCM), pharmacy, nursing
+
+  MAJORS - TAUGHT IN CHINESE (21)
+    - Public Administration
+    - History of Science and Technology (Science)
+    - Nursing
+    - Rehabilitation Medicine and Physiotherapy
+    - Microbial and Biochemical Pharmacy
+    - Pharmaceutics
+    - Pharmacology
+    - Pharmaceutical Analysis
+    - Pharmaceutical chemistry
+    - Acupuncture and Massage
+    - Clinical practice of integrated traditional Chinese and western medicine
+    - Traditional Chinese Medicine
+    - Pediatrics of Traditional Chinese Medicine
+    - Gynecology of Traditional Chinese Medicine
+    - Orthopedics and Traumatology of Traditional Chinese Medicine
+    - Basic Theory of Traditional Chinese Medicine
+    - Clinical Basis of Traditional Chinese Medicine
+    - Internal Medicine of Traditional Chinese Medicine
+    - Surgery of Traditional Chinese Medicine
+    - TCM five sense organs science
+    - History of Traditional Chinese Medicine
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Photo
+    3. Last Academic Transcript and Certificate
+    4. Chinese Proficiency Certificate (HSK-5)
+    5. Health Check Up Certificate
+    6. Police Clearance
+    7. Two recommendation Letter (From Professors /Associates Professor)
+    8. Study Plan /Research Proposal
+    9. Work Experience /Publication (If Applicable)
+   10. Application form
+
+  LANGUAGE ........... HSK-5
+  BANK STATEMENT ..... not in document list
+  DEADLINE ........... (not stated)
+
+------------------------------------------------------------------------------------------
+[MA-07]  SHAANXI PROVINCE #1 of 3  |  Shaanxi Province (no city given in source)
+------------------------------------------------------------------------------------------
+  Source pages ...... 6-8
+  Level ............. Master (see note at the top of this section)
+  Intake ............ September 2024   [CHECK: outdated]
+  Taught in ......... English
+  Duration .......... 2-3 years
+  Tuition fee ....... Free
+  Dorm fee .......... Free
+  Monthly stipend ... 1400 CNY
+  Focus [DERIVED] ... very broad: engineering, economics, law plus 30+ medical, pharmacy
+                      and public-health majors
+
+  MAJORS - TAUGHT IN ENGLISH (65 listed, 63 unique)
+    - Materials Science and Engineering
+    - Electrical Engineering
+    - Electronic Science and Technology
+    - Computer Science and technology
+    - Information and communication engineering
+    - Law
+    - Public Administration
+    - Management Science and Engineering
+    - Business Administration
+    - Mechanics
+    - Aeronautical and Astronautical Science and Technology
+    - Chemical Engineering and Technology
+    - Power Engineering and Engineering Thermophysics
+    - Chemistry
+    - Chemical Engineering and Chemical Technology
+    - Mechanical Engineering
+    - Theoretical Economics
+    - Applied Economics
+    - Theoretical Economics   [CHECK: duplicate of item 17]
+    - Marxist Theory
+    - Nuclear Science and Technology
+    - Environmental Science and Engineering
+    - Journalism and Communication
+    - Biomedical Engineering
+    - Biology
+    - Foreign Languages and Literature
+    - Epidemiology and Health Statistics
+    - Child, Adolescent and Maternal Health
+    - Nutrition and Food Hygiene
+    - Public Health
+    - Medicinal Chemistry
+    - Pharmaceutics
+    - Pharmacognosy
+    - Pharmaceutical Analysis
+    - Pharmacology
+    - Natural Medicinal Chemistry
+    - Pharmacy Administration
+    - Forensic Science
+    - Nursing
+    - Pharmaceutical Engineering
+    - Internal Medicine
+    - Pediatrics
+    - Geriatric Medicine
+    - Neurology
+    - Dermatology and Venereology
+    - Emergency Medicine
+    - Critical Care Medicine
+    - General Medical   [CHECK: probably General Medicine]
+    - Surgery
+    - Rehabilitation and Physiotherapy
+    - Orthopaedics and Traumatology   [source: "tranmstology"]
+    - Obstetrics and Gynecology
+    - Ophthalmology
+    - Otorhinolaryngology
+    - Anesthesiology
+    - Clinicopathology
+    - Clinical Laboratory Diagnostics
+    - Oncology
+    - Radiation oncology
+    - Radiographic
+    - Ultrasonic Medicine
+    - Nuclear Medicine
+    - Stomatological Medicine   [source: "Stomtological"]
+    - Public Health   [CHECK: duplicate of item 30]
+    - Pharmacy
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Photo
+    3. Last academic transcript and certificate
+    4. English Proficiency Certificate (IELTS6.0;TOEFL80)
+    5. Health Check Up Certificate
+    6. Police Clearance
+    7. Two recommendation Letter (From Professors /Associates Professor)
+    8. Study Plan /Research Proposal
+    9. Work Experience /Publication (If Applicable)
+   10. Application form
+
+  LANGUAGE ........... IELTS 6.0 / TOEFL 80
+  BANK STATEMENT ..... not in document list
+  DEADLINE ........... (not stated)
+
+------------------------------------------------------------------------------------------
+[MA-08]  SHAANXI PROVINCE #2 of 3  |  Shaanxi Province (no city given in source)
+------------------------------------------------------------------------------------------
+  Source pages ...... 8-9
+  Level ............. Master (see note at the top of this section)
+  Intake ............ September 2024   [CHECK: outdated]
+  Taught in ......... Chinese
+  Duration .......... 2-4 years
+  Tuition fee ....... Free
+  Dorm fee .......... Free
+  Monthly stipend ... 3000 CNY
+
+  MAJORS - TAUGHT IN CHINESE (20 listed, 17 unique)
+    - Materials Science and Engineering
+    - Computer Science and Technology
+    - Integrated Circuit Science and Engineering
+    - Law
+    - Chemistry
+    - Chemical Engineering and Technology
+    - Power Engineering and Engineering Thermophysics
+    - Nuclear Science and Technology
+    - Environmental Science and Engineering
+    - Architecture
+    - Civil Engineering
+    - Environmental Science
+    - Philosophy
+    - Sociology
+    - Journalism and Communication
+    - Design Studies
+    - Philosophy   [CHECK: duplicate of item 13]
+    - Sociology   [CHECK: duplicate of item 14]
+    - Physics
+    - Materials Science and Engineering   [CHECK: duplicate of item 1]
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Photo
+    3. Last Academic Transcript and Certificate
+    4. Chinese Proficiency Certificate (HSK4)
+    5. Health Check Up Certificate
+    6. Police Clearance
+    7. Two recommendation Letter (From Professors /Associates Professor)
+    8. Study Plan /Research Proposal
+    9. Work Experience /Publication (If Applicable)
+   10. Application form
+
+  LANGUAGE ........... HSK-4
+  BANK STATEMENT ..... not in document list
+  DEADLINE ........... (not stated)
+
+------------------------------------------------------------------------------------------
+[MA-09]  LIAONING PROVINCE #1 of 1  |  Liaoning Province (no city given in source)
+------------------------------------------------------------------------------------------
+  Source pages ...... 9-10
+  Level ............. Master (see note at the top of this section)
+  Intake ............ September 2024   [CHECK: outdated]
+  Taught in ......... Chinese
+  Duration .......... 2.5-3 years
+  Tuition fee ....... Free
+  Dorm fee .......... Free
+  Monthly stipend ... 3000 CNY
+
+  MAJORS - TAUGHT IN CHINESE (24 listed, 23 unique)
+    - International Trade
+    - Accounting
+    - Enterprise Management
+    - Technical Economics and Management
+    - Mechanical Manufacture and Automation
+    - Mechatronic Engineering
+    - Mechanical Design and Theory
+    - Vehicle Engineering
+    - Mechanics
+    - Materials Science and Engineering
+    - Materials Engineering
+    - Information and Communication Engineering
+    - Computer Science and Technology
+    - Communication Engineering
+    - Computer Technology
+    - Chemical Engineering and Technology
+    - Environmental Science and Engineering
+    - Chemical Engineering
+    - Control Science and Engineering
+    - Control Engineering
+    - Optical Engineering
+    - Photoelectric Information Engineering
+    - Mechanics   [CHECK: duplicate of item 9]
+    - Design
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Photo
+    3. Last Academic Transcript and Certificate
+    4. Chinese Proficiency Certificate (HSK-4-200)
+    5. Health Check Up Certificate
+    6. Police Clearance
+    7. Two recommendation Letter (From Professors /Associates Professor)
+    8. Study Plan /Research Proposal
+    9. Work Experience /Publication (If Applicable)
+   10. Application form
+
+  LANGUAGE ........... HSK-4 (score 200)
+  BANK STATEMENT ..... not in document list
+  DEADLINE ........... (not stated)
+
+------------------------------------------------------------------------------------------
+[MA-10]  HUBEI PROVINCE #1 of 2  |  Hubei Province (no city given in source)
+------------------------------------------------------------------------------------------
+  Source pages ...... 10-12
+  Level ............. Master (see note at the top of this section)
+  Intake ............ September 2024   [CHECK: outdated]
+  Taught in ......... English
+  Duration .......... 2-3 years
+  Tuition fee ....... Free
+  Dorm fee .......... Free
+  Monthly stipend ... 3000 CNY
+  Focus [DERIVED] ... broad: agriculture, education, sports, oil & gas / geology,
+                      engineering, medicine and arts
+
+  MAJORS - TAUGHT IN ENGLISH (50)
+    - Business Administration (MBA)
+    - Agricultural Economy and Management
+    - Accounting
+    - Rural Development
+    - Agricultural Management
+    - Law
+    - Education
+    - Primary Education
+    - Physical Education Teaching
+    - Sports Training
+    - Social Sports Guidance
+    - Foreign Linguistics and Applied Linguistics
+    - Mathematics
+    - Environmental Science and Engineering
+    - Chemical Engineering and Technology
+    - Oil and Gas Engineering
+    - Oil and gas well engineering
+    - Geophysics
+    - Geology
+    - Geological Resources and Geological Engineering
+    - Mechanical Engineering
+    - Information and Communication Engineering
+    - Electronic Information
+    - Computer Science and Technology
+    - Civil Engineering
+    - Crop Science
+    - Plant Protection
+    - Landscape Architecture
+    - Horticulture
+    - Ecology
+    - Food Processing and Safety
+    - Internal Medicine
+    - Pediatrics
+    - Neurology
+    - Psychiatry and Psych hygiene
+    - Dermatology and Venereal Disease
+    - Imaging and Nuclear Medicine
+    - Clinical Laboratory Diagnostics
+    - Surgery
+    - Gynecology and Obstetrics
+    - Ophthalmology
+    - Otolaryngology
+    - Oncology
+    - Anesthesiology
+    - Emergency Medicine
+    - Nursing
+    - Music
+    - Fine Art
+    - Dance
+    - Art Design
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Photo
+    3. Last Academic Transcript and Certificate
+    4. English Proficiency Certificate (TOEFL80;IELTS6.0)
+    5. Health Check Up Certificate
+    6. Police Clearance
+    7. Two recommendation Letter (From Professors /Associates Professor)
+    8. Study Plan /Research Proposal
+    9. Work Experience /Publication (If Applicable)
+   10. Application form
+
+  LANGUAGE ........... TOEFL 80 / IELTS 6.0
+  BANK STATEMENT ..... not in document list
+  DEADLINE ........... (not stated)
+
+------------------------------------------------------------------------------------------
+[MA-11]  TIANJIN #1 of 1  |  Tianjin City
+------------------------------------------------------------------------------------------
+  Source pages ...... 12-13
+  Level ............. Master (see note at the top of this section)
+  Intake ............ September 2024   [CHECK: outdated]
+  Taught in ......... English
+  Duration .......... 3 years
+  Tuition fee ....... Free
+  Dorm fee .......... Free
+  Monthly stipend ... 3000 CNY
+
+  MAJORS - TAUGHT IN ENGLISH (22)
+    - Chemistry
+    - Intelligent Medical Engineering
+    - Biomedical Engineering
+    - Mechanical Engineering
+    - Business Administration
+    - Heat Supply, Gas Supply, Ventilation Engineering   [source: "Ventilationer"]
+    - Environmental Engineering
+    - Environmental Science
+    - Chemical Engineering
+    - Electrical Engineering
+    - Information and Communication Engineering
+    - Control Science and Engineering
+    - Ocean and Naval Structure Engineering   [source: "Engineeing"]
+    - Hydraulic Engineering
+    - Civil Engineering
+    - Urban Planning
+    - Landscape Architecture
+    - Architecture
+    - Opto-electronics and Photonics Technology
+    - Instruments Science and Technology
+    - Optical Engineering
+    - Electronic Information
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Photo
+    3. Bachelor Degree Certificate and Transcript
+    4. Medical Check Up report
+    5. English Proficiency Certificate (TOEFL80.IELTS6.0)
+    6. Non Criminal Record / Police Clearance
+    7. Bank Statement (5000$)
+    8. Study Plan
+    9. Application Form
+   10. Extra Curriculum Activities (if Applicable)
+
+  LANGUAGE ........... TOEFL 80 / IELTS 6.0
+  BANK STATEMENT ..... 5000$
+  DEADLINE ........... (not stated)
+
+------------------------------------------------------------------------------------------
+[MA-12]  NANTONG #1 of 1  |  Nantong City (Jiangsu)
+------------------------------------------------------------------------------------------
+  Source pages ...... 13-14
+  Level ............. Master (see note at the top of this section)
+  Intake ............ September 2024   [CHECK: outdated]
+  Taught in ......... English
+  Duration .......... 2.5 years
+  Tuition fee ....... Free
+  Dorm fee .......... Free
+  Monthly stipend ... 500 CNY
+  Province note ..... province not written here; Nantong City is in Jiangsu (stated on
+                      B-12)
+
+  MAJORS - TAUGHT IN ENGLISH (38)
+    - Reproductive Medicine
+    - Transportation Engineering
+    - Public Health and Preventive Medicine
+    - Mechanical Engineering
+    - Public Health
+    - Textile Science and Engineering
+    - Physiology
+    - Resource and Environment
+    - Pharmacy
+    - Control Science and Engineering
+    - Pathology and Pathophysiology
+    - Communication Engineering
+    - Pathogenic Biology
+    - Mathematics
+    - Mental Health Education
+    - Integrated Circuit Engineering
+    - Medical Informatics
+    - Fine Arts and Calligraphy
+    - Medical Biochemistry and Molecular Biology
+    - English Language and Literature
+    - Immunology
+    - Educational Technology
+    - Human Anatomy & Histoembryology
+    - Chemistry
+    - Forensic Medicine
+    - Biology
+    - MPA   [CHECK: typed with Cyrillic letters in the source - retype before copying]
+    - Artificial Intelligence
+    - International Business
+    - Art Design
+    - Computer Science and Technology   [source: "andTechnology"]
+    - Music
+    - Civil Engineering
+    - Sports Science
+    - Civil and Hydraulic Engineering
+    - Preschool Education
+    - Fashion Design & Engineering
+    - Information and Communication Engineering
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Picture
+    3. Last Academic Transcript and Certificate
+    4. English Proficiency Certificate (IELTS 5.5 or TOEFL 70 or any other English
+       Proficiency certificate)
+    5. Health Check Up Certificate
+    6. Police Clearance
+    7. Two recommendation Letter (From Professors /Associates Professor)
+    8. Study Plan /Research Proposal
+    9. Work Experience /Publication (If Applicable)
+   10. Application form
+
+  LANGUAGE ........... IELTS 5.5 / TOEFL 70 / any other English certificate
+  BANK STATEMENT ..... not in document list
+  DEADLINE ........... (not stated)
+
+------------------------------------------------------------------------------------------
+[MA-13]  SHAANXI PROVINCE #3 of 3  |  Shaanxi Province (no city given in source)
+------------------------------------------------------------------------------------------
+  Source pages ...... 14-15
+  Level ............. Master (see note at the top of this section)
+  Intake ............ September 2024   [CHECK: outdated]
+  Taught in ......... Chinese
+  Duration .......... 2.5 years
+  Tuition fee ....... Free
+  Dorm fee .......... Free
+  Monthly stipend ... 3000 CNY
+  Focus [DERIVED] ... agriculture and veterinary science
+
+  MAJORS - TAUGHT IN CHINESE (16)
+    - Crop Cultivation and Farming System
+    - Crop Genetics and Breeding
+    - Crop Health
+    - Plant Pathology
+    - Agricultural Entomology and Pest Control
+    - Pesticide Science
+    - Fruit Science
+    - Vegetable Science
+    - Protected Horticulture
+    - Animal Genetics, Breeding and Reproduction
+    - Animal Nutrition and Feed Science
+    - Livestock Biology
+    - Basic Veterinary Medicine
+    - Preventative Veterinary Medicine
+    - Clinical Veterinary Medicine
+    - Soil and Water Conservation and Desertification Control
+          [note: this major can be English-taught]
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Photo
+    3. Last Academic Transcript and Certificate
+    4. Chinese Proficiency Certificate (HSK-4)
+    5. Health Check Up Certificate
+    6. Police Clearance
+    7. Two recommendation Letter (From Professors /Associates Professor)
+    8. Study Plan /Research Proposal
+    9. Work Experience /Publication (If Applicable)
+   10. Application form
+
+  LANGUAGE ........... HSK-4
+  BANK STATEMENT ..... not in document list
+  DEADLINE ........... (not stated)
+
+------------------------------------------------------------------------------------------
+[MA-14]  HUBEI PROVINCE #2 of 2  |  Hubei Province (no city given in source)
+------------------------------------------------------------------------------------------
+  Source pages ...... 15-16
+  Level ............. Master (see note at the top of this section)
+  Intake ............ September 2024   [CHECK: outdated]
+  Taught in ......... Chinese
+  Duration .......... 3 years
+  Tuition fee ....... Free
+  Dorm fee .......... Free
+  Monthly stipend ... 3000 CNY
+  Focus [DERIVED] ... sports science
+
+  MAJORS - TAUGHT IN CHINESE (11)
+    - Physical Education and Sports Coaching
+    - Human Kinesiology and Science
+    - Psychological Science
+    - Sports Rehabilitation
+    - Special Medicine
+    - Business Administration
+    - Traditional Chinese Sports
+    - Sports Engineering
+    - Humane and Sociological Science of Sports
+    - Journalism and Communication
+    - Music and Dance
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Photo
+    3. Last Academic Transcript and Certificate
+    4. Chinese Proficiency Certificate (HSK5-180)
+    5. Health Check Up Certificate
+    6. Police Clearance
+    7. Two recommendation Letter (From Professors /Associates Professor)
+    8. Study Plan /Research Proposal
+    9. Work Experience /Publication (If Applicable)
+   10. Application form
+
+  LANGUAGE ........... HSK-5 (score 180)
+  BANK STATEMENT ..... not in document list
+  DEADLINE ........... (not stated)
+
+------------------------------------------------------------------------------------------
+[MA-15]  JIANGSU PROVINCE #1 of 1  |  Jiangsu Province (no city given in source)
+------------------------------------------------------------------------------------------
+  Source pages ...... 16-17
+  Level ............. Master (see note at the top of this section)
+  Intake ............ September 2024   [CHECK: outdated]
+  Taught in ......... English
+  Duration .......... 3 years
+  Tuition fee ....... Free
+  Dorm fee .......... Free
+  Monthly stipend ... 1500 CNY
+  Note .............. the agriculture/veterinary majors overlap heavily with PhD P-02
+                      (Yangzhou); city possibly Yangzhou [ADDED, unconfirmed]
+
+  MAJORS - TAUGHT IN ENGLISH (28)
+    - English Language & Literature
+    - Foreign Linguistics and Applied Linguistics   [source: words run together]
+    - Physics
+    - Electronic Information   [source: words run together]
+    - Mechanical Engineering   [source: words run together]
+    - Materials Processing Engineering   [source: words run together]
+    - Agricultural Mechanization Engineering   [source: words run together]
+    - Industrial Engineering   [source: words run together]
+    - Vehicle Engineering
+    - Software Engineering
+    - Electrical Engineering
+    - Power Engineering and Engineering Thermophysics
+    - Animal Husbandry
+    - Aquatic Science
+    - Agrostology
+    - Basic Veterinary Medicine
+    - Preventive Veterinary Medicine
+    - Clinical Veterinary Medicine
+    - Veterinary Bioinformatics
+    - Veterinary Sanitary Science
+    - Experimental Zoology and Comparative Medicine
+    - Biology
+    - Ecology
+    - Biological and Medicine
+    - Clinical Medicine
+    - Nursing
+    - Public Health
+    - Food Science and Engineering
+
+  DOCUMENTS (11)
+    1. Passport
+    2. Photo
+    3. Highest Degree Certificate and Transcript (70%)
+    4. Language Proficiency Certificate
+    5. Two Recommendation Letters from professors or vice professors
+    6. Study Plan
+    7. Medical Certificate
+    8. Bank Statement
+    9. ID/Passport of Parents
+   10. Income Certificate of parents
+   11. Application Form
+
+  LANGUAGE ........... Language Proficiency Certificate (test and score not specified)
+  BANK STATEMENT ..... listed, amount not stated
+  MIN. GRADE ......... 70% in the highest degree (from the document list)
+  DEADLINE ........... (not stated)
+
+------------------------------------------------------------------------------------------
+[MA-16]  SHENZHEN #1 of 1  |  Shenzhen City (Guangdong)
+------------------------------------------------------------------------------------------
+  Source pages ...... 17-18
+  Level ............. Master (see note at the top of this section)
+  Intake ............ September 2024   [CHECK: outdated]
+  Taught in ......... Chinese or English
+  Duration .......... 2.5 years
+  Tuition fee ....... Free
+  Dorm fee .......... Free
+  Monthly stipend ... 3000 CNY
+  Note .............. same 5 majors as PhD P-03 (Harbin)
+
+  MAJORS - TAUGHT IN CHINESE OR ENGLISH (5)
+    - Business Administration
+    - Computer Science and Technology
+    - Civil Engineering
+    - Mechanical Engineering
+    - Power engineering and Engineering Thermophysics
+
+  DOCUMENTS (10)
+    1. Passport
+    2. Photo
+    3. Last Academic Transcript and Certificate
+    4. Language Proficiency Certificate
+    5. Health Check Up Certificate
+    6. Police Clearance
+    7. Two recommendation Letter (From Professors /Associates Professor)
+    8. Study Plan /Research Proposal
+    9. Work Experience /Publication (If Applicable)
+   10. Application form
+
+  LANGUAGE ........... Language Proficiency Certificate (Chinese or English; test not
+                       specified)
+  BANK STATEMENT ..... not in document list
+  DEADLINE ........... (not stated)
+
+------------------------------------------------------------------------------------------
+[MA-17]  NANJING #1 of 1  |  Nanjing City, Jiangsu [ADDED]
+------------------------------------------------------------------------------------------
+  Source pages ...... 18-19
+  Level ............. Master (see note at the top of this section)
+  Intake ............ September 2024   [CHECK: outdated]
+  Taught in ......... English
+  Duration .......... 2-3 years
+  Tuition fee ....... Free
+  Dorm fee .......... Free
+  Monthly stipend ... 1700 CNY
+  Location note ..... [CHECK] the source's Location line contains part of the
+                      institution's NAME instead of a city; replaced here by the
+                      institution's main-campus city [ADDED]
+  Focus [DERIVED] ... water resources, hydraulics, civil and environmental engineering
+
+  MAJORS - TAUGHT IN ENGLISH (29 listed, 28 unique)
+    - Hydrology and Water Resources
+    - Cartography and Geographical Information System
+    - Hydraulics and River Dynamics
+    - Hydraulics Structure Engineering
+    - Water Conservancy and Hydropower Engineering
+    - Harbor, Coastal and Offshore Engineering
+    - Civil Engineering
+    - Transportation Engineering
+    - Environmental Science and Engineering
+    - Electrical Engineering
+    - Power Engineering and Engineering Thermal Physics
+    - Control Theory and Control Engineering
+    - Computer Science and Technology
+    - Information and Communication Engineering
+    - Software Engineering
+    - Mechanics
+    - Material Science and Engineering
+    - Surveying and Mapping
+    - Geological Resources and Geological Engineering
+    - Agricultural Engineering
+    - Mathematics
+    - Physics
+    - Enterprise Management
+    - International Trade
+    - Sociology
+    - Public Administration
+    - Resettlement Science and Management
+    - Mechanical Engineering
+    - Information and Communication Engineering   [CHECK: duplicate of item 14]
+
+  DOCUMENTS (11)
+    1. Passport
+    2. Picture
+    3. Last Academic Transcript and Certificate
+    4. English Proficiency Certificate (IELTS6.0 or TOEFL80 or any other valid English
+       Proficiency certificate)
+    5. Health Check Up Certificate
+    6. Police Clearance
+    7. Two recommendation Letter (From Professors /Associates Professor)
+    8. Study Plan /Research Proposal
+    9. CV/Resume
+   10. Work Experience /Publication (If Applicable)
+   11. Application form.
+
+  LANGUAGE ........... IELTS 6.0 / TOEFL 80 / any other valid English certificate
+  BANK STATEMENT ..... not in document list
+  DEADLINE ........... (not stated)
+
+
+==========================================================================================
+SECTION 7 - 6-MONTH CHINESE LANGUAGE PROGRAM, NANNING
+            (Source: 6_Months_Chinese_Language_Program_Nanning_Partner_Version.pdf)
+==========================================================================================
+
+  ABOUT THIS SOURCE
+    - 5 pages; generated automatically on 2026-01-19 (ReportLab PDF library)
+    - "Partner Version" in the file name = version made for partner agents
+    - 5 photos; page 2 is blank; every emoji in the text prints as a black square
+
+------------------------------------------------------------------------------------------
+[L-01]  NANNING #1 of 1  |  Nanning City, Guangxi Zhuang Autonomous Region
+------------------------------------------------------------------------------------------
+  Source pages ...... 1-5
+  Level ............. Non-degree Chinese (Mandarin) language course
+  Duration .......... 6 months
+  Total fee ......... 5,000 RMB (tuition + hostel)
+  Nationalities ..... All nationalities accepted
+  Age ............... No age limit
+  Processing ........ "Fast Application Process"; described as affordable and
+                      fast-processing
+  Intake / deadline . (not stated)   [CHECK]
+
+  PROGRAM PURPOSE (as described in the overview)
+    - Learn Mandarin
+    - Stay legally in China
+    - Explore job or business opportunities
+
+  ACCOMMODATION - "VIP DORMITORY"
+    - Clean, safe and fully furnished; suitable for international students
+    - "one-bed sharing"   [CHECK: unclear wording]
+    - [IMG] 2 room photos: single bed with mattress, wooden desk and chair, storage box,
+      built-in wardrobe, tiled floor, large window
+
+  IMPORTANT NOTICE (page 3)
+    - Aimed at people already INSIDE China whose visa is about to expire: "this is the
+      best opportunity for you"
+    - "Don't be lazy" / "Don't miss this chance"
+    - "Secure your legal stay in China through this 6-month Chinese language program"
+
+  HIGHLY RECOMMENDED FOR
+    - Students with expiring visas
+    - People looking for job opportunities in China
+    - Those planning or searching for business opportunities in China
+
+  BENEFITS LISTED
+    - Stay legal in China
+    - Improve your Chinese language skills
+    - Build a better future in China
+
+  NANNING CITY & LIVING ENVIRONMENT
+    - Known as the "Green City of China"
+    - Modern infrastructure and a comfortable lifestyle
+    - Access to both urban development and natural scenery
+    - [IMG] 3 photos: waterfall with karst mountains; city avenue with the caption
+      "Nanning, Guangxi Zhuang Autonomous Region, China"; city skyline at night
+
+  DOCUMENTS (7)
+    1. Passport
+    2. Police Clearance Certificate
+    3. Medical Checkup Report
+    4. White background photo
+    5. Educational documents
+    6. Introduction video
+    7. Bank statement (closing balance USD 2,500)
+    - All documents must be clear and properly scanned
+
+  LANGUAGE ........... no language test required (none in the document list)
+  NOT STATED ......... institution, intake date, deadline, class hours, visa type
+                       [CHECK]
+  COMPLIANCE NOTE .... marketed to job seekers as a way to "stay legal"; a student
+                       residence permit does not by itself allow work in China [CHECK]
+
+
+==========================================================================================
+SECTION 8 - CHINA WORK VISA PROCESS (Source: Workvisaprocess.pdf)
+==========================================================================================
+
+  AUDIENCE ........... Pakistani applicants (HEC, MOFA Pakistan and Chinese Embassy in
+                       Pakistan are the attesting bodies)
+  WORK EXPERIENCE .... Minimum 2 years of experience AFTER the Bachelor's degree is
+                       mandatory
+
+  REQUIRED DOCUMENTS (9)
+    1. Passport - attested by the Passport Officer, MOFA and the Chinese Embassy
+    2. Non-criminal record - must be notarized (MOFA + Chinese Embassy)
+    3. Bachelor Degree - must be notarized at the Chinese Embassy
+    4. Working experience paper - must carry the company stamp
+    5. Passport
+    6. Medical Report
+    7. Police Clearance - attested by MOFA and the Chinese Embassy, then translated into
+       Chinese
+    8. Photo - white background
+    9. Business license and Company stamp - provided by the employer/agent ("We will
+       provide")
+
+  DOCUMENT-BY-DOCUMENT RULES (sample guidelines)
+    a) Passport
+       - Attestation from Passport Officer -> MOFA -> Chinese Embassy
+       - Must be translated into Chinese
+    b) Scan format (applies to ALL documents)
+       - Scan on A4 paper, full-page scan on a white sheet (as in the sample picture)
+       - Documents not in this format are NOT accepted
+    c) Police Clearance
+       - Simple police clearance; attested by MOFA and Chinese Embassy
+       - Then translated into Chinese
+    d) Bachelor Degree
+       - Degree from CHINA: no attestation needed - scan on A4 and send
+       - Degree from PAKISTAN: attest at HEC -> MOFA -> Chinese Embassy, then translate into
+         Chinese
+    e) Experience Letter
+       - 2 years' experience after Bachelor's degree is a must
+       - No attestation needed; translate into Chinese and send
+       - Letter MUST state 4 things: (1) Post/position, (2) Time duration,
+         (3) Company information, (4) Company stamp and signature
+    f) Picture
+       - Passport-size picture, white background
+    - Closing instruction: everything must be exactly as described; contact your agent if
+      anything is unclear
+
+  ATTESTATION CHAIN SHOWN IN THE SAMPLE IMAGES [IMG]
+  (personal names, passport numbers and serial numbers in the samples are intentionally
+   NOT copied into this file)
+
+    Sample 1 - Attested Bachelor degree (back side), stamps in order:
+      Step 1  Issuing university verification
+              - "VERIFIED" stamp by the Controller of Examinations
+              - "CHECKED" stamp by the Assistant Controller of Examination + Degree Section
+                dispatch number
+      Step 2  HEC (Higher Education Commission, Pakistan) attestation
+              - HEC Rs.1000 attestation sticker with barcode
+              - "ATTESTED" stamp, HEC Attestation Officer, Islamabad (dated)
+      Step 3  MOFA Pakistan (Ministry of Foreign Affairs) attestation
+              - Rs.25 Government of Pakistan attestation stamp-ticket
+              - "COUNTERSIGN - Ministry of Foreign Affairs is not responsible for the
+                contents of the documents" stamp
+              - "Checked by ... Assistant Director (Cons)" stamp with signature
+              - MOFA QR-code security sticker
+      Step 4  Chinese Embassy in Pakistan - consular authentication
+              - "China Authentication" certificate sticker in Chinese: certifies that the
+                MOFA Pakistan seal and officer signature are genuine; the issuing authority
+                is responsible for the document content
+              - Round holographic "China Authentication" seal
+
+    Sample 2 - Attested passport copy:
+      - Copy of passport data page + page with passport booklet number
+      - Passport Office: Assistant Director signature & stamp (dated)
+      - MOFA Pakistan: COUNTERSIGN stamp, attestation stamp-ticket, "Checked by Assistant
+        Director (Cons)" stamp, MOFA QR-code sticker
+
+    Sample 3 - Correct scan format:
+      - Passport photographed/scanned lying on a plain white A4 sheet, full page visible
+
+
+==========================================================================================
+SECTION 9 - APPLICATION FORM FOR FOREIGN STUDENTS (Source: .docx)
+==========================================================================================
+
+  Title .............. 外国留学生入学申请表 / Application Form for Foreign Students
+  Language ........... Bilingual - every label in Chinese + English
+  Structure .......... 2 tables, 10 parts
+
+  PART 1 - 申请人信息 / PERSONAL INFORMATION
+    - Name: Passport Name - Surname
+    - Name: Passport Name - Given Name
+    - Name: Chinese name (no more than 6 Chinese characters)
+    - Place of Birth
+    - Date of Birth
+    - Nationality
+    - Marital Status
+    - Health Status
+    - Religion
+    - Native Language
+    - Hobbies
+    - Gender
+    - Passport No.
+    - Passport Validity
+    - Highest Diploma
+    - Occupation
+    - Employer or Institution Affiliated
+    - Cell-phone
+    - Telephone
+    - E-mail
+
+  PART 2 - PRESENT ADDRESS (mailing address for the Admission Letter)
+    Instruction: House Number, Street Name, District Name, City Name, Zip Code and Contact
+    Person
+    - Country
+    - City
+    - City post code
+    - Tel
+    - Detail address (not P.O. BOX)
+
+  PART 3 - 详细的永久居住地址 / PERMANENT RESIDENCE ADDRESS (in detail)
+    - Country
+    - City
+    - City postcode
+    - Tel
+    - Detail address (not P.O. BOX)
+
+  PART 4 - 语言能力 / LANGUAGE PROFICIENCY
+    - Chinese proficiency: HSK ( ) Score / Grade
+    - Chinese proficiency: HSKK ( ) Score / Grade
+    - English proficiency: TOEFL ( ) / IELTS ( ) Score / Grade
+
+  PART 5 - 教育背景 / EDUCATIONAL BACKGROUND (from High School onward) - 4 rows
+    - From/To (在校期间) | Institutions (学校) | Certificate obtained (所获学历)
+
+  PART 6 - 本人工作经历 / EMPLOYMENT RECORD - 3 rows
+    - Rule: PhD applicants must fill in at least one entry (博士生至少写一条)
+    - From/To (起止时间) | Employer (工作单位) | Posts Held (职务及职称)
+
+  PART 7 - 留学中国计划 / STUDY PLAN IN CHINA
+    - Major or field of study
+    - Medium of instruction
+    - Applying for degree
+    - Duration: From Year/Month To Year/Month
+    - Funds (tick one): Self-support / Scholarship / Other
+
+  PART 8 - 申请人亲属情况 / FAMILY MEMBERS
+    - Columns: Relationship (source spelling "realishionship") | Name | Age | Occupation |
+      Tel./Email
+    - Rows: Father | Mother | 1 extra blank row
+
+  PART 9 - REFERENCE, GUARANTOR & FINANCIAL GUARANTEE
+    a) 推荐单位(人)信息 / Information for Reference
+       - Name | Organization | Tel. | E-mail | Address
+       - PRE-FILLED with a third-party agency's details   [AGENCY - see SECTION 12]
+    b) 在华事务担保人 / The Guarantor Charging Your Case in China
+       - Name | Organization | Tel. | E-mail | Address
+       - PRE-FILLED with a third-party agency's details   [AGENCY - see SECTION 12]
+    c) 经济担保人或机构 / Financial Guarantee (person or institution)
+       - Name (pre-filled placeholder "FATHER NAME") | Organization | Tel. | E-mail | Address
+
+  PART 10 - 申请人保证 / APPLICANT'S AFFIRMATION
+    1. All information given in this form is true and correct
+    2. During the stay in China, the applicant will abide by Chinese laws and decrees and
+       will not take part in activities harmful to social order or inappropriate to the
+       capacity of a student/scholar
+    3. During study in China, the applicant will observe university rules and regulations,
+       concentrate on studies and research, and follow the university's teaching programs
+    - Date (日期)
+    - Applicant's signature (申请人签名)
+    - ◆ The application is INVALID without the applicant's signature
+
+
+==========================================================================================
+SECTION 10 - CONSULTANCY SERVICE CHARGES (Source: IFFI CONSULTANTS CHARGES LIST .docx)
+==========================================================================================
+
+  ABOUT THIS SOURCE
+    - Word document, text only (no tables, images or links); title "Charges list for
+      Students"
+    - [AGENCY] A third-party consultancy's own fee schedule, written in the consultant's
+      first person ("I'll provide you form"); agency name in SECTION 12
+    - Fees in USD ($); scholarship cost bands in RMB per year / per month
+
+  PAYMENT MODEL (all programs)
+    - Stage 1: application fee, paid together with the documents
+    - Stage 2: service charge, paid after the JW202 is issued
+      (JW202 = China study-visa form issued with the admission letter [ADDED])
+    - Totals marked [DERIVED] = stage 1 + stage 2
+
+  PRICE TABLE                                       Stage 1     Stage 2       Total
+  ------------------------------------------------  ----------  ------------  -------------
+  1. ONE-YEAR CHINESE LANGUAGE
+     Full scholarship (tuition + hostel free)       100$        650$          750$ [DERIVED]
+     Partial (tuition + hostel 2500-5500 RMB/yr)    -           -             500$ in total
+     Tuition + hostel above 7500 RMB/yr             application fee + service charges = 400$
+  2. THREE-YEAR DIPLOMA
+     Full scholarship (tuition + hostel free)       150$        700$          850$ [DERIVED]
+     Partial (tuition + hostel 2500-5500 RMB/yr)    100$        500$          600$ [DERIVED]
+  3. BACHELOR
+     Full scholarship (tuition + hostel free)       150$        800$          950$ [DERIVED]
+     Partial (tuition + hostel 2500-6500 RMB/yr)    150$        500$          650$ [DERIVED]
+  4. MASTER'S AND PhD
+     Free + stipend 1500-2500 RMB/month             150$        1400$         1550$ [DERIVED]
+     "Low stipend": free + 800-1500 RMB/month       150$        1300$         1450$ [DERIVED]
+     "Fully funded without stipend": free           150$        1000$         1150$ [DERIVED]
+  ("free" = tuition + hostel free)
+
+  REQUIRED DOCUMENTS - ONE-YEAR LANGUAGE and THREE-YEAR DIPLOMA (7)
+      1. Passport
+      2. Police clearance
+      3. Medical checkup form (the consultant provides the form)
+      4. All educational documents
+      5. Passport size picture (white background)
+      6. Application form (the consultant provides the application form)
+      7. Bank statement - no minimum balance; even a zero balance is OK; e-statements
+         are also accepted
+
+  REQUIRED DOCUMENTS - BACHELOR (8)
+      1. Passport
+      2. Police clearance
+      3. Medical checkup form (the consultant provides the form)
+      4. All educational documents
+      5. English proficiency
+      6. Passport size picture (white background)
+      7. Application form (the consultant provides the application form)
+      8. Bank statement - no minimum balance; even a zero balance is OK; e-statements
+         are also accepted
+
+  REQUIRED DOCUMENTS - MASTER'S AND PhD (12)
+      1. Passport
+      2. Police clearance
+      3. Medical checkup form (the consultant provides the form)
+      4. All educational documents
+      5. English proficiency
+      6. Passport size picture (white background)
+      7. Application form (the consultant provides the application form)
+      8. Bank statement - no minimum balance; even a zero balance is OK; e-statements
+         are also accepted
+      9. Study plan
+     10. Thesis
+     11. Publication (for PhD)
+     12. Research work (for PhD)
+
+  KEY POINTS [DERIVED]
+    - Highest total: 1550$ (Master/PhD with a 1500-2500 RMB monthly stipend)
+    - Lowest total: 400$ (language course costing more than 7500 RMB/year)
+    - The better the scholarship, the higher the service charge at every level
+    - The bank-statement rule here (no minimum) differs from the university lists, which
+      ask for 2,500-5,000 USD (see 11.9)
+
+
+==========================================================================================
+SECTION 11 - CROSS-PROGRAM SUMMARIES (aggregated from Sections 3-7 and 10)
+==========================================================================================
+
+11.1  NO IELTS / DUOLINGO REQUIRED (explicitly stated)
+     B-01 Chengdu #1 | B-05 Tianjin #1 | B-12 Nantong | B-14 Zhengzhou |
+     B-18 Shanghai #1 (internal English test) | B-21 Shanghai #3
+     Chinese-taught Master programs ask for HSK instead (see 11.2); L-01 lists no
+     language test at all
+
+11.2  LANGUAGE TESTS EXPLICITLY ACCEPTED / REQUIRED
+     IELTS 5.5 / TOEFL 68 ............ B-02
+     IELTS 6.0 / TOEFL 75 ............ B-03
+     IELTS 6.0 / TOEFL 80 ............ B-06 (preferred), B-10
+     IELTS 6.0 / Duolingo 100 ........ B-11
+     IELTS 6 / TOEFL 69 / video ...... B-15
+     IELTS 6.0 / TOEFL 80 / SAT 1150 / PTE 55 / Duolingo 115 / Cambridge B ... B-17
+     Duolingo 95+ .................... B-19
+     IELTS/TOEFL/Duolingo/any other .. B-08, B-16
+     HSK-4 (180+) .................... B-06 (Chinese-taught track), B-32
+     HSK-3 (to graduate) ............. B-10
+     HSK-4 / HSK-5 (for scholarship) . B-25
+     --- Master programs (SECTION 6) ---
+     IELTS 6.0 / TOEFL 80 ............ MA-02, MA-07, MA-10, MA-11, MA-17 (or any valid)
+     IELTS 6.0 / TOEFL 60 ............ MA-05 [CHECK]
+     IELTS 5.5 / TOEFL 70 / any ...... MA-12
+     Unspecified language cert ....... MA-15, MA-16
+     HSK-5 ........................... MA-01, MA-04, MA-06
+     HSK-5 (180) ..................... MA-14
+     HSK-5 + HSKK intermediate (60) .. MA-03
+     HSK-4 ........................... MA-08, MA-13
+     HSK-4 (200) ..................... MA-09
+
+11.3  MONTHLY / ANNUAL STIPENDS
+     3500 CNY/month ......... P-01, P-02, P-03, P-04, P-05 (PhD)
+     3000 CNY/month ......... B-10 (Master, Chinese Government Scholarship);
+                              MA-01, 02, 03, 04, 05, 06, 08, 09, 10, 11, 13, 14, 16
+     2000 CNY/month x10 ..... B-06 (from 20000 CNY/year scholarship; 400/month if tuition
+                              is deducted)
+     1800 CNY/month ......... B-03 (Type A)
+     1700 CNY/month ......... MA-17
+     1500 CNY/month x12 ..... B-17 (Type A & B)
+     1500 CNY/month ......... MA-15
+     1400 CNY/month ......... B-05 (Type A, years 1-4), B-11 (Type A, 10 months), MA-07
+     1000 CNY/month ......... B-04 (Type A), B-08 (Type A)
+     800 CNY/month .......... B-41 (Type A)
+     500 RMB/month x10 ...... B-15 (Type A)
+     500 CNY/month .......... MA-12
+     12000 CNY/year ......... B-21 (Type A, years 2-4)
+     5000 CNY/year .......... B-43 (Type A top 10%, years 2-4)
+     20000 CNY lump/year .... B-01 (Belt and Road, paid each semester)
+     Consultancy price bands (SECTION 10): "with stipend" = 1500-2500 RMB/month;
+                              "low stipend" = 800-1500 RMB/month
+
+11.4  TUITION FULLY FREE FOR ALL (no scholarship type needed)
+     B-07 Chengdu #2 | B-18 Shanghai #1 | B-19 Shanghai #2 |
+     B-21 Shanghai #3 (year 1) | B-34 Tianjin #3 (year 1 only) |
+     B-35 Changsha #1 (year 1 only) | B-43 Ganzhou (year 1) | all PhD |
+     all Master MA-01 to MA-17 (tuition + dorm free)
+     Paid course: L-01 Nanning - 5,000 RMB in total (tuition + hostel, 6 months)
+
+11.5  INTERVIEWS
+     4-5 min university interview ... B-01, B-03, B-04, B-11, B-14, B-17, B-18
+     Online interview ............... B-15
+     Interview decides scholarship .. B-08, B-22
+     Document review + interview .... B-10
+     Online entrance exam ........... B-09
+     Internal English test .......... B-09, B-18
+     No interview information ....... MA-01 to MA-17, L-01
+
+11.6  SELF-INTRODUCTION VIDEO REQUIRED
+     B-04 | B-10 (<3 min) | B-15 (3 min, as alternative to IELTS) | B-19 (3-4 min) |
+     B-21 (min 3-4 min) | B-23 (3-4 min) | B-33 | L-01 (introduction video)
+
+11.7  AGE LIMITS
+     17-25 ... B-32       18-22 ... B-20 Type A    18-25 ... B-20 Type B
+     18-27 ... B-22       18-35 ... B-10           up to 30 ... B-17
+     below 45 ... B-15    NO age limit ... L-01    (the Master file states no age rules)
+
+11.8  DEPOSITS & ADVANCE PAYMENTS
+     Refundable:     2000 CNY B-12 | 2000 CNY B-17 | 2000 CNY B-41 (seat booking) |
+                     1200 CNY B-27 | 800 CNY B-38 (accommodation) | 500 CNY B-33 (dorm)
+     Non-refundable/ 2000 CNY accommodation B-06 (before JW202) | 4000 + 800 CNY B-32 |
+     advance:        5850 CNY B-27 (application + tuition + deposit) |
+                     7500 tuition + 1500/4500 dorm on arrival B-01
+     Application fees: 500 B-06 (non-refundable) | 500 B-10 | 400 B-15 | 400 B-22 |
+                     600 B-17 | 400 B-27 | 800 B-32 (non-refundable)
+     Consultancy fees (application fee + service charge after JW202): SECTION 10
+
+11.9  BANK STATEMENT MINIMUMS
+     5000$ ......... B-13, B-16, B-26, B-27, B-28, B-29, B-30, B-31, B-34, B-35, B-36,
+                     B-37, B-38, B-40, B-42, B-39 (around 5000$), MA-02, MA-03, MA-11
+     3000$ ......... B-20 (at least), B-25
+     $2500 ......... B-32 (at least)
+     USD 2,500 ..... L-01 (closing balance)
+     Amount not stated: B-04, B-06, B-08, B-09, B-10, B-15, B-22, B-23, B-24, B-33, B-41,
+                     B-43, MBBS, MA-15
+     Not in document list: MA-01, MA-04 to MA-10, MA-12 to MA-14, MA-16, MA-17
+     Consultancy rule (SECTION 10): any balance accepted, even zero; e-statements OK
+
+11.10 SPECIAL / UNUSUAL DOCUMENTS
+     Parent's job + income certificate, parent's passport/NID ... B-09
+     Parent's passport or national ID ............................ B-26
+     Parents' ID/passport + parents' income certificate .......... MA-15
+     Minimum 70% in the highest degree ........................... MA-15
+     Birth certificate + personal statement ...................... B-34, B-35
+     Statement of no drug addiction history ...................... B-37
+     Award certificate + study plan .............................. B-06
+     Study plan .................................................. B-13, B-14, B-19, B-06,
+                                                                    all Master (MA)
+     Resume / CV ................................................. B-21, MA-17
+     Two professor recommendation letters ........................ B-10, all PhD, all
+                                                                    Master except MA-02,
+                                                                    MA-03, MA-11
+     Extra-curricular activities (if applicable) ................. B-08, B-13, B-16, MBBS,
+                                                                    MA-02, MA-03, MA-11
+     Study-gap supporting documents .............................. B-26, B-27, B-28, B-29,
+                                                                    B-31
+     Notarized police clearance (Chinese embassy) ................ B-02, B-04
+     Foreigner Physical Examination Form ......................... B-43
+     COLOR scan copies required .................................. B-23, B-26, B-27, B-31,
+                                                                    B-42
+     White-background photo ...................................... B-31, B-32, B-42, L-01
+     High-school certificates for a MASTER program [CHECK] ....... MA-03
+     Introduction video .......................................... L-01
+     Thesis + publication + research work ........................ consultancy Master/PhD
+                                                                    list (SECTION 10)
+
+11.11 CHINESE-TAUGHT / BILINGUAL OPTIONS
+     B-06 (6 majors, HSK-4) | B-20 (Business Chinese) | B-24 (bilingual 1+3) |
+     B-25 (1+3) | B-32 (3 majors, HSK-4) | B-39 (3 majors + Chinese language semester) |
+     B-09 (fallback: 1 yr Chinese + 4 yr Chinese-taught major if English test failed)
+     Master, Chinese-taught: MA-01, MA-03, MA-04, MA-06, MA-08, MA-09, MA-13 (one major
+     can be English-taught), MA-14 | Chinese OR English: MA-16
+     Language course: L-01 (6 months, Nanning)
+
+11.12 RANKINGS (as stated in source)
+     ID     City             Country/National   World
+     B-01   Chengdu #1       11                 240
+     B-02   Guangzhou        28                 213      (211 + 985)
+     B-03   Beijing #1       63                 568
+     B-04   Shenzhen         13                 196      (211 + 985 + C9)
+     B-06   Nanjing #1       54                 201-300 (Shanghai Ranking)
+     B-07   Chengdu #2       185                1384
+     B-08   Nanjing #2       -                  610
+     B-09   Yangzhou         84                 844
+     B-11   Tianjin #2       19                 231
+     B-12   Nantong          137                1017
+     B-13   Kunming          138                948
+     B-14   Zhengzhou        45                 422
+     B-17   Xi'an            37                 425
+     B-18   Shanghai #1      137                1419     (source: 4icu.org)
+     B-30   Changzhou #2     154                1184
+     B-35   Changsha #1      173                1452
+     B-37   Jinhua           65                 696
+     B-38   Hangzhou #1      81                 677
+     B-39   Hangzhou #2      -                  500-601 (Shanghai Ranking)
+     (No rankings are given in the Master, language-course or charges files)
+
+11.13 DEADLINES (chronological)
+     2025-02-28  B-39 Hangzhou #2 (language class April)
+     2025-03-25  B-27 Zhanjiang/Zhenjiang
+     2025-04-30  B-13 Kunming | B-22 Harbin
+     2025-05-01  B-08 Nanjing #2
+     2025-05-15  B-09 Yangzhou (depends on seats) | B-10 Wuhan #1 (Master) | B-17 Xi'an
+     2025-05-20  B-14 Zhengzhou
+     2025-05-30  B-01 Chengdu #1 | B-03 Beijing #1 | B-05 Tianjin #1 | B-24 Neijiang |
+                 B-32 Nanjing #3 | B-34 Tianjin #3 (depends on seats)
+     2025-05-31  B-15 Shaoxing
+     2025-06-10  B-04 Shenzhen | B-06 Nanjing #1 | B-30 Changzhou #2
+     2025-06-15  B-07 Chengdu #2 | B-18 Shanghai #1 (depends on seats) | B-35 Changsha #1
+     2025-06-30  B-11 Tianjin #2 | B-12 Nantong | B-33 Zibo | B-36 Changsha #2 |
+                 B-38 Hangzhou #1
+     2025-07-10  B-16 Beijing #2 | B-29 Xuzhou
+     2025-07-15  B-37 Jinhua
+     2025-07-30  B-20 Wuhan #2 | B-25 Dazhou | B-42 Shijiazhuang
+     2025-08-10  B-31 Wuhan #3
+     2025-08-15  B-26 Chengdu #3 | B-41 Fuzhou
+     2025-08-20  B-40 Wenzhou
+     2025-08 (month only)  B-43 Ganzhou
+     2025-09-15  B-28 Changzhou #1
+     Until seats fill      B-19 Shanghai #2 | B-21 Shanghai #3
+     2022-08-20 [CHECK]    B-23 Shanghai #4
+     Not stated            B-02 Guangzhou | MBBS | PhD | all Master (MA) | L-01
+
+11.14 MASTER QUICK COMPARISON (SECTION 6 at a glance; stipend per month; unique majors)
+  ID     Location             Taught    Duration    Stipend   Language test       Majors
+  -----  -------------------- --------- ----------- --------- ------------------- ------
+  MA-01  Gansu (prov.)        Chinese   3 years     3000 CNY  HSK-5                59
+  MA-02  Heilongjiang (prov.) English   3 years     3000 CNY  IELTS 6.0/TOEFL 80    2
+  MA-03  Guangxi (prov.)      Chinese   2 years     3000 CNY  HSK-5 + HSKK 60       1
+  MA-04  Zhejiang (prov.)     Chinese   2 years     3000 CNY  HSK-5                16
+  MA-05  Zhejiang (prov.)     English   3 years     3000 CNY  IELTS 6.0/TOEFL 60    8
+  MA-06  Zhejiang (prov.)     Chinese   2 years     3000 CNY  HSK-5                21
+  MA-07  Shaanxi (prov.)      English   2-3 years   1400 CNY  IELTS 6.0/TOEFL 80   63
+  MA-08  Shaanxi (prov.)      Chinese   2-4 years   3000 CNY  HSK-4                17
+  MA-09  Liaoning (prov.)     Chinese   2.5-3 years 3000 CNY  HSK-4 (200)          23
+  MA-10  Hubei (prov.)        English   2-3 years   3000 CNY  IELTS 6.0/TOEFL 80   50
+  MA-11  Tianjin City         English   3 years     3000 CNY  IELTS 6.0/TOEFL 80   22
+  MA-12  Nantong City         English   2.5 years   500 CNY   IELTS 5.5/TOEFL 70   38
+  MA-13  Shaanxi (prov.)      Chinese   2.5 years   3000 CNY  HSK-4                16
+  MA-14  Hubei (prov.)        Chinese   3 years     3000 CNY  HSK-5 (180)          11
+  MA-15  Jiangsu (prov.)      English   3 years     1500 CNY  not specified        28
+  MA-16  Shenzhen City        CN or EN  2.5 years   3000 CNY  not specified         5
+  MA-17  Nanjing City*        English   2-3 years   1700 CNY  IELTS 6.0/TOEFL 80   28
+  (* = city added - the source names the institution instead)
+
+11.15 BACHELOR MAJORS INDEX (which programs offer each major; spelling variants grouped)
+     (B-xx = program ID; (CN) = Chinese-taught; (BL) = bilingual; otherwise English-taught)
+     (MBBS and PhD majors are listed in full in Sections 4 and 5)
+
+     International Economics & Trade (all spelling variants) [29]
+        B-02 Guangzhou #1; B-03 Beijing #1; B-06 Nanjing #1; B-07 Chengdu #2;
+        B-08 Nanjing #2; B-12 Nantong #1; B-14 Zhengzhou #1; B-15 Shaoxing #1;
+        B-16 Beijing #2; B-18 Shanghai #1; B-20 Wuhan #2; B-21 Shanghai #3;
+        B-22 Harbin #1; B-26 Chengdu #3; B-28 Changzhou #1; B-29 Xuzhou #1;
+        B-30 Changzhou #2; B-31 Wuhan #3; B-33 Zibo #1; B-34 Tianjin #3;
+        B-36 Changsha #2; B-37 Jinhua #1; B-38 Hangzhou #1; B-39 Hangzhou #2;
+        B-39(CN) Hangzhou #2; B-40 Wenzhou #1; B-41 Fuzhou #1; B-42 Shijiazhuang #1;
+        B-43 Ganzhou #1
+     Computer Science & Technology [24]
+        B-02 Guangzhou #1; B-03 Beijing #1; B-04 Shenzhen #1; B-06 Nanjing #1;
+        B-07 Chengdu #2; B-12 Nantong #1; B-13 Kunming #1; B-15 Shaoxing #1;
+        B-17 Xi'an #1; B-20 Wuhan #2; B-25 Dazhou #1; B-26 Chengdu #3; B-27 Zhanjiang #1;
+        B-30 Changzhou #2; B-31 Wuhan #3; B-33 Zibo #1; B-34 Tianjin #3;
+        B-35 Changsha #1; B-37 Jinhua #1; B-38 Hangzhou #1; B-39 Hangzhou #2;
+        B-40 Wenzhou #1; B-42 Shijiazhuang #1; B-43 Ganzhou #1
+     Civil Engineering [15]
+        B-01 Chengdu #1; B-06 Nanjing #1; B-07 Chengdu #2; B-09 Yangzhou #1;
+        B-12 Nantong #1; B-14 Zhengzhou #1; B-15 Shaoxing #1; B-17 Xi'an #1;
+        B-20 Wuhan #2; B-27 Zhanjiang #1; B-31 Wuhan #3; B-33 Zibo #1; B-38 Hangzhou #1;
+        B-40 Wenzhou #1; B-42 Shijiazhuang #1
+     Electrical Engineering & Automation [12]
+        B-04 Shenzhen #1; B-07 Chengdu #2; B-12 Nantong #1; B-17 Xi'an #1;
+        B-23 Shanghai #4; B-27 Zhanjiang #1; B-29 Xuzhou #1; B-31 Wuhan #3; B-33 Zibo #1;
+        B-34 Tianjin #3; B-38 Hangzhou #1; B-42 Shijiazhuang #1
+     Mechanical Engineering [11]
+        B-06 Nanjing #1; B-07 Chengdu #2; B-12 Nantong #1; B-17 Xi'an #1;
+        B-27 Zhanjiang #1; B-29 Xuzhou #1; B-31 Wuhan #3; B-33 Zibo #1; B-38 Hangzhou #1;
+        B-40 Wenzhou #1; B-42 Shijiazhuang #1
+     Software Engineering [11]
+        B-01 Chengdu #1; B-09 Yangzhou #1; B-13 Kunming #1; B-14 Zhengzhou #1;
+        B-23 Shanghai #4; B-29 Xuzhou #1; B-31 Wuhan #3; B-34 Tianjin #3; B-37 Jinhua #1;
+        B-38 Hangzhou #1; B-39 Hangzhou #2
+     Business Administration (BBA) [8]
+        B-04 Shenzhen #1; B-05 Tianjin #1; B-16 Beijing #2; B-17 Xi'an #1; B-20 Wuhan #2;
+        B-27 Zhanjiang #1; B-34 Tianjin #3; B-37 Jinhua #1
+     Chemical Engineering (& Technology / Technics) [8]
+        B-03 Beijing #1; B-06 Nanjing #1; B-07 Chengdu #2; B-11 Tianjin #2;
+        B-30 Changzhou #2; B-34 Tianjin #3; B-38 Hangzhou #1; B-40 Wenzhou #1
+     Biotechnology [5]
+        B-09 Yangzhou #1; B-17 Xi'an #1; B-27 Zhanjiang #1; B-37 Jinhua #1;
+        B-40 Wenzhou #1
+     Communication / Telecommunication Engineering [4]
+        B-04 Shenzhen #1; B-05 Tianjin #1; B-34 Tianjin #3; B-39 Hangzhou #2
+     English / English Language & Literature [4]
+        B-15 Shaoxing #1; B-27 Zhanjiang #1; B-34 Tianjin #3; B-39 Hangzhou #2
+     International Business [4]
+        B-01 Chengdu #1; B-09 Yangzhou #1; B-16 Beijing #2; B-19 Shanghai #2
+     Mechanical Design, Manufacturing & Automation [4]
+        B-04 Shenzhen #1; B-09 Yangzhou #1; B-37 Jinhua #1; B-39 Hangzhou #2
+     Artificial Intelligence [3]
+        B-13 Kunming #1; B-18 Shanghai #1; B-39 Hangzhou #2
+     Electronic & Information Engineering [3]
+        B-17 Xi'an #1; B-37 Jinhua #1; B-39 Hangzhou #2
+     Petroleum Engineering [3]
+        B-03 Beijing #1; B-07 Chengdu #2; B-30 Changzhou #2
+     Pharmacy [3]
+        B-06 Nanjing #1; B-12 Nantong #1; B-14 Zhengzhou #1
+     Textile Engineering [3]
+        B-15 Shaoxing #1; B-18 Shanghai #1; B-34 Tianjin #3
+     Applied Chemistry [2]
+        B-27 Zhanjiang #1; B-37 Jinhua #1
+     Automation [2]
+        B-04 Shenzhen #1; B-06 Nanjing #1
+     Business Management [2]
+        B-39 Hangzhou #2; B-39(CN) Hangzhou #2
+     Chemistry [2]
+        B-12 Nantong #1; B-40 Wenzhou #1
+     Economics [2]
+        B-04 Shenzhen #1; B-32(CN) Nanjing #3
+     Energy and Power Engineering [2]
+        B-06(CN) Nanjing #1; B-27 Zhanjiang #1
+     Environmental Engineering [2]
+        B-38 Hangzhou #1; B-42 Shijiazhuang #1
+     Environmental Science and Engineering [2]
+        B-11 Tianjin #2; B-37 Jinhua #1
+     Finance [2]
+        B-16 Beijing #2; B-38 Hangzhou #1
+     Law [2]
+        B-38 Hangzhou #1; B-40 Wenzhou #1
+     Materials Science & Engineering [2]
+        B-17 Xi'an #1; B-37 Jinhua #1
+     Mathematics and Applied Mathematics [2]
+        B-12 Nantong #1; B-40 Wenzhou #1
+     Mechatronics Engineering [2]
+        B-27 Zhanjiang #1; B-34 Tianjin #3
+     Pharmaceutical Engineering [2]
+        B-31 Wuhan #3; B-38 Hangzhou #1
+     Tourism Management [2]
+        B-01 Chengdu #1; B-09 Yangzhou #1
+     Traffic Engineering [2]
+        B-06 Nanjing #1; B-06(CN) Nanjing #1
+     Accounting [1]
+        B-12 Nantong #1
+     Aeronautical Engineering [1]
+        B-17 Xi'an #1
+     Apparel Design and Engineering [1]
+        B-34 Tianjin #3
+     Applied Statistics [1]
+        B-12 Nantong #1
+     Architecture [1]
+        B-04 Shenzhen #1
+     Astronautics Engineering [1]
+        B-17 Xi'an #1
+     Biological Science [1]
+        B-15 Shaoxing #1
+     Broadcasting and Television Playwright-director [1]
+        B-34 Tianjin #3
+     Chinese International Education [1]
+        B-39(CN) Hangzhou #2
+     Chinese Language and Literature [1]
+        B-24(BL) Neijiang #1
+     Chinese Language and Literature (Business Chinese) [1]
+        B-20(CN) Wuhan #2
+     Community Sports Guidance and Management [1]
+        B-12 Nantong #1
+     Digital Media Art [1]
+        B-32(CN) Nanjing #3
+     Digital Media Technology (Computer major) [1]
+        B-28 Changzhou #1
+     E-Commerce [1]
+        B-20 Wuhan #2
+     Electronic Commerce [1]
+        B-32(CN) Nanjing #3
+     Electronic Packaging Technology [1]
+        B-04 Shenzhen #1
+     Energy Environment and Systems Engineering [1]
+        B-06(CN) Nanjing #1
+     Energy Storage Science and Engineering [1]
+        B-06(CN) Nanjing #1
+     Engineering Management [1]
+        B-12 Nantong #1
+     Financial Management [1]
+        B-37 Jinhua #1
+     Global Health [1]
+        B-12 Nantong #1
+     Hotel Management [1]
+        B-19 Shanghai #2
+     Information Management and Information System [1]
+        B-19 Shanghai #2
+     Intellectual Property Law [1]
+        B-10 Wuhan #1
+     Intelligent Manufacturing Engineering [1]
+        B-39 Hangzhou #2
+     Intelligent Science and Technology [1]
+        B-20 Wuhan #2
+     International Chinese Education [1]
+        B-25 Dazhou #1
+     Japanese Language and Literature [1]
+        B-34 Tianjin #3
+     Marine Engineering [1]
+        B-27 Zhanjiang #1
+     Marketing [1]
+        B-40 Wenzhou #1
+     Medicinal Chemistry [1]
+        B-18 Shanghai #1
+     Microelectronics Science and Engineering [1]
+        B-09 Yangzhou #1
+     New Energy Materials and Devices [1]
+        B-06(CN) Nanjing #1
+     New Energy Science and Engineering [1]
+        B-07 Chengdu #2
+     Nursing [1]
+        B-15 Shaoxing #1
+     Ocean Engineering [1]
+        B-17 Xi'an #1
+     Opto-Electronic Information Science and Engineering [1]
+        B-04 Shenzhen #1
+     Pharmaceutical Technology [1]
+        B-11 Tianjin #2
+     Physical Education [1]
+        B-12 Nantong #1
+     Public Relation [1]
+        B-19 Shanghai #2
+     Resource Exploration Engineering [1]
+        B-07 Chengdu #2
+     Robot Engineering [1]
+        B-04 Shenzhen #1
+     Teaching Chinese to Speakers of Other Languages [1]
+        B-06(CN) Nanjing #1
+     Transportation [1]
+        B-37 Jinhua #1
+     Transportation Equipment and Control Engineering [1]
+        B-12 Nantong #1
+     Urban Planning [1]
+        B-04 Shenzhen #1
+     Water Supply and Drainage [1]
+        B-42 Shijiazhuang #1
+
+11.16 MASTER MAJORS INDEX (which Master programs offer each major; variants grouped)
+     (MA-xx = program ID; (CN) = Chinese-taught; (CN/EN) = Chinese or English;
+      otherwise English-taught. Province-only programs are labelled by province)
+
+     Mechanical Engineering [9]
+        MA-04(CN) Zhejiang Province #1; MA-05 Zhejiang Province #2;
+        MA-07 Shaanxi Province #1; MA-10 Hubei Province #1; MA-11 Tianjin #1;
+        MA-12 Nantong #1; MA-15 Jiangsu Province #1; MA-16(CN/EN) Shenzhen #1;
+        MA-17 Nanjing #1
+     Information & Communication Engineering [8]
+        MA-02 Heilongjiang Province #1; MA-04(CN) Zhejiang Province #1;
+        MA-07 Shaanxi Province #1; MA-09(CN) Liaoning Province #1;
+        MA-10 Hubei Province #1; MA-11 Tianjin #1; MA-12 Nantong #1; MA-17 Nanjing #1
+     Chemical Engineering (& Technology / Technics) [7]
+        MA-01(CN) Gansu Province #1; MA-05 Zhejiang Province #2;
+        MA-07 Shaanxi Province #1; MA-08(CN) Shaanxi Province #2;
+        MA-09(CN) Liaoning Province #1; MA-10 Hubei Province #1; MA-11 Tianjin #1
+     Computer Science & Technology [7]
+        MA-07 Shaanxi Province #1; MA-08(CN) Shaanxi Province #2;
+        MA-09(CN) Liaoning Province #1; MA-10 Hubei Province #1; MA-12 Nantong #1;
+        MA-16(CN/EN) Shenzhen #1; MA-17 Nanjing #1
+     Power Engineering & Engineering Thermophysics [7]
+        MA-04(CN) Zhejiang Province #1; MA-05 Zhejiang Province #2;
+        MA-07 Shaanxi Province #1; MA-08(CN) Shaanxi Province #2;
+        MA-15 Jiangsu Province #1; MA-16(CN/EN) Shenzhen #1; MA-17 Nanjing #1
+     Business Administration (incl. MBA) [6]
+        MA-05 Zhejiang Province #2; MA-07 Shaanxi Province #1; MA-10 Hubei Province #1;
+        MA-11 Tianjin #1; MA-14(CN) Hubei Province #2; MA-16(CN/EN) Shenzhen #1
+     Civil Engineering [6]
+        MA-08(CN) Shaanxi Province #2; MA-10 Hubei Province #1; MA-11 Tianjin #1;
+        MA-12 Nantong #1; MA-16(CN/EN) Shenzhen #1; MA-17 Nanjing #1
+     Electrical Engineering [5]
+        MA-01(CN) Gansu Province #1; MA-07 Shaanxi Province #1; MA-11 Tianjin #1;
+        MA-15 Jiangsu Province #1; MA-17 Nanjing #1
+     Environmental Science and Engineering [5]
+        MA-07 Shaanxi Province #1; MA-08(CN) Shaanxi Province #2;
+        MA-09(CN) Liaoning Province #1; MA-10 Hubei Province #1; MA-17 Nanjing #1
+     Materials Science & Engineering [5]
+        MA-01(CN) Gansu Province #1; MA-07 Shaanxi Province #1;
+        MA-08(CN) Shaanxi Province #2; MA-09(CN) Liaoning Province #1; MA-17 Nanjing #1
+     Pharmacy [5]
+        MA-01(CN) Gansu Province #1; MA-04(CN) Zhejiang Province #1;
+        MA-05 Zhejiang Province #2; MA-07 Shaanxi Province #1; MA-12 Nantong #1
+     Chemistry [4]
+        MA-07 Shaanxi Province #1; MA-08(CN) Shaanxi Province #2; MA-11 Tianjin #1;
+        MA-12 Nantong #1
+     Journalism and Communication [4]
+        MA-04(CN) Zhejiang Province #1; MA-07 Shaanxi Province #1;
+        MA-08(CN) Shaanxi Province #2; MA-14(CN) Hubei Province #2
+     Mechanics [4]
+        MA-04(CN) Zhejiang Province #1; MA-07 Shaanxi Province #1;
+        MA-09(CN) Liaoning Province #1; MA-17 Nanjing #1
+     Nursing [4]
+        MA-06(CN) Zhejiang Province #3; MA-07 Shaanxi Province #1;
+        MA-10 Hubei Province #1; MA-15 Jiangsu Province #1
+     Accounting [3]
+        MA-01(CN) Gansu Province #1; MA-09(CN) Liaoning Province #1;
+        MA-10 Hubei Province #1
+     Architecture [3]
+        MA-01(CN) Gansu Province #1; MA-08(CN) Shaanxi Province #2; MA-11 Tianjin #1
+     Biology [3]
+        MA-07 Shaanxi Province #1; MA-12 Nantong #1; MA-15 Jiangsu Province #1
+     Civil and Hydraulic Engineering [3]
+        MA-04(CN) Zhejiang Province #1; MA-05 Zhejiang Province #2; MA-12 Nantong #1
+     Control Science and Engineering [3]
+        MA-09(CN) Liaoning Province #1; MA-11 Tianjin #1; MA-12 Nantong #1
+     Electronic Information (& Engineering) [3]
+        MA-10 Hubei Province #1; MA-11 Tianjin #1; MA-15 Jiangsu Province #1
+     Law [3]
+        MA-07 Shaanxi Province #1; MA-08(CN) Shaanxi Province #2;
+        MA-10 Hubei Province #1
+     Mathematics [3]
+        MA-10 Hubei Province #1; MA-12 Nantong #1; MA-17 Nanjing #1
+     Physics [3]
+        MA-08(CN) Shaanxi Province #2; MA-15 Jiangsu Province #1; MA-17 Nanjing #1
+     Public Administration [3]
+        MA-06(CN) Zhejiang Province #3; MA-07 Shaanxi Province #1; MA-17 Nanjing #1
+     Public Health [3]
+        MA-07 Shaanxi Province #1; MA-12 Nantong #1; MA-15 Jiangsu Province #1
+     Anesthesiology [2]
+        MA-07 Shaanxi Province #1; MA-10 Hubei Province #1
+     Applied Economics [2]
+        MA-05 Zhejiang Province #2; MA-07 Shaanxi Province #1
+     Art Design [2]
+        MA-10 Hubei Province #1; MA-12 Nantong #1
+     Basic Veterinary Medicine [2]
+        MA-13(CN) Shaanxi Province #3; MA-15 Jiangsu Province #1
+     Bioengineering [2]
+        MA-01(CN) Gansu Province #1; MA-04(CN) Zhejiang Province #1
+     Biology & Medicine [2]
+        MA-01(CN) Gansu Province #1; MA-15 Jiangsu Province #1
+     Biomedical Engineering [2]
+        MA-07 Shaanxi Province #1; MA-11 Tianjin #1
+     Chinese International Education [2]
+        MA-01(CN) Gansu Province #1; MA-04(CN) Zhejiang Province #1
+     Clinical Laboratory Diagnostics [2]
+        MA-07 Shaanxi Province #1; MA-10 Hubei Province #1
+     Clinical Veterinary Medicine [2]
+        MA-13(CN) Shaanxi Province #3; MA-15 Jiangsu Province #1
+     Communication / Telecommunication Engineering [2]
+        MA-09(CN) Liaoning Province #1; MA-12 Nantong #1
+     Control Engineering [2]
+        MA-01(CN) Gansu Province #1; MA-09(CN) Liaoning Province #1
+     Control Theory and Control Engineering [2]
+        MA-01(CN) Gansu Province #1; MA-17 Nanjing #1
+     Dermatology & Venereology [2]
+        MA-07 Shaanxi Province #1; MA-10 Hubei Province #1
+     Design [2]
+        MA-01(CN) Gansu Province #1; MA-09(CN) Liaoning Province #1
+     Ecology [2]
+        MA-10 Hubei Province #1; MA-15 Jiangsu Province #1
+     Education [2]
+        MA-04(CN) Zhejiang Province #1; MA-10 Hubei Province #1
+     Educational Technology [2]
+        MA-04(CN) Zhejiang Province #1; MA-12 Nantong #1
+     Emergency Medicine [2]
+        MA-07 Shaanxi Province #1; MA-10 Hubei Province #1
+     English / English Language & Literature [2]
+        MA-12 Nantong #1; MA-15 Jiangsu Province #1
+     Enterprise Management [2]
+        MA-09(CN) Liaoning Province #1; MA-17 Nanjing #1
+     Environmental Engineering [2]
+        MA-01(CN) Gansu Province #1; MA-11 Tianjin #1
+     Environmental Science [2]
+        MA-08(CN) Shaanxi Province #2; MA-11 Tianjin #1
+     Foreign Linguistics and Applied Linguistics [2]
+        MA-10 Hubei Province #1; MA-15 Jiangsu Province #1
+     Geological Resources and Geological Engineering [2]
+        MA-10 Hubei Province #1; MA-17 Nanjing #1
+     Hydraulics and River Dynamics [2]
+        MA-01(CN) Gansu Province #1; MA-17 Nanjing #1
+     Hydrology and Water Resources [2]
+        MA-01(CN) Gansu Province #1; MA-17 Nanjing #1
+     Industrial Engineering [2]
+        MA-01(CN) Gansu Province #1; MA-15 Jiangsu Province #1
+     Instrument Science & Technology [2]
+        MA-02 Heilongjiang Province #1; MA-11 Tianjin #1
+     Internal Medicine [2]
+        MA-07 Shaanxi Province #1; MA-10 Hubei Province #1
+     International Trade / Economics & Trade [2]
+        MA-09(CN) Liaoning Province #1; MA-17 Nanjing #1
+     Landscape Architecture [2]
+        MA-10 Hubei Province #1; MA-11 Tianjin #1
+     Management Science and Engineering [2]
+        MA-01(CN) Gansu Province #1; MA-07 Shaanxi Province #1
+     Materials Processing Engineering [2]
+        MA-01(CN) Gansu Province #1; MA-15 Jiangsu Province #1
+     Mechanical Design and Theory [2]
+        MA-01(CN) Gansu Province #1; MA-09(CN) Liaoning Province #1
+     Mechanical Manufacturing & Automation [2]
+        MA-01(CN) Gansu Province #1; MA-09(CN) Liaoning Province #1
+     Mechatronics Engineering [2]
+        MA-01(CN) Gansu Province #1; MA-09(CN) Liaoning Province #1
+     Music [2]
+        MA-10 Hubei Province #1; MA-12 Nantong #1
+     Neurology [2]
+        MA-07 Shaanxi Province #1; MA-10 Hubei Province #1
+     Nuclear Science and Technology [2]
+        MA-07 Shaanxi Province #1; MA-08(CN) Shaanxi Province #2
+     Obstetrics & Gynecology [2]
+        MA-07 Shaanxi Province #1; MA-10 Hubei Province #1
+     Oncology [2]
+        MA-07 Shaanxi Province #1; MA-10 Hubei Province #1
+     Ophthalmology [2]
+        MA-07 Shaanxi Province #1; MA-10 Hubei Province #1
+     Optical Engineering [2]
+        MA-09(CN) Liaoning Province #1; MA-11 Tianjin #1
+     Otorhinolaryngology / Otolaryngology (ENT) [2]
+        MA-07 Shaanxi Province #1; MA-10 Hubei Province #1
+     Pediatrics [2]
+        MA-07 Shaanxi Province #1; MA-10 Hubei Province #1
+     Pharmaceutical Analysis [2]
+        MA-06(CN) Zhejiang Province #3; MA-07 Shaanxi Province #1
+     Pharmaceutics [2]
+        MA-06(CN) Zhejiang Province #3; MA-07 Shaanxi Province #1
+     Pharmacology [2]
+        MA-06(CN) Zhejiang Province #3; MA-07 Shaanxi Province #1
+     Preventive Veterinary Medicine [2]
+        MA-13(CN) Shaanxi Province #3; MA-15 Jiangsu Province #1
+     Rehabilitation (Medicine) & Physiotherapy [2]
+        MA-06(CN) Zhejiang Province #3; MA-07 Shaanxi Province #1
+     Sociology [2]
+        MA-08(CN) Shaanxi Province #2; MA-17 Nanjing #1
+     Software Engineering [2]
+        MA-15 Jiangsu Province #1; MA-17 Nanjing #1
+     Surgery [2]
+        MA-07 Shaanxi Province #1; MA-10 Hubei Province #1
+     Transportation Engineering [2]
+        MA-12 Nantong #1; MA-17 Nanjing #1
+     Vehicle Engineering [2]
+        MA-09(CN) Liaoning Province #1; MA-15 Jiangsu Province #1
+     Acupuncture and Massage [1]
+        MA-06(CN) Zhejiang Province #3
+     Aeronautical and Astronautical Science and Technology [1]
+        MA-07 Shaanxi Province #1
+     Agricultural Economy and Management [1]
+        MA-10 Hubei Province #1
+     Agricultural Engineering [1]
+        MA-17 Nanjing #1
+     Agricultural Entomology and Pest Control [1]
+        MA-13(CN) Shaanxi Province #3
+     Agricultural Management [1]
+        MA-10 Hubei Province #1
+     Agricultural Mechanization Engineering [1]
+        MA-15 Jiangsu Province #1
+     Agrostology [1]
+        MA-15 Jiangsu Province #1
+     Animal Genetics, Breeding and Reproduction [1]
+        MA-13(CN) Shaanxi Province #3
+     Animal Husbandry [1]
+        MA-15 Jiangsu Province #1
+     Animal Nutrition and Feed Science [1]
+        MA-13(CN) Shaanxi Province #3
+     Applied mathematics [1]
+        MA-01(CN) Gansu Province #1
+     Aquatic Science [1]
+        MA-15 Jiangsu Province #1
+     Artificial Intelligence [1]
+        MA-12 Nantong #1
+     Atomic and Molecular Physics [1]
+        MA-01(CN) Gansu Province #1
+     Basic Mathematics [1]
+        MA-01(CN) Gansu Province #1
+     Basic Theory of Traditional Chinese Medicine [1]
+        MA-06(CN) Zhejiang Province #3
+     Biochemistry and Molecular Biology [1]
+        MA-04(CN) Zhejiang Province #1
+     Bridge and tunnel works [1]
+        MA-01(CN) Gansu Province #1
+     Building material [1]
+        MA-01(CN) Gansu Province #1
+     Business management [1]
+        MA-01(CN) Gansu Province #1
+     Cartography and Geographical Information System [1]
+        MA-17 Nanjing #1
+     Chemical process machinery [1]
+        MA-01(CN) Gansu Province #1
+     Child, Adolescent and Maternal Health [1]
+        MA-07 Shaanxi Province #1
+     Chinese Language and Literature [1]
+        MA-04(CN) Zhejiang Province #1
+     Circuits and Systems [1]
+        MA-01(CN) Gansu Province #1
+     Clinical Basis of Traditional Chinese Medicine [1]
+        MA-06(CN) Zhejiang Province #3
+     Clinical Medicine [1]
+        MA-15 Jiangsu Province #1
+     Clinical practice of integrated traditional Chinese and western medicine [1]
+        MA-06(CN) Zhejiang Province #3
+     Clinicopathology [1]
+        MA-07 Shaanxi Province #1
+     Communication and information system [1]
+        MA-01(CN) Gansu Province #1
+     Computational mathematics [1]
+        MA-01(CN) Gansu Province #1
+     Computer Application Technology [1]
+        MA-01(CN) Gansu Province #1
+     Computer system structure [1]
+        MA-01(CN) Gansu Province #1
+     Computer Technology [1]
+        MA-09(CN) Liaoning Province #1
+     Condensed matter physics [1]
+        MA-01(CN) Gansu Province #1
+     Critical Care Medicine [1]
+        MA-07 Shaanxi Province #1
+     Crop Cultivation and Farming System [1]
+        MA-13(CN) Shaanxi Province #3
+     Crop Genetics and Breeding [1]
+        MA-13(CN) Shaanxi Province #3
+     Crop Health [1]
+        MA-13(CN) Shaanxi Province #3
+     Crop Science [1]
+        MA-10 Hubei Province #1
+     Dance [1]
+        MA-10 Hubei Province #1
+     Design Studies [1]
+        MA-08(CN) Shaanxi Province #2
+     Detection technology and automation device [1]
+        MA-01(CN) Gansu Province #1
+     Disaster prevention and mitigation engineering [1]
+        MA-01(CN) Gansu Province #1
+     Electrical Theory and New Technology [1]
+        MA-01(CN) Gansu Province #1
+     Electronic Science and Technology [1]
+        MA-07 Shaanxi Province #1
+     Energy and Power Engineering [1]
+        MA-04(CN) Zhejiang Province #1
+     Engineering Mechanics [1]
+        MA-01(CN) Gansu Province #1
+     Engineering Thermophysics [1]
+        MA-01(CN) Gansu Province #1
+     Environmental Science and Technology [1]
+        MA-05 Zhejiang Province #2
+     Epidemiology and Health Statistics [1]
+        MA-07 Shaanxi Province #1
+     Experimental Zoology and Comparative Medicine [1]
+        MA-15 Jiangsu Province #1
+     Fashion Design and Engineering [1]
+        MA-12 Nantong #1
+     Fine Art [1]
+        MA-10 Hubei Province #1
+     Fine Arts and Calligraphy [1]
+        MA-12 Nantong #1
+     Fluid machinery and engineering [1]
+        MA-01(CN) Gansu Province #1
+     Food Processing and Safety [1]
+        MA-10 Hubei Province #1
+     Food Science and Engineering [1]
+        MA-15 Jiangsu Province #1
+     Foreign Languages and Literature [1]
+        MA-07 Shaanxi Province #1
+     Forensic Medicine [1]
+        MA-12 Nantong #1
+     Forensic Science [1]
+        MA-07 Shaanxi Province #1
+     Fruit Science [1]
+        MA-13(CN) Shaanxi Province #3
+     General Medical [1]
+        MA-07 Shaanxi Province #1
+     Geology [1]
+        MA-10 Hubei Province #1
+     Geophysics [1]
+        MA-10 Hubei Province #1
+     Geotechnical Engineering [1]
+        MA-01(CN) Gansu Province #1
+     Geriatric Medicine [1]
+        MA-07 Shaanxi Province #1
+     Gynecology of Traditional Chinese Medicine [1]
+        MA-06(CN) Zhejiang Province #3
+     Harbor, Coastal and Offshore Engineering [1]
+        MA-17 Nanjing #1
+     Heat Supply, Gas Supply, Ventilation Engineering [1]
+        MA-11 Tianjin #1
+     History of Science and Technology [1]
+        MA-06(CN) Zhejiang Province #3
+     History of Traditional Chinese Medicine [1]
+        MA-06(CN) Zhejiang Province #3
+     Horticulture [1]
+        MA-10 Hubei Province #1
+     Human Anatomy and Histoembryology [1]
+        MA-12 Nantong #1
+     Human Kinesiology and Science [1]
+        MA-14(CN) Hubei Province #2
+     Humane and Sociological Science of Sports [1]
+        MA-14(CN) Hubei Province #2
+     Hydraulic Engineering [1]
+        MA-11 Tianjin #1
+     Hydraulics Structure Engineering [1]
+        MA-17 Nanjing #1
+     Imaging and Nuclear Medicine [1]
+        MA-10 Hubei Province #1
+     Immunology [1]
+        MA-12 Nantong #1
+     Industrial Engineering and Management [1]
+        MA-04(CN) Zhejiang Province #1
+     Integrated Circuit Engineering [1]
+        MA-12 Nantong #1
+     Integrated Circuit Science and Engineering [1]
+        MA-08(CN) Shaanxi Province #2
+     Intelligent Medical Engineering [1]
+        MA-11 Tianjin #1
+     Internal Medicine of Traditional Chinese Medicine [1]
+        MA-06(CN) Zhejiang Province #3
+     International Business [1]
+        MA-12 Nantong #1
+     Livestock Biology [1]
+        MA-13(CN) Shaanxi Province #3
+     Marxist Theory [1]
+        MA-07 Shaanxi Province #1
+     Material Physics and Chemistry [1]
+        MA-01(CN) Gansu Province #1
+     Materials Engineering [1]
+        MA-09(CN) Liaoning Province #1
+     Medical Biochemistry and Molecular Biology [1]
+        MA-12 Nantong #1
+     Medical Informatics [1]
+        MA-12 Nantong #1
+     Medicinal Chemistry [1]
+        MA-07 Shaanxi Province #1
+     Mental Health Education [1]
+        MA-12 Nantong #1
+     Microbial and Biochemical Pharmacy [1]
+        MA-06(CN) Zhejiang Province #3
+     Microbiology [1]
+        MA-04(CN) Zhejiang Province #1
+     MPA [1]
+        MA-12 Nantong #1
+     Music and Dance [1]
+        MA-14(CN) Hubei Province #2
+     Natural Medicinal Chemistry [1]
+        MA-07 Shaanxi Province #1
+     Nuclear Medicine [1]
+        MA-07 Shaanxi Province #1
+     Nutrition and Food Hygiene [1]
+        MA-07 Shaanxi Province #1
+     Ocean and Naval Structure Engineering [1]
+        MA-11 Tianjin #1
+     Oil and Gas Engineering [1]
+        MA-10 Hubei Province #1
+     Oil and gas well engineering [1]
+        MA-10 Hubei Province #1
+     Operational Research and Cybernetics [1]
+        MA-01(CN) Gansu Province #1
+     Optics [1]
+        MA-01(CN) Gansu Province #1
+     Opto-electronics and Photonics Technology [1]
+        MA-11 Tianjin #1
+     Orthopaedics and Traumatology [1]
+        MA-07 Shaanxi Province #1
+     Orthopedics and Traumatology of Traditional Chinese Medicine [1]
+        MA-06(CN) Zhejiang Province #3
+     Pathogenic Biology [1]
+        MA-12 Nantong #1
+     Pathology and Pathophysiology [1]
+        MA-12 Nantong #1
+     Pattern recognition and intelligent system [1]
+        MA-01(CN) Gansu Province #1
+     Pediatrics of Traditional Chinese Medicine [1]
+        MA-06(CN) Zhejiang Province #3
+     Pesticide Science [1]
+        MA-13(CN) Shaanxi Province #3
+     Pharmaceutical chemistry [1]
+        MA-06(CN) Zhejiang Province #3
+     Pharmaceutical Engineering [1]
+        MA-07 Shaanxi Province #1
+     Pharmacognosy [1]
+        MA-07 Shaanxi Province #1
+     Pharmacy Administration [1]
+        MA-07 Shaanxi Province #1
+     Philosophy [1]
+        MA-08(CN) Shaanxi Province #2
+     Photoelectric Information Engineering [1]
+        MA-09(CN) Liaoning Province #1
+     Physical Education and Sports Coaching [1]
+        MA-14(CN) Hubei Province #2
+     Physical Education Teaching [1]
+        MA-10 Hubei Province #1
+     Physical Electronics [1]
+        MA-01(CN) Gansu Province #1
+     Physiology [1]
+        MA-12 Nantong #1
+     Plant Pathology [1]
+        MA-13(CN) Shaanxi Province #3
+     Plant Protection [1]
+        MA-10 Hubei Province #1
+     Power Electronics and Power Transmission [1]
+        MA-01(CN) Gansu Province #1
+     Power machinery and engineering [1]
+        MA-01(CN) Gansu Province #1
+     Power System and Automation [1]
+        MA-01(CN) Gansu Province #1
+     Preschool Education [1]
+        MA-12 Nantong #1
+     Primary Education [1]
+        MA-10 Hubei Province #1
+     Protected Horticulture [1]
+        MA-13(CN) Shaanxi Province #3
+     Psychiatry and Psych hygiene [1]
+        MA-10 Hubei Province #1
+     Psychological Science [1]
+        MA-14(CN) Hubei Province #2
+     Public Health and Preventive Medicine [1]
+        MA-12 Nantong #1
+     Radiation oncology [1]
+        MA-07 Shaanxi Province #1
+     Radio Physics [1]
+        MA-01(CN) Gansu Province #1
+     Radiographic [1]
+        MA-07 Shaanxi Province #1
+     Refrigeration and low-temperature engineering [1]
+        MA-01(CN) Gansu Province #1
+     Reproductive Medicine [1]
+        MA-12 Nantong #1
+     Resettlement Science and Management [1]
+        MA-17 Nanjing #1
+     Resource and Environment [1]
+        MA-12 Nantong #1
+     Rural Development [1]
+        MA-10 Hubei Province #1
+     Signal and information processing [1]
+        MA-01(CN) Gansu Province #1
+     Social Sports Guidance [1]
+        MA-10 Hubei Province #1
+     Soil and Water Conservation and Desertification Control [1]
+        MA-13(CN) Shaanxi Province #3
+     Solid Mechanics [1]
+        MA-01(CN) Gansu Province #1
+     Special Medicine [1]
+        MA-14(CN) Hubei Province #2
+     Sports Engineering [1]
+        MA-14(CN) Hubei Province #2
+     Sports Rehabilitation [1]
+        MA-14(CN) Hubei Province #2
+     Sports Science [1]
+        MA-12 Nantong #1
+     Sports Training [1]
+        MA-10 Hubei Province #1
+     Stomatological Medicine [1]
+        MA-07 Shaanxi Province #1
+     Structural engineering [1]
+        MA-01(CN) Gansu Province #1
+     Surgery of Traditional Chinese Medicine [1]
+        MA-06(CN) Zhejiang Province #3
+     Surveying and Mapping [1]
+        MA-17 Nanjing #1
+     Systems engineering [1]
+        MA-01(CN) Gansu Province #1
+     TCM five sense organs science [1]
+        MA-06(CN) Zhejiang Province #3
+     Teaching Chinese to Speakers of Other Languages [1]
+        MA-03(CN) Guangxi Province #1
+     Technical Economics and Management [1]
+        MA-09(CN) Liaoning Province #1
+     Textile Engineering [1]
+        MA-01(CN) Gansu Province #1
+     Textile Science and Engineering [1]
+        MA-12 Nantong #1
+     Theoretical Economics [1]
+        MA-07 Shaanxi Province #1
+     Theoretical physics [1]
+        MA-01(CN) Gansu Province #1
+     Thermal engineering [1]
+        MA-01(CN) Gansu Province #1
+     Traditional Chinese Medicine [1]
+        MA-06(CN) Zhejiang Province #3
+     Traditional Chinese Sports [1]
+        MA-14(CN) Hubei Province #2
+     Ultrasonic Medicine [1]
+        MA-07 Shaanxi Province #1
+     Urban Planning [1]
+        MA-11 Tianjin #1
+     Vegetable Science [1]
+        MA-13(CN) Shaanxi Province #3
+     Veterinary Bioinformatics [1]
+        MA-15 Jiangsu Province #1
+     Veterinary Sanitary Science [1]
+        MA-15 Jiangsu Province #1
+     Water Conservancy and Hydropower Engineering [1]
+        MA-17 Nanjing #1
+     Water conservancy and hydropower projects [1]
+        MA-01(CN) Gansu Province #1
+
+
+==========================================================================================
+SECTION 12 - THIRD-PARTY AGENCY BRANDING FOUND IN THE FILES
+==========================================================================================
+  (Kept separate as requested. Delete this section if not needed.)
+
+  12.1  "MalishaEdu" (brand of the Bachelor brochure)
+       - Sentence on B-03, B-14 and B-17: "MalishaEdu will assist the students for the
+         students by organizing Interview Preparation by Chinese Teachers."
+         -> generic feature kept in program blocks as "Interview preparation organized
+            with Chinese teachers [AGENCY]"
+       - MBBS page (p44): logo "MalishaEdu | 玛里莎 - The Chinese Education Expert"
+       - Fees in Bangladeshi Taka and Bangladeshi HSC/Diploma score rules (B-31) suggest the
+         brochure was written for Bangladeshi students
+
+  12.2  "IFFI Global Education Consultant(s)"
+       - PHD SEP.pdf: header text "IFFI GLOBAL EDUCATION CONSULTANT" + logo (globe with
+         graduate figure, "IFFI GLOBAL EDUCATION CONSULTANTS")
+       - Application form, "Information for Reference" AND "Guarantor in China" rows are
+         pre-filled with:
+           Name ........... IFFI
+           Organization ... IFFI GLOBAL EDU CONSULTANT
+           Tel ............ 13939090575
+           E-mail ......... Ahmadiffi01@gmail.com (also embedded as a mailto: hyperlink)
+           Address ........ ZHENGZHOU, HENAN
+         -> replace these with your own details before giving the form to students
+       - IFFI CONSULTANTS CHARGES LIST .docx: red title "IFFI GLOBAL EDU CONSULTANTS";
+         the whole file is this agency's student fee schedule (features in SECTION 10)
+
+  12.3  Generic agent references (no brand name)
+       - Work visa file: "Business license and Company stamp (We will provide)"
+       - Work visa file: "...if u don't understand please contact your agent"
+       - Nanning flyer: no brand name; the file name says "Partner Version" (made for
+         partner agents to forward)
+       - Charges list: written in the consultant's first person ("I'll provide you form")
+
+
+==========================================================================================
+SECTION 13 - [CHECK] LIST: ERRORS & INCONSISTENCIES IN THE SOURCE
+==========================================================================================
+  ID / Section   Issue
+  -------------  ---------------------------------------------------------------------------
+  B-01           "The belt and Initiative Scholarship" - should be "Belt and Road"
+  B-02           "26000NY" and "400NY" - "NY" should be CNY
+  B-02           "TOFFEL" - TOEFL
+  B-02           No application deadline given
+  B-07           "Petroluem Engineering" - Petroleum
+  B-08           Tuition "2,8500 yuan/year" - comma misplaced, probably 28,500
+  B-10           A MASTER program sits inside the Bachelor brochure; document list numbered
+                 "4.4."
+  B-15           Scholarship "Type C: Accommodation Fees" - incomplete (free? discounted?)
+  B-15           "Age below 45" listed as a document; "May 31th"
+  B-16           2 broken hyperlinks to a local dictionary-app file on the author's PC
+  B-17           Fee-table numbering jumps 1 -> 4 (rows 2-3 missing; may have been removed)
+  B-21           Document list numbering skips 3 and 4
+  B-22           Fee heading says "for master's degree" on a Bachelor page
+  B-22           Second Class single room "100CNY/Month" vs 1000 CNY/Month elsewhere
+  B-23           Deadline "August 20, 2022" / class "September 2022" in a 2025 brochure
+  B-23           Fee amounts have no currency written
+  B-25           "10000CNY(15000USD)" - USD conversion wrong (~1,400-1,500 USD)
+  B-26           "Passport of National ID of Parents" - should be "or"
+  B-27           "Zhanjiang City, Jiangsu Province" - Zhanjiang is in Guangdong; the Jiangsu
+                 city is Zhenjiang
+  B-27           "Ground prize" - Grand prize
+  B-28           "online classes ... till Chinese border being opened" - COVID-era leftover
+  B-32           Advance-payment note mentions "taught in English" but majors are
+                 Chinese-taught
+  B-34           Document list numbering skips 3
+  B-36           No scholarship information on the page (only normal costs)
+  B-38           "International Economics and Trade" listed twice (items 1 and 5)
+  B-39           "Click here for Health Check Up form" - no link exists in the PDF
+  B-43           Photo size "3.5mm*4mm" - should be cm
+  MBBS (p44)     No deadline stated
+  P-all          Intake "September 2024" - older than other material
+  P-02           Category "Medicine" printed beside a mostly agriculture/veterinary list
+  P-04           "Zhenghzhou" - Zhengzhou; "Integraded" - Integrated; "venerology" -
+                 Venereology
+  Work visa      Two items numbered "3." and two numbered "4." in the samples section;
+                 informal spelling ("u", "Ur", "sixe")
+  App form       "realishionship" - relationship
+  MA-all         Intake "September 2024" - outdated
+  MA-all         TOEFL is spelled "TOFEL" throughout the Master file (normalized in
+                 SECTION 6)
+  MA-02          "Applicable form" - Application form
+  MA-03          A Master program asks for HIGH-SCHOOL certificates and transcript
+  MA-04          "Journalism and Communication" listed twice
+  MA-05          English requirement "TOFEL 60" - unusually low (other programs ask 80)
+  MA-07          "Theoretical Economics" and "Public Health" each listed twice
+  MA-07          "tranmstology" (Traumatology), "Stomtological" (Stomatological),
+                 "General Medical" (probably General Medicine)
+  MA-08          "Materials Science and Engineering", "Philosophy" and "Sociology" each
+                 listed twice
+  MA-09          "Mechanics" listed twice
+  MA-11          "Ventilationer" (Ventilation), "Engineeing" (Engineering)
+  MA-12          "MPA" typed with Cyrillic letters (looks normal, breaks search and
+                 copy-paste); "Computer Science andTechnology"
+  MA-15          Six majors printed without spaces (e.g. "ForeignLinguisticsandApplied
+                 Linguistics"); two lines each hold two numbered majors
+  MA-15          Province only; bank statement listed without an amount
+  MA-17          Location line holds part of an institution NAME instead of a city
+                 (replaced by the city in SECTION 6)
+  MA-17          "Information and Communication Engineering" listed twice
+  L-01           Page 2 is blank; every emoji prints as a black square (missing font glyphs)
+  L-01           "one-bed sharing" is unclear; no institution, intake date or deadline given
+  L-01           Marketed to job seekers as a way to "stay legal" - a student residence
+                 permit does not by itself allow work in China; check wording before reuse
+  Charges        "more then" - more than; "Require Documents" - Required Documents
+  Charges        Bank rule "even zero balance is OK" conflicts with university document
+                 lists asking for 2,500-5,000 USD
+
+
+==========================================================================================
+  END OF FILE
+==========================================================================================

@@ -1,0 +1,1129 @@
+==========================================================================================
+  GUJJIFY CONSULTANT - WEBSITE & ONLINE PRESENCE EXTRACTION
+  Source website: https://www.gujjify.com/   (+ official social profiles + public registers)
+  Extracted: 2026-10-07
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+HOW TO READ THIS FILE
+------------------------------------------------------------------------------------------
+  Values ............ copied VERBATIM from the source (spelling, punctuation, typos kept).
+                      Verbatim paragraphs are kept on ONE line so they can be copy-pasted
+                      straight into the new website.
+  [CHECK] ........... error, inconsistency or risk - verify / fix before reusing
+                      (full list in SECTION 14)
+  [OFF-SITE] ........ NOT on gujjify.com - found on Facebook, Instagram, WhatsApp or a
+                      public register (Companies House, domain registry)
+  [ADDED] ........... explanation / background knowledge added for context
+  [DERIVED] ......... worked out from the source (counts, decoded dates, behaviour read
+                      from the site's code)
+  [NOT VERIFIED] .... could not be confirmed - reason given
+  [RECOMMENDED] ..... the value / link to use on the new website
+  Counts ............ follower, post and review counts change over time - all counts are
+                      as of 2026-10-07
+
+------------------------------------------------------------------------------------------
+TABLE OF CONTENTS
+------------------------------------------------------------------------------------------
+  SECTION 1  - What was extracted (pages, sources, method)
+  SECTION 2  - Business identity & legal entity
+  SECTION 3  - Contact details (all channels)
+  SECTION 4  - SOCIAL LINKS: proper (canonical) URLs + full profile details   <-- key
+  SECTION 5  - Site map, page titles, meta tags & navigation
+  SECTION 6  - Page content, verbatim (global elements + every page)
+  SECTION 7  - Services (8) - full text
+  SECTION 8  - Blog (9 posts) - full text, dates, slugs, images
+  SECTION 9  - FAQ (8 questions & answers)
+  SECTION 10 - Contact form & WhatsApp click-to-chat messages
+  SECTION 11 - Brand & design system (logo, colours, fonts, components, breakpoints)
+  SECTION 12 - Technology, hosting & domain
+  SECTION 13 - Extra content found on social media (not on the website)
+  SECTION 14 - [CHECK] list: errors, inconsistencies & risks
+  SECTION 15 - Rebuild checklist (keep / fix / add) + questions for the client
+  SECTION 16 - How this file connects to the other project files
+
+
+==========================================================================================
+SECTION 1 - WHAT WAS EXTRACTED
+==========================================================================================
+
+  Date / method
+    - Crawled 2026-10-07 (server time Wed, 07 Oct 2026 06:09 GMT)
+    - The site is server-rendered PHP, so the raw HTML of each page contains all content
+      (no JavaScript rendering needed). Also downloaded: stylesheet, script, logo files,
+      HTTP headers.
+    - Social profiles read as public (logged-out) pages. Public registers: UK Companies
+      House, Verisign RDAP (.com registry). Web search used to find any other profiles.
+
+  Pages found - 15 HTML pages, all HTTP 200
+    1. /index.php  (also served at /) ........ Home
+    2. /about.php ............................ About
+    3. /services.php ......................... Services (anchors #service-1 ... #service-8)
+    4. /blog.php ............................. Blog index
+    5. /faq.php .............................. FAQ
+    6. /contact.php .......................... Contact
+    7-15. /blog-post.php?slug=<slug> ......... 9 blog posts (SECTION 8)
+
+  Files / endpoints
+    - /assets/css/style.css ...... 15,732 bytes (the only stylesheet)
+    - /assets/js/main.js ......... 3,872 bytes (the only script)
+    - /assets/img/logo.png ....... 49,712 bytes - also the favicon
+    - /assets/img/logo-white.png . 49,712 bytes - IDENTICAL file to logo.png [CHECK]
+    - /ajax/contact.php .......... contact-form POST endpoint (not submitted)
+
+  Not found
+    - /robots.txt  -> 404
+    - /sitemap.xml -> 404
+      (both return Hostinger's generic "This Page Does Not Exist" page)
+
+  [NOT VERIFIED]
+    - /privacy.php, /terms.php and the behaviour of an unknown blog slug were not checked:
+      the host's firewall began refusing connections after ~30 quick requests (normal
+      Hostinger anti-abuse behaviour; it does not affect normal visitors). No page links
+      to a privacy policy or terms page anyway (link inventory in SECTION 5).
+
+  Off-site sources [OFF-SITE]
+    - Facebook page (resolved from the website's share link)
+    - Instagram profile (bio + latest 12 posts with captions)
+    - WhatsApp click-to-chat page for the website's number
+    - UK Companies House register - company 16657100
+    - Verisign RDAP record for GUJJIFY.COM
+    - Web search for other profiles (TikTok, YouTube, LinkedIn, X, Threads, Google Maps)
+
+
+==========================================================================================
+SECTION 2 - BUSINESS IDENTITY & LEGAL ENTITY
+==========================================================================================
+
+  2.1  BRAND
+    Brand name ........ Gujjify Consultant
+    Wordmark .......... "Gujjify" + small "CONSULTANT" underneath (HTML text, not an image)
+    Main tagline ...... Your Gateway to Study in China
+    Other lines ....... Study in China Made Easy        (Home hero label)
+                        Study in China with Confidence  (Home H1)
+                        Your Trusted Partner for Studying in China  (Home "Why Gujjify")
+                        Your Gateway to China Education  [OFF-SITE: Facebook bio, Instagram]
+                        Study China Experts              [OFF-SITE: Instagram bio]
+    What they do ...... China study consultancy: university admissions, scholarships
+                        (CSC, Confucius, provincial, university), X1/X2 student visas,
+                        document attestation & translation, HSK / Chinese language,
+                        pre-departure & airport pickup, accommodation, free counselling
+    Who it serves ..... "students from Pakistan and beyond" (About page). Content is written
+                        for Pakistani students: Matric/FSc, PMC-recognised MBBS, IBCC/HEC/
+                        MOFA attestation, Roman-Urdu social captions.
+    Claims on site .... "Gujjify Consultant is a registerd business" (Home) [CHECK typo]
+    Stats on site ..... 1200+ Students Guided | 80+ Partner Universities |
+                        500+ Scholarships Won | 7+ Years Experience   [CHECK - SECTION 14]
+    Location text ..... "Essex, United Kingdom, China and Pakistan"
+
+  2.2  LEGAL ENTITY - UK  [OFF-SITE: Companies House, checked 2026-10-07]
+    Company name ...... GUJJIFY LTD
+    Company number .... 16657100
+    Registered in ..... England and Wales [ADDED: UK company numbers with no SC/NI prefix
+                        are England & Wales registrations]
+    Company type ...... Private limited company
+    Status ............ Active
+    Incorporated ...... 18 August 2025
+    Registered office . Office 6317, 58 Peregrine Road, Hainault, Ilford, Essex,
+                        United Kingdom, IG6 3SZ
+                        [CHECK] "Office 6317" numbering suggests a registered-office /
+                        mail-forwarding address - confirm before presenting it as a
+                        visitable office
+    Nature of business  47910 - Retail sale via mail order houses or via Internet
+    (SIC codes)         47990 - Other retail sale not in stores, stalls or markets
+                        [CHECK] neither describes an education consultancy
+    Accounts .......... First accounts made up to 31 August 2026, due by 18 May 2027
+    Confirmation stmt . First statement date 17 August 2026, due by 31 August 2026
+                        -> the register shows "Confirmation statement overdue" [CHECK - URGENT]
+    Register page ..... https://find-and-update.company-information.service.gov.uk/company/16657100
+    Officers .......... not copied into this file (personal data) - see the "People" tab
+                        on the register page
+
+  2.3  PAKISTAN OFFICE  [OFF-SITE: Facebook page]
+    Address ........... "Lakshmi Station Lahore , Lahore, Pakistan" (exactly as on Facebook)
+                        [CHECK] no street, building or postcode
+    Page title ........ "Gujjify Consultant | Lahore"
+    Hours ............. "Always open"
+    Category .......... Educational consultant
+
+  2.4  CHINA
+    Listed as a location on the website, but no city, address or contact person is
+    published anywhere [CHECK].
+
+
+==========================================================================================
+SECTION 3 - CONTACT DETAILS
+==========================================================================================
+
+  Phone ................. +92 326 4570214  (one number for calls AND WhatsApp)
+    tel: link ........... tel:+923264570214
+    local format ........ 0326 4570214  (as written on Facebook)
+  WhatsApp .............. https://wa.me/923264570214
+    account type ........ WhatsApp Business account [OFF-SITE]
+    profile name ........ "Gujify"  (single "j") [CHECK - brand is "Gujjify"]
+  Email ................. gujjify@gmail.com   (mailto:gujjify@gmail.com)
+  Website ............... https://www.gujjify.com/
+                          (social captions write it as "www.gujjify.com")
+  Contact form .......... https://www.gujjify.com/contact.php (fields in SECTION 10)
+  Location (website) .... Essex, United Kingdom, China and Pakistan
+  Lahore address ........ Lakshmi Station Lahore , Lahore, Pakistan [OFF-SITE: Facebook]
+  UK registered office .. Office 6317, 58 Peregrine Road, Hainault, Ilford, Essex,
+                          IG6 3SZ [OFF-SITE: Companies House]
+  Hours ................. not on website; Facebook says "Always open"
+  Response promises ..... "we usually reply within minutes on WhatsApp" (Contact page)
+                          "24/7 WhatsApp Help" (Home, Why Gujjify)
+
+  NOT on the website: map, opening hours, street address, company name/number,
+  landline, contact person names.
+
+
+==========================================================================================
+SECTION 4 - SOCIAL LINKS (PROPER URLs) + PROFILE DETAILS
+==========================================================================================
+
+  4.1  PROPER LINKS TO USE ON THE NEW WEBSITE  [RECOMMENDED]
+  ----------------------------------------------------------------------------------------
+    Facebook .... https://www.facebook.com/profile.php?id=61590861647152
+    Instagram ... https://www.instagram.com/gujjifyconsultant/
+    WhatsApp .... https://wa.me/923264570214
+    Phone ....... tel:+923264570214
+    Email ....... mailto:gujjify@gmail.com
+
+    If a Facebook username is claimed later (e.g. to match Instagram), replace the
+    Facebook link with https://www.facebook.com/<username> [ADDED - availability of
+    "gujjifyconsultant" on Facebook NOT VERIFIED].
+
+  4.2  WHAT THE CURRENT SITE USES & HOW EACH LINK WAS VERIFIED
+  ----------------------------------------------------------------------------------------
+    FACEBOOK
+      On the current site .... https://www.facebook.com/share/1BTCXKUiro/
+                               (a "share" short-link, NOT the page address) [CHECK]
+      It redirects (302) to .. https://www.facebook.com/profile.php?id=61590861647152
+                               &rdid=...&share_url=...   (tracking parameters)
+      Final address .......... https://www.facebook.com/people/Gujjify-Consultant/61590861647152/
+      Facebook's canonical ... https://www.facebook.com/p/Gujjify-Consultant-61590861647152/
+      Page ID ................ 61590861647152
+      Username ............... none claimed yet (that is why the URL contains the ID)
+      Why replace the share link [ADDED]: share links are redirect tokens created by a
+      "Share" action - they add an extra hop, can stop working, and are not the page's
+      real address. Pages on Facebook's new Pages experience use profile.php?id=... until
+      a username is set.
+
+    INSTAGRAM
+      On the current site .... https://www.instagram.com/gujjifyconsultant
+                               (no trailing slash - Instagram adds it; works fine)
+      Verified ............... profile exists, display name "Gujjify Consultant"
+
+    WHATSAPP
+      On the current site .... https://wa.me/923264570214  (+ 15 pre-filled message
+                               variants, SECTION 10)
+      Redirects to ........... https://api.whatsapp.com/send/?phone=923264570214&text&type=phone_number&app_absent=0
+      Verified ............... WhatsApp Business account, profile name "Gujify", has a
+                               profile photo
+
+  4.3  FACEBOOK PAGE DETAILS  [OFF-SITE]  (as of 2026-10-07)
+  ----------------------------------------------------------------------------------------
+    Name ................ Gujjify Consultant
+    Title shown ......... Gujjify Consultant | Lahore
+    Type / category ..... Page · Educational consultant
+    Followers ........... 15        Following: 0
+    Reviews ............. "Not yet rated (0 reviews)"
+    Address ............. Lakshmi Station Lahore , Lahore, Pakistan
+    Phone ............... 0326 4570214
+    Email ............... gujjify@gmail.com
+    Website ............. gujjify.com
+    Instagram ........... gujjifyconsultant (linked on the page)
+    Hours ............... Always open
+    Latest post found ... 2026-07-26 (photo post) [DERIVED from the post timestamp]
+    Example post ........ https://www.facebook.com/61590861647152/posts/122113236087362054/
+                          ("Turn Your Dream of Studying in China into Reality with Gujjify
+                          Consultant! ...")
+    Intro (bio), verbatim:
+      🎓 **Gujjify Consultant** | Your Gateway to China Education 🌍
+      Helping students achieve their study abroad dreams with expert guidance.
+      ✈️ Study Abroad Admissions
+      📚 University Selection
+      📝 Visa Assistance
+      💼 Scholarship Guidance
+      🎯 Career Counseling
+    [CHECK] the ** are shown literally - Facebook does not support markdown bold.
+
+  4.4  INSTAGRAM PROFILE DETAILS  [OFF-SITE]  (as of 2026-10-07)
+  ----------------------------------------------------------------------------------------
+    Handle .............. @gujjifyconsultant
+    Display name ........ Gujjify Consultant
+    Counts .............. 25 posts · 8 followers · 0 following · not verified
+    Link in bio ......... NONE - the website is not linked [CHECK]
+    Bio, verbatim:
+      🎓 Study China Experts 🌍
+      ✈️ Admissions | 🛂 Visa Assistance
+      🏛️ Top Universities Worldwide
+      💰 Scholarship Guidance
+      📩 DM us to start your journey!
+    [CHECK] "Top Universities Worldwide" conflicts with the China-only positioning.
+
+    Posting pattern [DERIVED from post IDs]: one post per day; the newest 12 posts run
+    2026-07-15 -> 2026-07-26; nothing posted after 2026-07-26 (about 10 weeks silent).
+
+    Latest 12 posts (newest first) - date, link, type, opening line of the caption:
+      2026-07-26  https://www.instagram.com/p/DbRPTE3jTJz/  image     Behind Every Admission Letter Is 50+ Hours of Hard Work
+      2026-07-25  https://www.instagram.com/p/DbOqC9BAA0Y/  image     September Intake ki Seats Fast Fill Ho Rahi Hain!
+      2026-07-24  https://www.instagram.com/p/DbME53ck1J0/  image     Don't let this myth stop you from studying in China!
+      2026-07-23  https://www.instagram.com/p/DbJgVwok8mD/  image     Student Success Story
+      2026-07-22  https://www.instagram.com/p/DbG7FeTj4sA/  image     Poll: Scholarship vs Self-Finance (Roman Urdu)
+      2026-07-21  https://www.instagram.com/p/DbEUr-BjZRD/  image     Confused about what to study in China?
+      2026-07-20  https://www.instagram.com/p/DbBwPF9lF6X/  image     Thinking about studying in China but still have questions?
+      2026-07-19  https://www.instagram.com/p/Da_MIV1jqv7/  image     Planning to study in China? Start by getting your documents ready!
+      2026-07-18  https://www.instagram.com/p/Da8midyiZXL/  image     China admission mushkil lagta hai? Itna bhi nahi!
+      2026-07-17  https://www.instagram.com/p/Da6CMuDCpAO/  carousel  Dreaming of studying in China on a scholarship?
+      2026-07-16  https://www.instagram.com/p/Da3d-zwAouP/  image     Har shaadi, har family gathering ka ek hi sawaal...
+      2026-07-15  https://www.instagram.com/p/DazmMGHFQG-/  image     Why pay 10x more for the same degree?
+    Useful facts from these captions are in SECTION 13.
+
+  4.5  PLATFORMS WITH NO OFFICIAL PROFILE FOUND
+  ----------------------------------------------------------------------------------------
+    TikTok, YouTube, LinkedIn, X/Twitter, Threads, Google Business Profile (Google Maps):
+    none is linked from the website, the Facebook page or the Instagram bio, and none
+    turned up in web search on 2026-10-07.
+    Note: a personal Facebook profile (not a business page) also posted a Gujjify promo
+    video. It is not an official channel and is deliberately not listed here.
+
+
+==========================================================================================
+SECTION 5 - SITE MAP, PAGE TITLES, META TAGS & NAVIGATION
+==========================================================================================
+
+  5.1  PAGES
+    URL                              <title>                                  Page H1
+    -------------------------------  ---------------------------------------  ---------------------------------
+    /index.php                       Home | Gujjify Consultant                Study in China with Confidence
+    /about.php                       About Us | Gujjify Consultant            About Gujjify Consultant
+    /services.php                    Services | Gujjify Consultant            Our Services
+    /blog.php                        Blog | Gujjify Consultant                Blog & Guides
+    /faq.php                         FAQ | Gujjify Consultant                 Frequently Asked Questions
+    /contact.php                     Contact | Gujjify Consultant             Contact Us
+    /blog-post.php?slug=<slug>       Gujjify Consultant | Gujjify Consultant  <post title> (appears twice)
+                                     [CHECK - same title on all 9 posts]
+
+  5.2  META TAGS (identical on all 15 pages)
+    charset ......... UTF-8
+    lang ............ en
+    viewport ........ width=device-width, initial-scale=1.0
+    description ..... Your Gateway to Study in China — admissions, scholarships and student visa guidance for top Chinese universities.
+                      [CHECK - one description for every page]
+    favicon ......... /assets/img/logo.png (2000 x 2000 PNG)
+    Missing ......... Open Graph, Twitter card, canonical, structured data (JSON-LD),
+                      hreflang, analytics, Search Console verification [CHECK]
+
+  5.3  NAVIGATION
+    Top bar (dark strip above the menu)
+      left ....... ✉ gujjify@gmail.com   ☎ +92 326 4570214 (phone hidden below 680 px)
+      right ...... Facebook | Instagram | WhatsApp icons
+    Main menu (sticky)
+      Logo + "Gujjify CONSULTANT" -> /index.php
+      Home | About | Services | Blog | FAQ | Contact | [Free Consultation] (gold button
+      -> /contact.php)
+      Active page: gold text. Below 920 px: hamburger button (aria-label "Menu").
+    Breadcrumbs
+      "Home / About", "Home / Services", "Home / Blog", "Home / FAQ", "Home / Contact";
+      blog posts: "Home / Blog"
+    Footer (4 columns)
+      1. Logo + wordmark, short text, Facebook / Instagram / WhatsApp icons
+      2. Quick Links: About Us, Services, Blog, FAQ, Contact
+      3. Our Services: University Admission, CSC Scholarships, Student Visa,
+         HSK Preparation, Free Counselling  (all five -> /services.php with no anchor)
+         [CHECK]
+      4. Get in Touch: location, phone, email, "Chat on WhatsApp"
+      Bottom bar: "© 2026 Gujjify Consultant. All rights reserved." |
+                  "Designed & Developed by RAVISN"
+    Always on screen
+      - Floating WhatsApp button (bottom-right, green, pulsing)
+      - Back-to-top button (appears after scrolling 400 px)
+      - Cookie banner (first visit)
+
+  5.4  LINK INVENTORY [DERIVED - every link on all 15 pages]
+    Internal: /index.php, /about.php, /services.php (+ #service-1..8), /blog.php,
+              /faq.php, /contact.php, 9 x /blog-post.php?slug=...
+    External: facebook.com/share/1BTCXKUiro/, instagram.com/gujjifyconsultant,
+              wa.me/923264570214 (+ ?text= variants), mailto:, tel:
+    Absent:   privacy policy, terms & conditions, cookie policy, sitemap page
+
+
+==========================================================================================
+SECTION 6 - PAGE CONTENT, VERBATIM
+==========================================================================================
+  Notation: [EYEBROW] small label above a heading, [H1]/[H2]/[H3]/[H4] headings,
+  [P] paragraph, [BTN] button -> destination, [ICON] Font Awesome icon name.
+
+  6.1  GLOBAL ELEMENTS (on every page)
+  ----------------------------------------------------------------------------------------
+    Top bar ........ gujjify@gmail.com | +92 326 4570214 | Facebook | Instagram | WhatsApp
+    Menu ........... Home | About | Services | Blog | FAQ | Contact | [BTN] Free Consultation -> /contact.php
+    Footer text .... Your Gateway to Study in China. We guide students through admissions, scholarships and student visas at top Chinese universities.
+    Footer contact . Essex, United Kingdom, China and Pakistan | +92 326 4570214 | gujjify@gmail.com | Chat on WhatsApp
+    Copyright ...... © 2026 Gujjify Consultant. All rights reserved.
+    Credit ......... Designed & Developed by RAVISN
+    Cookie banner .. We use cookies to improve your experience on our website. By continuing, you agree to our use of cookies.
+                     [BTN] Accept   [BTN] Decline
+
+  6.2  HOME  (/index.php)
+  ----------------------------------------------------------------------------------------
+    HERO
+      [EYEBROW] Study in China Made Easy   ([ICON] graduation-cap)
+      [H1] Study in China with Confidence   ("with Confidence" in gold)
+      [P] Gujjify Consultant is a registerd business and we provides complete guidance for admissions, scholarships and student visas at top Chinese universities — from your first question to your arrival in China.
+          [CHECK] typos: "registerd" -> "registered", "we provides" -> "we provide"
+      [BTN] Free Consultation -> WhatsApp (pre-filled message, SECTION 10)
+      [BTN] Our Services -> /services.php
+      Side badge: logo + "Gujjify Consultant" + "Your Gateway to Study in China"
+
+    STATS BAND (also on About)
+      1200+ Students Guided | 80+ Partner Universities | 500+ Scholarships Won | 7+ Years Experience
+
+    SERVICES
+      [EYEBROW] What We Offer
+      [H2] Complete China Study Services
+      [P] From choosing the right university to landing in China — we handle every step of your journey.
+      6 service cards (services 1-6 of SECTION 7), each "Learn more" -> /services.php#service-N
+      [BTN] View All Services -> /services.php
+
+    WHY GUJJIFY
+      [EYEBROW] Why Gujjify
+      [H2] Your Trusted Partner for Studying in China
+      [P] We make the complex admission and scholarship process simple, honest and stress-free — guiding you like family from your first question to your arrival.
+      [H4] End-to-End Support ....... Admissions, scholarships, visa and pre-departure — all under one roof.   [ICON] handshake-angle
+      [H4] Scholarship Experts ...... Deep experience with CSC, Confucius and university scholarships.   [ICON] medal
+      [H4] Honest & Transparent ..... Clear guidance with no false promises — your success is our priority.   [ICON] shield-halved
+      [H4] 24/7 WhatsApp Help ....... Quick answers whenever you need them, right on WhatsApp.   [ICON] headset
+      Side panel: logo + [H3] Trusted by Students + "Helping students achieve their dream of studying at top Chinese universities."
+
+    HOW IT WORKS
+      [EYEBROW] How It Works
+      [H2] Your Journey in 4 Simple Steps
+      1. Free Counselling ............ Share your profile and goals with us on WhatsApp or our form.
+      2. University & Scholarship .... We shortlist the best universities and scholarships for you.
+      3. Apply & Get Offer ........... We prepare and submit your applications and secure your offer.
+      4. Visa & Fly .................. We handle your student visa and pre-departure — then you fly!
+
+    BLOG PREVIEW
+      [EYEBROW] From Our Blog
+      [H2] Guides & Insights
+      The 3 newest posts (excerpts cut at ~110 characters with "…") [DERIVED]
+
+    CTA BAND (gold)
+      [H2] Ready to Start Your China Study Journey?
+      [P] Book a FREE consultation today. Tell us your goals and we'll show you the best universities and scholarships for you.
+      [BTN] Chat on WhatsApp -> WhatsApp (pre-filled)
+
+  6.3  ABOUT  (/about.php)
+  ----------------------------------------------------------------------------------------
+    [H1] About Gujjify Consultant          breadcrumb: Home / About
+    [EYEBROW] Who We Are
+    [H2] Helping Students Reach Top Chinese Universities
+    [P] Gujjify Consultant is a dedicated China study consultancy helping students from Pakistan and beyond achieve their dream of studying at top Chinese universities. With deep knowledge of the Chinese admission and scholarship system, our mission is to make the entire journey — admissions, scholarships, visa and pre-departure — simple, transparent and successful. We treat every student like family, offering honest advice and complete support at every step.
+    [BTN] Get Free Counselling -> /contact.php
+    [BTN] Our Services -> /services.php
+    Side panel: logo + "Gujjify Consultant" + "Your Gateway to Study in China"
+    STATS BAND (same 4 numbers as Home)
+    [H3] Our Mission ... To make studying in China accessible, simple and successful for every deserving student through honest, expert guidance at every step.   [ICON] bullseye
+    [H3] Our Vision .... To be the most trusted China study consultancy — known for transparency, results, and treating every student like family.   [ICON] eye
+    [H3] Our Values .... Honesty, dedication and student-first service. We never make false promises — your success and trust are everything to us.   [ICON] heart
+    CTA BAND
+      [H2] Let's Plan Your Future in China
+      [P] Talk to our consultants today and take the first step toward your dream university.
+      [BTN] Chat on WhatsApp -> WhatsApp (pre-filled)
+    Not on the page: team members, founder story, photos, office photos, certificates,
+    partner-university logos.
+
+  6.4  SERVICES  (/services.php)
+  ----------------------------------------------------------------------------------------
+    [H1] Our Services                      breadcrumb: Home / Services
+    [EYEBROW] China Study Consultancy
+    [H2] Everything You Need to Study in China
+    [P] Complete, end-to-end support designed around your goals — from your first question to your arrival in China.
+    8 short cards ("Read details" -> #service-N), then 8 detailed blocks, each with
+    [BTN] Ask about this -> WhatsApp (pre-filled with the service name). Text: SECTION 7.
+    CTA BAND
+      [H2] Not Sure Which Service You Need?
+      [P] Book a free counselling session and we'll guide you to the right path for studying in China.
+      [BTN] Free Counselling -> WhatsApp (pre-filled)
+    Not on the page: prices / fees, packages, timelines per service.
+
+  6.5  BLOG INDEX  (/blog.php)
+  ----------------------------------------------------------------------------------------
+    [H1] Blog & Guides                     breadcrumb: Home / Blog
+    [EYEBROW] Latest Articles
+    [H2] Study in China — Tips & Guides
+    [P] Helpful articles on admissions, scholarships, visas and life as an international student in China.
+    9 post cards (image, date, title, excerpt, "Read more"), newest first. No
+    categories, tags, search or pagination.
+
+  6.6  BLOG POST TEMPLATE  (/blog-post.php?slug=...)
+  ----------------------------------------------------------------------------------------
+    Header: post title as [H1] + breadcrumb "Home / Blog"
+    Article: post title again as [H1] [CHECK - two H1s], meta line
+             "Gujjify Consultant · June 29, 2026", cover image, paragraphs
+    [BTN] Get Free Guidance -> WhatsApp (pre-filled)    [BTN] All Articles -> /blog.php
+    [H3] Recent Articles: the 4 newest posts minus the current one (3 or 4 links)
+    [DERIVED from comparing all 9 post pages]
+
+  6.7  FAQ  (/faq.php)
+  ----------------------------------------------------------------------------------------
+    [H1] Frequently Asked Questions        breadcrumb: Home / FAQ
+    [EYEBROW] Got Questions?
+    [H2] We've Got the Answers
+    [P] Everything you need to know about studying in China. Still have a question? Reach us on WhatsApp anytime.
+    8 accordion items (SECTION 9) - only one open at a time
+    [P] Didn't find your answer?
+    [BTN] Ask on WhatsApp -> WhatsApp (pre-filled)
+
+  6.8  CONTACT  (/contact.php)
+  ----------------------------------------------------------------------------------------
+    [H1] Contact Us                        breadcrumb: Home / Contact
+    Left panel (dark)
+      [H3] Get in Touch
+      [P] Have a question about studying in China? Reach out — we usually reply within minutes on WhatsApp.
+      WhatsApp ... +92 326 4570214 (link to wa.me)
+      Call Us .... +92 326 4570214 (plain text, not a tel: link) [CHECK]
+      Email ...... gujjify@gmail.com
+      Location ... Essex, United Kingdom, China and Pakistan
+      Facebook | Instagram | WhatsApp icons
+    Right panel: contact form (SECTION 10)
+      [H3] Send Us a Message
+      [P] Fill the form and our team will get back to you shortly.
+    Not on the page: map, office hours, street address.
+
+
+==========================================================================================
+SECTION 7 - SERVICES (8)
+==========================================================================================
+  Home shows services 1-6; the Services page shows all 8. Anchor = /services.php#service-N.
+  "Card" = short text on the cards; "Detail" = long text in the detailed list.
+
+  1. University Admission Guidance                     #service-1   [ICON] building-columns
+     Card .... End-to-end admission support for top Chinese universities, from shortlisting to offer letter.
+     Detail .. Our experts help you choose the right Chinese university and program based on your academic background, budget and career goals. We handle the complete application process — preparing your file, submitting to multiple universities (such as Tsinghua, Fudan, Zhejiang, and many provincial universities), and following up until you receive your official admission/JW202 offer letter.
+
+  2. Scholarship Assistance (CSC & University)         #service-2   [ICON] award
+     Card .... Maximise your chances for CSC, Confucius, Provincial and University scholarships.
+     Detail .. China offers some of the most generous scholarships in the world. We guide you through the Chinese Government Scholarship (CSC), Confucius Institute Scholarship, Provincial and University scholarships — including eligibility checks, study plan and recommendation-letter preparation, and on-time submission to give you the strongest possible application.
+
+  3. Student Visa (X1 / X2) Processing                 #service-3   [ICON] passport
+     Card .... Complete X1/X2 student visa filing and interview preparation.
+     Detail .. Once you receive your admission and JW202/JW201 form, we prepare your full student visa (X1 for long-term, X2 for short-term) application, fill the forms correctly, arrange the document checklist, and prepare you for the visa process so your application is smooth and error-free.
+     [ADDED] X1 = study longer than 180 days, X2 = 180 days or less. JW201 is issued to
+     Chinese-government-scholarship students, JW202 to self-funded / other-scholarship
+     students.
+
+  4. Document Attestation & Translation                #service-4   [ICON] file-circle-check
+     Card .... Degree, transcript and document attestation, notarisation and certified translation.
+     Detail .. We arrange attestation/legalisation of your academic and personal documents (IBCC, HEC, MOFA, and Chinese Embassy where required) and provide certified English/Chinese translations so your file is accepted without delays.
+
+  5. Chinese Language & HSK Preparation                #service-5   [ICON] language
+     Card .... HSK preparation and Chinese language coaching for study and daily life.
+     Detail .. For Chinese-medium programs and everyday life in China, we offer HSK preparation guidance and connect you with quality language resources and tutors, so you arrive confident and ready.
+
+  6. Pre-departure & Airport Pickup                    #service-6   [ICON] plane-departure
+     Card .... Orientation, travel guidance and airport pickup in China.
+     Detail .. Before you fly, we give you a complete pre-departure orientation — what to pack, customs, banking, SIM, registration. On arrival, we help arrange airport pickup and settling-in support in your destination city.
+
+  7. Accommodation Assistance                          #service-7   [ICON] house
+     Card .... On-campus and off-campus accommodation booking support.
+     Detail .. We help you secure suitable accommodation — university dormitories or trusted off-campus options — within your budget, arranged before you arrive.
+
+  8. Free Counselling & Program Selection              #service-8   [ICON] compass
+     Card .... One-on-one counselling to pick the right city, university and program.
+     Detail .. Not sure where to start? Book a free counselling session. We assess your profile and recommend the best-fit programs, cities and budget plan for studying in China.
+
+
+==========================================================================================
+SECTION 8 - BLOG (9 POSTS)
+==========================================================================================
+  Author on every post: "Gujjify Consultant". Card date format "Jun 29, 2026" (shown in
+  capitals by CSS); article date format "June 29, 2026". Order = blog page order (newest
+  first). Words = article body only [DERIVED]. All cover images are hot-linked from other
+  websites [CHECK - SECTION 14].
+
+  Totals [DERIVED]: 9 posts, ~618 words in all (46-90 words per post). Published in two
+  batches - 23 Jun 2026 (4 posts) and 29 Jun 2026 (5 posts). No posts after 29 Jun 2026.
+
+  ----------------------------------------------------------------------------------------
+  B1. Study Engineering in China: Everything You Need to Know
+      URL ..... https://www.gujjify.com/blog-post.php?slug=study-engineering-in-china-guide
+      Date .... Jun 29, 2026          Words: 61 (4 paragraphs)
+      Excerpt . China offers world-class engineering education with affordable tuition and internationally recognized degrees.
+      Image ... https://www.china-admissions.com/wp-content/uploads/2018/01/Engineering-Students-e1597770621182.jpg
+      Body:
+        Engineering is one of the most popular study programs among international students in China.
+        Students can choose from Civil Engineering, Mechanical Engineering, Electrical Engineering, Software Engineering, Artificial Intelligence, Robotics, and many other specializations.
+        Chinese universities provide advanced laboratories, practical learning opportunities, and partnerships with leading technology companies.
+        Graduates gain valuable international experience and strong career prospects in industries around the world.
+
+  B2. Top 10 Chinese Universities for International Students in 2026
+      URL ..... https://www.gujjify.com/blog-post.php?slug=top-10-chinese-universities-for-international-students-2026
+      Date .... Jun 29, 2026          Words: 79 (4 paragraphs)
+      Excerpt . Explore the best universities in China offering world-class education, scholarships, and excellent career opportunities.
+      Image ... https://aelconsultants.com/wp-content/uploads/2026/01/top-universities-in-China-2.webp
+      Body:
+        China is home to many globally recognized universities that attract thousands of international students every year.
+        Institutions like Tsinghua University, Peking University, Zhejiang University, Fudan University, Shanghai Jiao Tong University, Wuhan University, and Nanjing University consistently rank among the world's best.
+        These universities offer modern campuses, advanced research facilities, English-taught programs, and outstanding academic environments.
+        Choosing the right university depends on your program, career goals, and budget. Gujjify Consultant helps students select the best university based on their profile.
+      [CHECK] title says "Top 10" - only 7 universities are named.
+
+  B3. Top Scholarships for International Students in China
+      URL ..... https://www.gujjify.com/blog-post.php?slug=top-scholarships-for-international-students-in-china
+      Date .... Jun 29, 2026          Words: 73 (1 paragraph)
+      Excerpt . Discover the best scholarship opportunities available for international students in China.
+      Image ... https://www.scholarshipsforstudy.com/uploads/1/3/1/7/13175055/published/top-chinese-scholarships-for-international-students.png?1593859053
+      Body:
+        China offers several scholarships that help international students reduce the cost of education. Popular options include the Chinese Government Scholarship (CSC), provincial scholarships, university scholarships, and Confucius Institute scholarships. These scholarships may cover tuition fees, accommodation, monthly allowances, and medical insurance depending on the program. Students with strong academic records and complete application documents have a higher chance of securing scholarships. Gujjify Consultant helps students identify suitable scholarship opportunities and prepare competitive applications.
+
+  B4. How to Apply for a Chinese Student Visa in 2026
+      URL ..... https://www.gujjify.com/blog-post.php?slug=how-to-apply-for-chinese-student-visa-2026
+      Date .... Jun 29, 2026          Words: 73 (1 paragraph)
+      Excerpt . Learn the step-by-step process for obtaining a Chinese student visa in 2026.
+      Image ... https://www.studyabroad.pk/images/subguides/Visa-China.jpg
+      Body:
+        A Chinese student visa is one of the most important requirements for studying in China. Students generally need an admission letter, JW202/JW201 form, passport, photographs, medical documents, and other supporting paperwork. The process includes receiving admission confirmation from the university, preparing the required documents, submitting the visa application, and attending any necessary verification procedures. Gujjify Consultant assists students throughout the visa process, ensuring that all documents are correctly prepared and submitted on time.
+
+  B5. Why Choose Gujjify Consultant for Study in China?
+      URL ..... https://www.gujjify.com/blog-post.php?slug=why-choose-gujjify-consultant-for-study-in-china
+      Date .... Jun 29, 2026          Words: 90 (1 paragraph)
+      Excerpt . Get expert guidance for university admissions, scholarships, and student visas with Gujjify Consultant.
+      Image ... https://cdn.unifrog.org/image/20/16746/4.jpg
+      Body:
+        Applying to universities in China can be challenging without the right guidance. Gujjify Consultant helps students choose the best university, prepare documents, apply for scholarships, and complete the student visa process smoothly. Our team provides support for MBBS, Engineering, Business, Computer Science, Artificial Intelligence, and many other degree programs. We simplify every step of the application process so students can focus on their future goals. With years of experience and a student-focused approach, Gujjify Consultant has become a trusted choice for students who want to study in China with confidence.
+
+  B6. Why Study in China in 2026? Top 7 Reasons
+      URL ..... https://www.gujjify.com/blog-post.php?slug=why-study-in-china-2026
+      Date .... Jun 23, 2026          Words: 71 (1 paragraph)
+      Excerpt . China has become one of the world's top destinations for international students — here is why.
+      Image ... https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLoyRY2ietBMwzic_JuKj64hK9JLcksoFvNQ&s
+                (a Google Images thumbnail) [CHECK]
+      Body:
+        China is now home to world-class universities, affordable tuition, and an unmatched scholarship ecosystem. In this guide we cover the top reasons students choose China: globally ranked universities, generous CSC scholarships, affordable living costs, fast-growing job market, modern campuses, safety, and rich culture. With the right guidance, the application process is simpler than most students expect — and that is exactly where Gujjify Consultant helps you every step of the way.
+      [CHECK] promises "Top 7 Reasons" but lists them in one sentence.
+
+  B7. CSC Scholarship: A Complete Step-by-Step Guide
+      URL ..... https://www.gujjify.com/blog-post.php?slug=csc-scholarship-complete-guide
+      Date .... Jun 23, 2026          Words: 64 (1 paragraph)
+      Excerpt . Everything you need to know about the Chinese Government Scholarship (CSC) and how to apply.
+      Image ... https://i.ytimg.com/vi/Ue7UkDaf0CE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBK4I-zxeDLvYcmV-zvgsepd4IxgQ
+                (a YouTube video thumbnail) [CHECK]
+      Body:
+        The CSC (Chinese Government Scholarship) is one of the most sought-after fully-funded scholarships. It can cover tuition, accommodation, monthly stipend and medical insurance. This guide explains the types (Type A, B, C), eligibility, required documents (passport, transcripts, study plan, recommendation letters, physical exam), key deadlines, and the common mistakes that get applications rejected. Our team helps you build a strong, complete application on time.
+      [CHECK] promises a "Complete Step-by-Step Guide" - steps, types and deadlines are
+      only named, not explained.
+
+  B8. Student Visa for China (X1 vs X2): What You Must Know
+      URL ..... https://www.gujjify.com/blog-post.php?slug=china-student-visa-x1-x2
+      Date .... Jun 23, 2026          Words: 61 (1 paragraph)
+      Excerpt . Understand the difference between X1 and X2 student visas and how to apply correctly.
+      Image ... https://storage.ghost.io/c/c2/81/c28166d6-22ce-4cad-9c10-4defbc55a069/content/images/size/w2000/2025/11/updayte.jpg
+      Body:
+        After receiving your admission letter and JW202 form, the next step is the student visa. The X1 visa is for long-term study (over 180 days) and the X2 visa is for short-term study. This article walks through the documents, the process, and how to avoid the most common errors. Gujjify Consultant prepares your complete visa file so the process is smooth.
+
+  B9. Cost of Studying in China: Tuition, Living & Budget
+      URL ..... https://www.gujjify.com/blog-post.php?slug=cost-of-studying-in-china
+      Date .... Jun 23, 2026          Words: 46 (1 paragraph)
+      Excerpt . A realistic breakdown of tuition fees and living costs for international students in China.
+      Image ... https://soft-consultants.com/wp-content/uploads/2026/05/China-Monthly-Budget-2026.webp
+      Body:
+        One of the biggest advantages of China is affordability. In this post we break down typical tuition ranges across program levels, dormitory vs off-campus living costs, food, transport and monthly budgets for major cities. We also show how scholarships can reduce or even eliminate these costs.
+      [CHECK] promises a cost breakdown - contains no figures.
+
+
+==========================================================================================
+SECTION 9 - FAQ (8 QUESTIONS & ANSWERS)
+==========================================================================================
+
+  Q1. Is it expensive to study in China?
+      No. China is one of the most affordable study destinations. Tuition is low compared to Western countries, and many students study on full or partial scholarships such as CSC, which can cover tuition, accommodation and a monthly stipend.
+
+  Q2. Do I need to know Chinese to study in China?
+      Not always. Thousands of programs are taught fully in English, especially at bachelor, master and PhD level. For Chinese-taught programs, an HSK certificate is required — and we help you prepare.
+
+  Q3. What scholarships can Gujjify Consultant help me apply for?
+      We assist with the Chinese Government Scholarship (CSC), Confucius Institute Scholarship, Provincial scholarships and individual University scholarships, depending on your profile and program.
+
+  Q4. How long does the admission process take?
+      It varies by university and intake, but typically the admission process takes 4–10 weeks. Scholarship rounds follow fixed deadlines, so applying early is very important.
+
+  Q5. Which documents do I need to apply?
+      Generally: passport, academic transcripts and degrees, a study plan/personal statement, recommendation letters, a physical examination form, and a passport-size photo. We give you a personalised checklist.
+
+  Q6. Is studying in China safe for international students?
+      Yes. China is considered very safe, with modern campuses, good public transport and large, welcoming international student communities in most major cities.
+
+  Q7. Do you help with the student visa?
+      Yes. After your admission and JW202 form, we prepare your complete X1/X2 student visa application and guide you through the entire process.
+
+  Q8. How do I get started?
+      Simply contact us on WhatsApp or fill the contact form for a FREE counselling session. We will assess your profile and recommend the best universities and scholarships for you.
+
+  More real student questions (from Instagram) that are NOT answered here: SECTION 13.4.
+
+
+==========================================================================================
+SECTION 10 - CONTACT FORM & WHATSAPP CLICK-TO-CHAT MESSAGES
+==========================================================================================
+
+  10.1  CONTACT FORM  (/contact.php)
+    Form id contactForm, method POST, action /ajax/contact.php
+    Sent with JavaScript fetch() as FormData + header "X-Requested-With: XMLHttpRequest";
+    the server replies with JSON { success: true|false, message: "..." } [DERIVED from main.js]
+
+    Field label          name      type      required  placeholder
+    -------------------  --------  --------  --------  ------------------------------
+    Full Name *          name      text      yes       -
+    Email *              email     email     yes       -
+    Phone / WhatsApp     phone     text      no        -
+    Subject              subject   text      no        e.g. CSC Scholarship
+    Message *            message   textarea  yes       Tell us about your study goals…
+
+    Button ............. "Send Message" (paper-plane icon); shows "Sending…" while sending
+    On success ......... server message shown in a green box, form cleared
+    On failure ......... server message in a red box
+    Network error text . Something went wrong. Please try again or contact us on WhatsApp.
+    Not present ........ consent checkbox / privacy notice, visible spam protection
+                         (honeypot or CAPTCHA) [CHECK]; where messages are delivered
+                         (email/database) is server-side [NOT VERIFIED]
+
+  10.2  WHATSAPP PRE-FILLED MESSAGES  (all to +92 326 4570214)
+    Button / place                                  Pre-filled message
+    ----------------------------------------------  ------------------------------------------------------------
+    Top bar icon, floating button                   Hello Gujjify Consultant, I want to study in China.
+    Home hero "Free Consultation"                   Hello Gujjify Consultant, I want a free consultation for studying in China.
+    Home CTA "Chat on WhatsApp"                     Hello Gujjify Consultant, I want to start my China study journey.
+    About CTA "Chat on WhatsApp"                    Hello Gujjify Consultant, I would like to know more about your services.
+    Services CTA "Free Counselling"                 Hello Gujjify Consultant, I need help choosing the right service.
+    Each service "Ask about this" (8)               Hello Gujjify Consultant, I am interested in: <service title>
+    FAQ "Ask on WhatsApp"                           Hello Gujjify Consultant, I have a question about studying in China.
+    Blog post "Get Free Guidance"                   Hello Gujjify Consultant, I read your article and want guidance.
+    Footer icon, Contact page items                 (no pre-filled text)
+
+    Format: https://wa.me/923264570214?text=<URL-encoded message>
+    e.g. https://wa.me/923264570214?text=Hello%20Gujjify%20Consultant%2C%20I%20want%20to%20study%20in%20China.
+
+
+==========================================================================================
+SECTION 11 - BRAND & DESIGN SYSTEM
+==========================================================================================
+
+  11.1  LOGO
+    Files ........... /assets/img/logo.png and /assets/img/logo-white.png - the SAME file
+                      (identical MD5 ea247fcda143c81c341fc56b0e26635c) [CHECK]
+    Format .......... PNG, 2000 x 2000 px, RGB with NO transparency, 49,712 bytes
+    Look ............ black symbol on a solid white square: a royal crown (curled side
+                      points and a central orb) above a pointed shield split vertically
+                      into two mirror-image angular halves that form a "G"-style monogram
+    On the site ..... used on dark navy backgrounds (menu 46 px, footer 42 px, hero
+                      badge 150 px, panels 170 px) and as the favicon - with no
+                      transparency it shows as a white square on navy [CHECK]
+    Wordmark ........ live text, not part of the image: "Gujjify" (Fraunces 600, 23 px,
+                      white) + "CONSULTANT" (Poppins 500, 10 px, letter-spacing .28em, gold)
+    Source file ..... made in Canva - file metadata "Canva (Renderer)", design ID
+                      DAHNTCmo-8Q, exported from a Canva Education "Class" team workspace
+                      [CHECK - SECTION 14, item 18]
+
+  11.2  COLOURS  (CSS variables on :root)
+    Variable     Hex       Used for
+    -----------  --------  ---------------------------------------------------------------
+    --navy       #0d1f3f   top bar, stats band, footer, navy buttons, back-to-top, hero start
+    --navy2      #13294f   sticky menu bar, icon tiles (gradient start)
+    --navy3      #1c3a6b   gradient end (hero, page headers, icon tiles)
+    --gold       #c8a24c   primary buttons, "Learn more" links, blog dates, step numbers
+    --gold2      #e0bd6b   gold on dark: active menu item, "CONSULTANT", stat numbers,
+                           hero highlight, top-bar icons, breadcrumb links
+    --gold-soft  #f7efdd   step-number circles
+    --ink        #1d2738   body text
+    --muted      #697185   secondary text
+    --line       #e7eaf1   borders
+    --bg         #f6f8fc   page background
+    --card       #ffffff   cards
+    --good       #2f9e6e   success message text
+    Other fixed colours
+      #b48d39 gold hover | #d9b65f CTA-band gradient end | #cdd6e6 light text on navy
+      #d7deec menu links | #bcc6d8 footer text/links | #9fabc2 footer small text
+      #36405a service detail text | #fbfcfe form field background
+      #25d366 WhatsApp button | #c0392b / #fdeaec / #f3c6cc error box
+      #e7f6ee / #bce8d0 success box
+    Gradients
+      Hero ........ linear-gradient(120deg, #0d1f3f 0%, #13294f 55%, #1c3a6b 100%)
+                    + soft gold radial glow top-right
+      Page header . linear-gradient(120deg, #0d1f3f, #1c3a6b) + gold glow
+      Icon tile ... linear-gradient(135deg, #13294f, #1c3a6b), gold icon
+      CTA band .... linear-gradient(120deg, #c8a24c, #d9b65f), white text
+
+  11.3  TYPOGRAPHY  (Google Fonts)
+    Headings .... Fraunces (serif), weight 600, line-height 1.18, navy
+                  loaded: optical size 9-144, weights 500/600
+    Body ........ Poppins (sans-serif), 15.5 px, line-height 1.65
+                  loaded: weights 400/500/600/700/800
+    Sizes ....... hero H1 48 px | page-header H1 42 px | section H2 36 px (34 px inline)
+                  | stat numbers 42 px Fraunces | card H3 20 px | blog card H3 19 px
+    Labels ...... "eyebrow" labels: 13 px, bold, uppercase, letter-spacing .12em, gold
+
+  11.4  LAYOUT & SHAPES
+    Container 1180 px max, 22 px side padding | section padding 80 px top/bottom
+    Card radius 16 px | buttons fully rounded (pill, 50 px) | CTA band & panels 24 px
+    | FAQ items 14 px | form fields 10 px
+    Shadows: --shadow-sm 0 1px 3px rgba(13,31,63,.08), 0 6px 16px rgba(13,31,63,.06)
+             --shadow    0 2px 8px rgba(13,31,63,.05), 0 18px 40px rgba(13,31,63,.07)
+    Grids: services 3 columns | stats 4 | steps 4 (2 on small screens) | footer
+           1.6fr 1fr 1fr 1.3fr (2 columns, then 1, on small screens)
+
+  11.5  COMPONENTS & INTERACTIONS  [DERIVED from style.css + main.js]
+    Buttons ......... gold (primary), navy, outline, ghost, white, small; hover lifts 2 px
+    Cards ........... hover: lift 6 px, bigger shadow, gold border
+    Scroll reveal ... sections fade in and slide up 24 px (0.6 s) when 12% visible
+    FAQ accordion ... click a question to open; opening one closes the others
+    Mobile menu ..... hamburger toggles the menu; tapping a link closes it
+    Back to top ..... appears after 400 px of scrolling; smooth scroll to top
+    WhatsApp button . fixed bottom-right, 58 px green circle, "pulse" ring animation (2.4 s)
+    Cookie banner ... appears 0.8 s after load if no "cookie_consent" cookie;
+                      Accept -> cookie_consent=accepted (365 days);
+                      Decline -> cookie_consent=declined (30 days)
+    Contact form .... AJAX submit with inline success / error box (SECTION 10)
+
+  11.6  ICONS  (Font Awesome 6.5.1 Free)
+    Services: building-columns, award, passport, file-circle-check, language,
+              plane-departure, house, compass
+    Why Gujjify: handshake-angle, medal, shield-halved, headset
+    About: bullseye (mission), eye (vision), heart (values)
+    UI: graduation-cap, whatsapp, facebook-f, instagram, envelope, phone, location-dot,
+        bars, plus, arrow-right/down/up/left, cookie-bite, paper-plane, user, calendar
+
+  11.7  BREAKPOINTS (max-width)
+    920 px (menu becomes hamburger), 880, 820, 680 (top-bar phone hidden), 620, 540, 520
+
+
+==========================================================================================
+SECTION 12 - TECHNOLOGY, HOSTING & DOMAIN
+==========================================================================================
+
+  12.1  HOSTING / SERVER  (from HTTP headers)
+    Host ............ Hostinger (headers "platform: hostinger", "panel: hpanel")
+    Web server ...... LiteSpeed, HTTP/3 enabled
+    Language ........ PHP 8.3.33 (exposed in the "X-Powered-By" header) [CHECK]
+    Session cookie .. PHPSESSID set on every page ("path=/; secure" - no HttpOnly, no
+                      SameSite) [CHECK]
+    Caching ......... "Cache-Control: no-store, no-cache" on every page (PHP session default)
+    Security hdrs ... only "Content-Security-Policy: upgrade-insecure-requests";
+                      no HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy
+    404 page ........ Hostinger's generic page "This Page Does Not Exist". It contains
+                      Hostinger's OWN Google Analytics IDs (UA-26575989-46, G-9Q6H0QETRF)
+                      - these are NOT Gujjify's [CHECK - do not reuse them]
+
+  12.2  URL / REDIRECT BEHAVIOUR
+    http://gujjify.com/      -> 301 -> https://gujjify.com/
+    http://www.gujjify.com/  -> 301 -> https://www.gujjify.com/
+    https://gujjify.com/ and https://www.gujjify.com/ both answer 200 - no single
+    preferred version [CHECK]
+
+  12.3  DOMAIN  [OFF-SITE: Verisign RDAP]
+    Domain .......... GUJJIFY.COM
+    Registered ...... 2026-06-22 12:22 UTC
+    Expires ......... 2027-06-22 12:22 UTC  [CHECK - renew / turn on auto-renew]
+    Registrar ....... HOSTINGER operations, UAB (IANA ID 1636)
+    Status .......... client transfer prohibited (normal registrar lock)
+    Nameservers ..... ATLAS.DNS-PARKING.COM, HYPERION.DNS-PARKING.COM (Hostinger DNS) [ADDED]
+
+  12.4  FRONT END
+    Hand-written HTML + 1 CSS file + 1 vanilla-JavaScript file. No framework, no
+    jQuery, no Bootstrap (the Bootstrap on the 404 page is Hostinger's).
+    External files: Google Fonts (Poppins + Fraunces), Font Awesome 6.5.1 from cdnjs.
+    No analytics, tag manager, Meta Pixel or Search Console tag (0 found) [CHECK].
+    No Open Graph / Twitter / canonical / JSON-LD tags (0 found) [CHECK].
+
+  12.5  BACK END  [DERIVED - NOT VERIFIED]
+    PHP pages. Service cards and blog posts are printed in loops (repeated markup), and
+    posts are loaded by ?slug=, so content most likely comes from a database or a PHP
+    array - the rebuild needs a way to add and edit blog posts and services (CMS /
+    admin). The contact form posts to /ajax/contact.php, which returns JSON.
+
+  12.6  SITE TIMELINE  [DERIVED]
+    2025-08-18  GUJJIFY LTD incorporated (UK)
+    2026-06-22  gujjify.com registered
+    2026-06-23  first 4 blog posts
+    2026-06-29  5 more blog posts (last blog activity)
+    2026-07-15  Instagram daily posting under way (25 posts in total)
+    2026-07-26  last Instagram post and last Facebook post found
+    2026-08-31  Companies House confirmation statement deadline (now overdue)
+    2026-10-07  this extraction
+
+
+==========================================================================================
+SECTION 13 - EXTRA CONTENT FOUND ON SOCIAL MEDIA (NOT ON THE WEBSITE)  [OFF-SITE]
+==========================================================================================
+  Source: the 12 newest Instagram captions (2026-07-15 ... 2026-07-26) and the Facebook
+  page. These are the business's own words and can feed new website pages.
+
+  13.1  PROGRAMS PROMOTED  (Instagram 2026-07-21)
+    - MBBS - PMC-recognized universities with English-medium instruction
+    - Engineering - Civil, Mechanical, Electrical & CPEC career opportunities
+    - Computer Science - AI, Data Science & Software Development
+    - BBA/MBA - Business education with global exposure
+    - "100+ additional programs, including Pharmacy, Economics, Chinese Language, and
+      many more"
+    - Levels mentioned elsewhere: Bachelor's, Master's, PhD (2026-07-17); Bachelor's,
+      Master's, MBA, MBBS (Facebook post)
+    The website has NO programs page - these could become one (see also SECTION 16).
+
+  13.2  DOCUMENT CHECKLIST  (Instagram 2026-07-19)
+    - Matric / FSc / A-Level Certificates & Transcripts
+    - Valid Passport (2+ years)
+    - Passport-size Photos
+    - Medical Examination Form
+    - Police Character Certificate
+    - English Proficiency (IELTS is optional for many programs)
+    - Study Plan / Motivation Letter
+    More specific than the website's FAQ Q5 (adds police certificate, passport validity,
+    the IELTS note, Pakistani qualification names).
+
+  13.3  HOW THEY DESCRIBE THE PROCESS - three versions
+    Website (4 steps): Free Counselling -> University & Scholarship -> Apply & Get Offer
+      -> Visa & Fly
+    Instagram 2026-07-18 (5 steps): Free eligibility assessment -> University &
+      scholarship selection -> Complete application support -> Admission letter & visa
+      guidance -> Airport pickup & university registration assistance
+    Instagram 2026-07-26 (6 tasks "behind every admission letter", "50+ hours of hard
+      work"): University Selection, Document Attestation, Study Plan & SOP Preparation,
+      Application Submission, University Follow-ups, Visa File Preparation
+    -> Pick one official process for the new site [CHECK].
+
+  13.4  REAL STUDENT QUESTIONS (Instagram 2026-07-20) - candidates for new FAQs
+    - How many marks are needed for a scholarship?
+    - Can I practice in Pakistan after completing MBBS in China?
+    - Is learning Chinese mandatory?
+    - What are the total tuition and living expenses?
+    - What are hostels and student life really like?
+    Only "Is learning Chinese mandatory?" is (partly) covered by the website FAQ.
+
+  13.5  KEY MESSAGES & OFFERS
+    - Affordability: "Why pay 10x more for the same degree?" - China compared with UK,
+      USA and Australia (2026-07-15, 2026-07-16)
+    - Myth-busting: scholarships are not only for 90%+ students - "many students with
+      70–75% marks receive scholarships" if they apply to the right universities, submit
+      a strong application, write a good study plan and apply before the deadline
+      (2026-07-24)
+    - Offer: FREE Scholarship Eligibility Assessment - profile & marks review,
+      personalised university shortlist, scholarship matching, no obligation
+      (2026-07-17)
+    - Urgency: September intake seats filling fast; students miss scholarships by
+      missing deadlines (2026-07-25)
+    - Proof of work: "50+ Hours of Hard Work" behind every admission letter (2026-07-26)
+    - Engagement: "comment your marks", "drop your biggest question", polls
+      (scholarship vs self-finance)
+
+  13.6  TESTIMONIAL  (Instagram 2026-07-23, "Student Success Story")
+    Quote (Roman Urdu): "Mainay 3 consultants se baat ki... lekin farq Gujjify ne dikhaya."
+    (= "I talked to 3 consultants... but Gujjify showed the difference.") [ADDED translation]
+    The website has no testimonials section - ask the student's permission before reuse.
+
+  13.7  TONE & LANGUAGE
+    - Bilingual: English and Roman Urdu (Urdu in Latin letters), often mixed
+    - Emoji-led headlines (🎓 ✅ 📌 📞 🌐), checklists with ✅
+    - Every caption ends with "📞 Call/WhatsApp: +92 326 4570214" and
+      "🌐 Website: www.gujjify.com"
+    - Relatable humour aimed at Pakistani families ("Beta, bahar parhne kab ja rahe ho?")
+    -> consider a Roman-Urdu / Urdu version of key pages or at least the CTAs [ADDED idea]
+
+  13.8  HASHTAGS USED
+    #GujjifyConsultant #StudyInChina #ChinaScholarship #StudyAbroad #ChinaUniversities
+    #InternationalEducation #HigherEducation #ScholarshipGuidance #StudentVisa
+    #AdmissionsOpen #FutureStartsHere #PakistanStudents #MBBSInChina #EngineeringInChina
+    #CSCScholarship #ChinaAdmissions #ScholarshipGuide #StudyOverseas
+    #InternationalStudents #EducationConsultant #DocumentChecklist #StudentSuccess
+    #BehindTheScenes #UniversityAdmissions #ChinaEducation #VisaSupport #AskUsAnything
+    #StudentCommunity #ScholarshipAssessment #CareerGoals #ComputerScience #BBA #MBA
+    #Engineering #Scholarship #ChineseUniversities #GUJJIFYConsultant
+
+
+==========================================================================================
+SECTION 14 - [CHECK] LIST: ERRORS, INCONSISTENCIES & RISKS
+==========================================================================================
+  Ordered by importance. "Owner" = needs the business owner, not just the developer.
+
+  LEGAL / COMPLIANCE
+  1. URGENT (Owner) - Companies House shows the confirmation statement as OVERDUE (was
+     due 31 Aug 2026). [ADDED] Companies that don't file risk penalties and being struck
+     off the register. File it now.
+  2. (Owner) - Registered SIC codes are retail (47910, 47990), not education. [ADDED] SIC
+     85600 "Educational support services" fits better; SIC codes can be updated when
+     filing the confirmation statement.
+  3. UK website disclosure missing - the site never names GUJJIFY LTD. [ADDED] UK law
+     (Company, LLP and Business (Names and Trading Disclosures) Regulations 2015) requires
+     a company's website to show its registered name, company number, part of the UK
+     where registered and registered office address. Suggested footer line:
+     "Gujjify Ltd is registered in England and Wales, company no. 16657100. Registered
+     office: Office 6317, 58 Peregrine Road, Hainault, Ilford, Essex, IG6 3SZ."
+  4. No Privacy Policy, Terms or Cookie Policy - yet the site collects names, emails and
+     phone numbers (contact form) and shows a cookie banner. The form has no privacy
+     notice. [ADDED] Required under UK GDPR for a UK company.
+  5. Cookie banner does nothing today: the site sets no analytics/marketing cookies (only
+     the PHP session cookie), so "Decline" changes nothing. If analytics are added, they
+     must stay blocked until "Accept".
+
+  BRAND CONSISTENCY
+  6. (Owner) WhatsApp Business profile name is "Gujify" (one "j"); everywhere else it is
+     "Gujjify".
+  7. Facebook link on the site is a share short-link - use the proper page URL (4.1).
+     Facebook has no username yet.
+  8. (Owner) Instagram has no link in bio - add https://www.gujjify.com/ ; bio says
+     "Top Universities Worldwide" while the brand is China-only.
+  9. (Owner) Facebook intro shows literal "**" around "Gujjify Consultant".
+  10. Location text "Essex, United Kingdom, China and Pakistan" vs Facebook "Lakshmi
+      Station Lahore, Lahore, Pakistan" (incomplete address) vs UK registered office in
+      Ilford. No China city/address anywhere. Decide what to publish per country.
+  11. Spelling style is mixed: British ("Maximise", "notarisation", "counselling") and
+      American ("recognized", "specializations", Facebook "Counseling"). Pick one
+      (British suits a UK company / Pakistani audience).
+
+  CONTENT ACCURACY
+  12. Typos on Home hero: "registerd" -> "registered", "we provides" -> "we provide".
+  13. Stats (1200+ students, 80+ universities, 500+ scholarships, 7+ years) can't be
+      backed by public data: company incorporated Aug 2025, domain Jun 2026, social pages
+      2026 with 8-15 followers and 0 reviews. If the figures include the team's
+      experience from before the company existed, say so (e.g. "our team has 7+ years'
+      experience"). [ADDED] UK advertising rules (CAP Code) require evidence for
+      objective claims like these.
+  14. Blog posts are 46-90 words each while titles promise "Complete Step-by-Step Guide",
+      "Everything You Need to Know", "Top 10" (7 named), "Top 7 Reasons" (one sentence),
+      "Cost ... Budget" (no figures). Thin content hurts SEO and trust.
+  15. Services card 3 promises "interview preparation" - the detailed text doesn't
+      mention it. Menu "Free Consultation" goes to the contact form, but the hero
+      "Free Consultation" goes to WhatsApp.
+
+  COPYRIGHT / ASSETS
+  16. All 9 blog cover images are hot-linked from other sites - including other
+      consultancies (aelconsultants.com, soft-consultants.com, studyabroad.pk), a Google
+      Images thumbnail (encrypted-tbn0.gstatic.com) and a YouTube thumbnail
+      (i.ytimg.com); also china-admissions.com, scholarshipsforstudy.com,
+      cdn.unifrog.org, storage.ghost.io. Risks: copyright claims, images breaking or
+      being swapped by the owners. Replace with own or licensed images, stored on the
+      site.
+  17. logo-white.png is just a copy of logo.png (black on white, no transparency) - it
+      shows as a white square on every navy background. A 2000 px / 49 KB PNG is also
+      used for a 46 px logo and as the favicon.
+  18. (Owner) The logo master is in a Canva Education "Class" workspace (design
+      DAHNTCmo-8Q). [ADDED] Canva for Education is licensed for teaching, not commercial
+      branding. Move/recreate the logo in the business's own Canva account (or as a
+      vector file) and confirm the business owns it.
+
+  SEO
+  19. All 9 blog posts share the <title> "Gujjify Consultant | Gujjify Consultant".
+  20. All 15 pages share one meta description.
+  21. No Open Graph tags - links shared on WhatsApp/Facebook (the main channels) show
+      no image or description.
+  22. No robots.txt, no sitemap.xml, no canonical tags; both www and non-www versions
+      load (duplicate site).
+  23. No structured data (Organization / LocalBusiness, FAQPage, BlogPosting).
+  24. Blog URLs use a query string (/blog-post.php?slug=...) instead of clean URLs.
+  25. Blog posts have two H1 headings each.
+  26. No analytics or Google Search Console - no way to measure visitors or rankings.
+  27. No Google Business Profile found for the Lahore office (none in search results).
+
+  ACCESSIBILITY
+  28. FAQ questions are clickable <div>s - not reachable or openable with the keyboard,
+      and screen readers aren't told whether they're open.
+  29. Form labels aren't linked to their inputs (no for/id), so screen readers can't
+      announce them.
+  30. Blog images have empty alt text.
+  31. Contact page "Call Us" number is plain text, not a tap-to-call link.
+  32. Footer "Our Services" links all open /services.php instead of their #service-N
+      sections.
+
+  TECHNICAL / SECURITY
+  33. Server exposes its PHP version (X-Powered-By: PHP/8.3.33).
+  34. Session cookie lacks HttpOnly and SameSite; a session is started even on static
+      pages. Missing security headers (HSTS, X-Frame-Options, X-Content-Type-Options,
+      Referrer-Policy).
+  35. No visible spam protection on the contact form (honeypot / CAPTCHA).
+  36. (Owner) Domain expires 2027-06-22 - make sure auto-renew is on.
+  37. Business email is Gmail (gujjify@gmail.com) - a domain address (e.g.
+      info@gujjify.com) looks more professional and Hostinger plans usually include it.
+
+  ACTIVITY
+  38. No blog post since 29 Jun 2026; no Instagram or Facebook post found after
+      26 Jul 2026 (about 10 weeks quiet as of 7 Oct 2026).
+
+
+==========================================================================================
+SECTION 15 - REBUILD CHECKLIST + QUESTIONS FOR THE CLIENT
+==========================================================================================
+
+  KEEP (works well)
+    - Navy + gold palette, Fraunces + Poppins fonts, card style (SECTION 11)
+    - WhatsApp-first contact with context-specific pre-filled messages (SECTION 10.2)
+    - 8-service structure with anchors and "Ask about this" buttons
+    - Stats band, 4-step process, FAQ accordion, floating WhatsApp button
+    - All page copy (SECTIONS 6-9) after fixing the [CHECK] items
+
+  FIX
+    - Social links -> SECTION 4.1 URLs
+    - Typos, mixed spelling, stats wording (items 11-13)
+    - Unique <title> + meta description per page and per blog post
+    - Logo set: transparent PNG/SVG, real white version, favicon sizes (32, 180, 512 px)
+    - Blog images: own or licensed, self-hosted, with alt text
+    - One canonical host (www or non-www) with 301 redirects
+    - Keep old URLs working: 301 /about.php, /services.php, /blog-post.php?slug=... etc.
+      to the new URLs
+    - Accessibility items 28-32
+
+  ADD
+    - Footer company disclosure (item 3) + Privacy Policy, Terms, Cookie Policy pages
+    - robots.txt, sitemap.xml, canonical tags, Open Graph + Twitter tags (share image)
+    - JSON-LD: Organization/LocalBusiness (Lahore office), FAQPage, BlogPosting
+    - Google Analytics 4 + Search Console, loaded only after cookie consent
+    - Programs page(s): MBBS, Engineering, CS/AI, BBA/MBA, Chinese Language, Pharmacy...
+      (SECTION 13.1 + SECTION 16)
+    - Document-checklist page (SECTION 13.2)
+    - New FAQs from real student questions (SECTION 13.4)
+    - Free Scholarship Eligibility Assessment form/landing page (SECTION 13.5)
+    - Testimonials section (with permission) and, later, Google reviews
+    - Office details: Lahore address + Google Maps pin, opening hours
+    - Optional Roman-Urdu / Urdu version of key pages
+    - Easy way to publish blog posts (CMS / admin)
+
+  QUESTIONS FOR THE CLIENT (not available publicly)
+    1. Full Lahore office address, map pin, visiting hours - and is "Lakshmi Station"
+       correct?
+    2. Is there a China office or partner? Which city? Should "China" stay in the location
+       text?
+    3. What do the stats (1200+, 80+, 500+, 7+ years) count, and since when?
+    4. Team / founder names, photos and short bios for the About page (with consent).
+    5. List of partner universities (logos only with permission).
+    6. Publish prices or not? (The price list in the project folder is IFFI's, not
+       Gujjify's - SECTION 16.)
+    7. Real testimonials / success stories with student permission.
+    8. Editable logo source - can it be moved out of the Canva Education workspace?
+    9. Preferred email for the contact form and the privacy policy (Gmail or a new
+       @gujjify.com address)?
+    10. Which process should be official: 4, 5 or 6 steps (SECTION 13.3)?
+
+
+==========================================================================================
+SECTION 16 - HOW THIS FILE CONNECTS TO THE OTHER PROJECT FILES
+==========================================================================================
+
+  Extracted_Features_All_Programs.txt
+    - Has the program data (Bachelor / Master / PhD / MBBS / 6-month language) the
+      current website lacks - usable for the new Programs pages.
+    - Its SECTION 10 price list belongs to IFFI Global Edu Consultants (a third-party
+      agency) and its brochures carry MalishaEdu / IFFI branding (its SECTION 12). The
+      gujjify.com website publishes no prices - do not present those prices as
+      Gujjify's without the client's confirmation.
+    - The document lists there overlap with the Instagram checklist (SECTION 13.2):
+      passport, police clearance, medical form, educational documents, photo.
+
+  Gujjify_Keyword_Research_Autocomplete.csv / Gujjify_Keyword_Research_Global.csv
+    - Use them to choose URLs, titles and meta descriptions for the new pages and to
+      expand the 9 thin blog posts (SECTION 8). The current posts already target
+      seed topics such as CSC scholarship, China student visa, cost of studying in
+      China and engineering in China.
+
+==========================================================================================
+  END OF FILE
+==========================================================================================
